@@ -1,6 +1,6 @@
 @font-face {
     font-family: name;
-    src: url(Poppins-Light.ttf);
+    src: url(../Font/Poppins-Light.ttf);
   }
   body .letter-wrapper {
       border: 3pt solid burlywood;
@@ -162,7 +162,7 @@
       top: 48mm;
       width: 100%;
       height: 35mm;
-      font-weight: bold;
+      /* font-weight: bold; */
       font-size: 13pt;
       margin: 0mm;
     }
