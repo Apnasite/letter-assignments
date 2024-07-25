@@ -21,7 +21,7 @@ body .letter-wrapper .topbox1 {
     top: -12mm;
     width: 12mm;
     height: 48mm;
-    background-color:#2adceb;
+    background-color:#2a89eb;
     transform: rotate(90deg);
 }
 body .letter-wrapper .topbox2 {
@@ -30,7 +30,7 @@ position: absolute;
     top: 7mm;
     width: 3mm;
     height: 31mm;
-    background-color:#2adceb;
+    background-color:#2a89eb;
     transform: rotate(90deg);
 }
 body .letter-wrapper .topbox3 {
@@ -39,7 +39,7 @@ body .letter-wrapper .topbox3 {
     top: -47mm;
     width: 3mm;
     height: 139mm;
-    background-color:#2adceb;
+    background-color:#2a89eb;
     transform: rotate(90deg);
 }
 body .letter-wrapper .topboxtitle {
@@ -48,7 +48,7 @@ body .letter-wrapper .topboxtitle {
     top: -50mm;
     width: 11mm;
     height: 124mm;
-    background-color: #2adceb;
+    background-color: #2a89eb;
     transform: rotate(90deg);
 }
 body .letter-wrapper .bottombox1 {
@@ -57,7 +57,7 @@ body .letter-wrapper .bottombox1 {
     top: 283mm;
     width: 259mm;
     height: 15mm;
-    background-color:#2adceb;
+    background-color:#2a89eb;
 }
 body .letter-wrapper .bottombox2 {
   position: absolute;
@@ -202,7 +202,7 @@ body .letter-wrapper .letter-content .letter-body .letter-body-B{
   font-weight: bold;
   font-size: 13pt;
   margin: 0mm;
-  color:#2adceb;
+  color:#2a89eb;
 }
 body .letter-wrapper .letter-content .letter-body .letter-body-C{
 	position: absolute;
@@ -286,16 +286,15 @@ body .letter-wrapper .letter-content .letter-footer {
   height: 35mm;
 }
 body .letter-wrapper .letter-content .letter-footer .fa {
-  width: 7mm;
-  height: 7mm;
-  border-radius: 50%;
-  padding: 1mm;
-  margin-right: 3mm;
-  text-align: center;
-  font-size: 14pt;
-  margin-left:12mm;
-  margin-bottom:-8mm;
-  background-color:#2adceb;
+	position:absolute;
+	width: 7mm;
+	height: 7mm;
+	border-radius: 50%;
+	padding: 1mm;
+	text-align: center;
+	margin-left:12mm;
+	top:-5mm;
+	background-color:#2a89eb;
 }
 body .letter-wrapper .letter-content .letter-footer .letter-org-website {
   position: absolute;
