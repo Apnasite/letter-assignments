@@ -6,7 +6,7 @@ body{
     background: gray;
 }
 
-.letter-wrap{
+.letter-wrapper{
     height: 297mm;
     width: 210mm;
     margin: auto;
@@ -81,63 +81,106 @@ body{
     left: -22px;
 }
 
-.letter-org-logo{
-    text-align: center;
-    left: 26mm;
-    top: 18mm;
-    position: absolute;
-}
 
+
+
+
+
+.letter-org-logo{
+    position: absolute;
+    height: -1mm;
+    top: 22mm;
+    left: 25mm;
+}
+    
+
+
+.letter-org-logo img{
+    height: 25mm;
+
+}
 .letter-org-name{
     position: absolute;
-    top: 43mm;
-    left: 25mm;
-    font-size: 20pt;
+    top:46mm ;
+    left: 10mm;
+    font-weight: bold;
+    font-size: 16pt;
 }
-.BRAND{
-    font-size: 51pt;
-    padding: 2mm;
-    color: rgb(88, 191, 101);
- }
-
- .letter-date{
-    top:44mm;
-    right: 34mm;
+.letter-org-details{
     position: absolute;
- }
- .address{
+    top:52mm ;
+    left: 10mm;
+}
+.letter-date{
     position: absolute;
-    top: 67mm;
-    left: 11mm;
+    right: 40mm;
+    top: 45mm;
+}
+.letter-ref{
+    position: absolute;
+    top: 70mm;
+    left: 10mm;
+}
 
- }
- .letter-body-message{
-position: absolute;
-top:92mm;
-padding-left: 13mm;
-padding-right: 13mm;
-text-align: justify;
- }
- .letter-body-message p{
-    padding: 5mm ;
- }
- .letter-body-sign{
+.letter-body-to{
+    position: absolute;
+    top: 85mm;
+    width: 70mm;
+    margin-left: 10mm;
+    font-weight: bold;
+    line-height: 17pt;
+
+}
+.letter-body-subject{
+    position: absolute;
+    top: 116mm;
+    font-weight: bold;
+    margin-left: 10mm;
+    font-size: 14pt;
+
+}
+.letter-body-salutation{
+    position: absolute;
+    top: 130mm;
+    left: 10mm;
+    font-weight: bold;
+    font-size: 14pt;
+
+
+}
+.letter-body-message{
+    position: absolute;
+    top: 140mm;
+    margin-left: 10mm;
+    line-height: 25pt;
+    text-align: justify;
+    margin-right: 10mm;
+    font-size: 13pt;
+}
+.letter-body-sign{
+    position: absolute;
+    bottom: 40mm;
+    right: 10mm;
     text-align: right;
+}
+.letter-org-website{
     position: absolute;
-    right: 18mm;
-    bottom: 44mm;
- }
- #name{
-    border-bottom: 1px solid black;
- }
- 
- .letter-footer{ 
-    position: relative;
-    top: 262mm;
-    left: 5mm;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+    right: 10mm;
+    bottom: 22mm;
+}
+.letter-org-phone{
+    position: absolute;
+    left: 10mm;
+    bottom: 22mm;
 }
 
+.letter-org-email{
+    position: absolute;
+    left: 45mm;
+    bottom: 22mm;
+}
+.letter-org-address{
+    position: absolute;
+    left: 10mm;
+    bottom: 10mm;
+}
