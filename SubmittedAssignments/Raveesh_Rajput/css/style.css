@@ -1,0 +1,248 @@
+@font-face {
+    font-family: sign;
+    src: url("./fonts/GreatVibes-Regular.ttf");
+}
+.letter-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    left: auto;
+    top: auto;
+    width: 210mm;
+    height: 297mm;
+    background-color: #F5F5F5;
+}
+
+/* .letter-background */
+
+.topbox1 {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 210mm;
+    height: 8mm;
+    background-color: #e0e0e0;
+}
+.bottombox1 {
+    position: absolute;
+    left: 0mm;
+    bottom: 0mm;
+    width: 210mm;
+    height: 15mm;
+    background-color: rgb(224, 47, 47);
+}
+.bottombox2 {
+    position: absolute;
+    left: 0mm;
+    bottom: 0mm;
+    width: 185mm;
+    height: 15mm;
+    background-color: rgb(219, 18, 18);
+    transform: skew(25deg, 0deg);
+}
+.bottombox3 {
+    position: absolute;
+    left: 0mm;
+    bottom: 0mm;
+    width: 141mm;
+    height: 15mm;
+    background-color: rgb(163, 28, 28);
+    transform: skew(25deg, 0deg);
+}
+.bottombox4 {
+    position: absolute;
+    left: 0mm;
+    bottom: 0mm;
+    width: 95mm;
+    height: 15mm;
+    background-color: rgb(119, 27, 27);
+    transform: skew(25deg, 0deg);
+}
+.bottombox5 {
+    position: absolute;
+    left: -3mm;
+    bottom: 0mm;
+    width: 52mm;
+    height: 15mm;
+    background-color: rgb(98, 0, 0);
+    transform: skew(25deg, 0deg);
+}
+
+/* .letter-header */
+
+.letter-header {
+    left: 0mm;
+    top: 8mm;
+    width: 100%;
+    height: 50mm;
+    position: absolute;
+    background-color: #F5F5F5;
+}
+.letter-org-logo {
+    position: absolute;
+    left: 15mm;
+    top: 10mm;
+    width: 42mm;
+    height: 32mm;
+}
+.letter-org-logo img {
+    width: 41mm;
+    height: 36mm;
+}
+.letter-org-name {
+    position: absolute;
+    left: 38mm;
+    top: 18mm;
+    font-size: 19pt;
+    margin-left: 15mm;
+}
+.letter-org-namedetails {
+    position: absolute;
+    left: 38mm;
+    top: 26mm;
+    font-size: 14pt;
+    margin-left: 15mm;
+}
+
+.letter-org-details {
+    position: absolute;
+    right: 33mm;
+    top: 10mm;
+    width: 35mm;
+    text-align: right;
+    font-size: 4mm;
+    line-height: 1mm;
+}
+.letter-icon {
+    position: absolute;
+    left: 181mm;
+    top: 12mm;
+    width: 9mm;
+    height: 30mm;
+    overflow: hidden;
+    background-color: red;
+}
+.icon-box1 {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 9mm;
+    height: 30mm;
+    color: white;
+    font-size: 7mm;
+    text-align: center;
+    background-color: #ff354f;
+}
+.icon-box2 {
+    position: absolute;
+    left: 0mm;
+    top: 10mm;
+    width: 9mm;
+    height: 20mm;
+    font-size: 7mm;
+    color: white;
+    text-align: center;
+    background-color: #cc1d34;
+}
+.icon-box3 {
+    position: absolute;
+    left: 0mm;
+    top: 20mm;
+    width: 9mm;
+    height: 10mm;
+    font-size: 8mm;
+    color: white;
+    text-align: center;
+    background-color: #a01b2f;
+}
+.letter-icon i {
+    font-size: 10pt;
+    line-height: 8mm;
+}
+.letter-ref {
+    left: 20mm;
+    top: 50mm;
+    width: 50%;
+    height: auto;
+    font-weight: bold;
+    position: absolute;
+}
+.letter-date {
+    left: 155mm;
+    top: 50mm;
+    width: 50%;
+    height: auto;
+    font-weight: bold;
+    position: absolute;
+}
+
+/* letter- body */
+
+.letter-body {
+    position: absolute;
+    left: 0mm;
+    top: 55mm;
+    width: 100%;
+    height: 225mm;
+    border-bottom: 2pt solid #bc9199;
+}
+
+.letter-body .letter-body-to {
+    position: absolute;
+    left: 0mm;
+    top: 13mm;
+    width: 82mm;
+    height: 30mm;
+    font-weight: bold;
+    font-size: 13pt;
+    line-height: 5pt;
+    margin-left: 20mm;
+}
+.letter-body-subject {
+    position: absolute;
+    left: 0mm;
+    top: 50mm;
+    width: 82mm;
+    height: 7mm;
+    font-weight: bold;
+    font-size: 15pt;
+    margin-left: 20mm;
+}
+.letter-body-salutation {
+    position: absolute;
+    left: 0mm;
+    top: 65mm;
+    width: 30mm;
+    height: 8mm;
+    font-weight: bold;
+    font-size: 15pt;
+    margin-left: 20mm;
+}
+.letter-body-message {
+    position: absolute;
+    left: 0mm;
+    top: 75mm;
+    width: 180mm;
+    line-height: 7mm;
+    font-family: "Times New Roman", Times, serif;
+    height: 100mm;
+    text-align: justify;
+    margin-left: 20mm;
+    margin-right: 20mm;
+}
+.letter-body-sign {
+    position: absolute;
+    left: 0mm;
+    top: 190mm;
+    width: 30mm;
+    height: 18mm;
+    font-size: 15pt;
+    margin-left: 20mm;
+}
+.letter-body-sign .signature {
+    font-family: "sign", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    width: 55mm;
+}
