@@ -1,0 +1,330 @@
+.letter-wrapper{
+    position:absolute;
+    top:50mm;
+    left:50mm;
+    height:300mm;
+    width:300mm;
+    background-color:rgb(154,154,154);
+}
+.letter-background1{
+  position:absolute;
+  top:30mm;
+  left:50mm;
+  height:250mm;
+  width:180mm;
+  background-color:rgb(248, 245, 245);
+}
+  .recttop{
+      position: relative;
+      height:3mm;
+      width:10mm;
+      top:85mm;
+      left:50mm;
+      border:1px;
+      background-color: rgb(230, 176, 77);
+      z-index: 1;
+}.recttop2{
+  position: relative;
+  height:3mm;
+  width:10mm;
+  top:82mm;
+  left:220mm;
+  border:1px;
+  background-color: rgb(230, 176, 77);
+  z-index: 1;
+}
+.underline{
+  position:absolute;
+  top:86mm;
+  width:160mm;
+  left:60mm;
+  border: 1px solid gray;
+  z-index:2;
+}
+.underline1{
+  position:absolute;
+  top:253mm;
+  width:40mm;
+  left:95mm;
+  border: 1px solid white;
+  z-index:3;
+}
+.underline2{
+  position:absolute;
+  top:260mm;
+  width:10mm;
+  left:109mm;
+  border: 1px solid white;
+  rotate: 90deg;
+  z-index:3;
+}
+.underline3{
+  position:absolute;
+  top:253mm;
+  width:40mm;
+  left:151mm;
+  border: 1px solid white;
+  z-index:4;
+}
+.underline4{
+  position:absolute;
+  top:260mm;
+  width:10mm;
+  left:170mm;
+  border: 1px solid white;
+  z-index:4;
+  rotate: 90deg;
+}
+.rectbottom{
+  position:absolute;
+  top:238mm;
+  height:6mm;
+  width:23mm;
+  left:130mm;
+  background-color:rgb(230, 176, 77); ;
+  align-content: center;
+  z-index: 5;
+}
+
+
+
+
+.letter-content{
+  header{
+    position:absolute;
+    top:35mm;
+    left: 120mm;
+    margin:5mm;
+  }
+  .letter-content.letter-org-logo1
+						img{
+						width:150%;
+						height:150%;
+            
+						}
+           }
+    .letter-org-name{
+      position:absolute;
+      font-size: 25pt;
+      text-align: center;
+      top:20mm;
+      left:-11mm;
+     }
+     .letter-org-details{
+      position: relative;
+      font-size: 10pt;
+      left:-1mm;
+      top:10mm;
+     }
+     .letter-ref{
+       position:absolute;
+       top:35mm;
+       left:-68mm;
+     }
+      .letter-date{
+        position: relative;
+        top:60mm;
+        left:57mm;
+      }
+      
+      
+      .letter-body{
+        position:absolute;
+        }
+         .letter-body-to{
+						position:absolute;
+            font-size:12pt;
+					  margin:55mm;
+            top:35mm;
+         }
+         .letter-body-subject{
+          position:relative;
+          font-size:12pt ;
+          margin:70mm;
+          top:55mm;
+          left:30mm;
+         }
+         .letter-body-salutation{
+          position:relative;
+          font-size:12pt ;
+          margin:30mm;
+          top:-15mm;
+          left:35mm;
+         }
+         .letter-body-message{
+          position: absolute;
+          top:131mm;
+          margin-left:70mm;
+					margin-right:-15mm;
+            p{
+              font-size:13pt;
+               text-indent: 15mm;
+              font-family: "Times New Roman", Times, serif;
+              overflow:auto;
+              text-align:justify;
+              }
+              p1{
+                font-size:13pt;
+                 text-indent: 15mm;
+                font-family: "Times New Roman", Times, serif;
+                overflow:auto;
+                text-align:justify;
+                }
+                p2{
+                  font-size:13pt;
+                   text-indent: 15mm;
+                  font-family: "Times New Roman", Times, serif;
+                  overflow:auto;
+                  text-align:justify;
+                  
+                  }
+                  }
+                  .letter-body-message.signature{
+                    left:30mm;
+                    top:200mm;
+                  }
+                  .letter-body-message{
+                    P2{
+                      font-size: 10pt;
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+                    p3{
+                      font-size: 8pt;;
+                    }
+                    }
+                    .letter-footer{
+                      position: absolute;
+                      height: 40mm;
+                      width: 180mm;
+                      background-color: rgb(48, 41, 41);
+                      top:234mm;
+                      left:50mm;
+                      }
+                      .letter-org-website{
+                        position: absolute;
+                        color: rgb(243, 246, 248);
+                        font-size:11pt ;
+                        left:82mm;
+                        margin-top: -1mm;
+                        z-index: 5;
+                      }
+                      .logo{
+                        position: absolute;
+                        left:13mm;
+                        margin-left: 20mm;
+                        margin-top: 10mm;
+                        
+                      }
+                      .letter-org-phone{
+                        position:relative;
+                        margin-left:-4mm;
+                        color: white;
+                        font-size: 8pt;
+                      }
+                      .letter-org-email{
+                        position: absolute;
+                        margin-left: 58mm;
+                        margin-top: -14mm;
+                      }
+                      .e-mail1{
+                        position:absolute;
+                        margin-left: -7mm;
+                        font-size: 8pt;
+                        color: white;
+                        
+                      }
+                      .location{
+                        position: absolute;
+                        left:50mm;
+                        margin-left: 62mm;
+                        margin-top: -14mm;
+                      }
+                      .letter-org-address{
+                        position: absolute;
+                        margin-left: -3mm;
+                        font-size: 8pt;
+                        color: white;
+                      }
+                      .text{
+                        position: absolute;
+                        margin-left: -3mm;
+                        font-size: 10pt;
+                        color: rgb(70, 59, 59);
+                        opacity: 5;
+                        rotate: -30deg;
+
+                      }
+                      .text1{
+                        position: absolute;
+                        margin-right: 10mm;
+                        margin-left: 55mm;
+                        font-size: 10pt;
+                        color: rgb(70, 59, 59);
+                        opacity: 5;
+                        rotate: -30deg;
+                      }
+                      .text2{
+                        position: absolute;
+                        margin-right: 8mm;
+                        margin-left: 35mm;
+                        margin-top: -18mm;
+                        font-size: 10pt;
+                        color: rgb(70, 59, 59);
+                        opacity: 5;
+                        rotate: -30deg;
+                      }
+                      .text3{
+                        position: absolute;
+                        margin-left: -10mm;
+                        margin-top: -18mm;
+                        font-size: 10pt;
+                        color: rgb(70, 59, 59);
+                        opacity: 5;
+                        rotate: -30deg;
+                      }
+                      .text4{
+                        position: absolute;
+                        margin-left:85mm;
+                        margin-top: -18mm;
+                        font-size: 10pt;
+                        color: rgb(70, 59, 59);
+                        opacity: 5;
+                        rotate: -30deg;
+                      }
+
+
+                        
+                        
+                        
+                        
+                        
+                        
+
+					               
+                        
+                         
+                        
+                      
+						      
+                    
+
+                    
+                  
+
+         
+              
+     
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
