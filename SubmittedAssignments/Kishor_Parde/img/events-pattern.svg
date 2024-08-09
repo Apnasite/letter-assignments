@@ -1,0 +1,2212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 447">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60, .cls-61, .cls-62, .cls-63, .cls-64, .cls-65, .cls-66, .cls-67, .cls-68, .cls-69, .cls-70, .cls-71, .cls-72, .cls-73, .cls-74, .cls-75, .cls-76, .cls-77, .cls-78, .cls-79, .cls-80, .cls-81, .cls-82, .cls-83, .cls-84, .cls-85, .cls-86, .cls-87, .cls-88, .cls-89, .cls-90, .cls-91, .cls-92, .cls-93, .cls-94, .cls-95, .cls-96, .cls-97, .cls-98, .cls-99, .cls-100, .cls-101, .cls-102 {
+        fill: none;
+      }
+
+      .cls-103 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-104 {
+        fill: #fff;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-18);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-21 {
+        clip-path: url(#clippath-25);
+      }
+
+      .cls-22 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-24 {
+        clip-path: url(#clippath-24);
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-21);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-27 {
+        clip-path: url(#clippath-45);
+      }
+
+      .cls-28 {
+        clip-path: url(#clippath-40);
+      }
+
+      .cls-29 {
+        clip-path: url(#clippath-42);
+      }
+
+      .cls-30 {
+        clip-path: url(#clippath-41);
+      }
+
+      .cls-31 {
+        clip-path: url(#clippath-44);
+      }
+
+      .cls-32 {
+        clip-path: url(#clippath-43);
+      }
+
+      .cls-33 {
+        clip-path: url(#clippath-46);
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath-47);
+      }
+
+      .cls-35 {
+        clip-path: url(#clippath-49);
+      }
+
+      .cls-36 {
+        clip-path: url(#clippath-48);
+      }
+
+      .cls-37 {
+        clip-path: url(#clippath-86);
+      }
+
+      .cls-38 {
+        clip-path: url(#clippath-84);
+      }
+
+      .cls-39 {
+        clip-path: url(#clippath-88);
+      }
+
+      .cls-40 {
+        clip-path: url(#clippath-98);
+      }
+
+      .cls-41 {
+        clip-path: url(#clippath-81);
+      }
+
+      .cls-42 {
+        clip-path: url(#clippath-83);
+      }
+
+      .cls-43 {
+        clip-path: url(#clippath-85);
+      }
+
+      .cls-44 {
+        clip-path: url(#clippath-80);
+      }
+
+      .cls-45 {
+        clip-path: url(#clippath-87);
+      }
+
+      .cls-46 {
+        clip-path: url(#clippath-82);
+      }
+
+      .cls-47 {
+        clip-path: url(#clippath-89);
+      }
+
+      .cls-48 {
+        clip-path: url(#clippath-34);
+      }
+
+      .cls-49 {
+        clip-path: url(#clippath-30);
+      }
+
+      .cls-50 {
+        clip-path: url(#clippath-32);
+      }
+
+      .cls-51 {
+        clip-path: url(#clippath-33);
+      }
+
+      .cls-52 {
+        clip-path: url(#clippath-35);
+      }
+
+      .cls-53 {
+        clip-path: url(#clippath-36);
+      }
+
+      .cls-54 {
+        clip-path: url(#clippath-39);
+      }
+
+      .cls-55 {
+        clip-path: url(#clippath-37);
+      }
+
+      .cls-56 {
+        clip-path: url(#clippath-29);
+      }
+
+      .cls-57 {
+        clip-path: url(#clippath-26);
+      }
+
+      .cls-58 {
+        clip-path: url(#clippath-28);
+      }
+
+      .cls-59 {
+        clip-path: url(#clippath-27);
+      }
+
+      .cls-60 {
+        clip-path: url(#clippath-92);
+      }
+
+      .cls-61 {
+        clip-path: url(#clippath-90);
+      }
+
+      .cls-62 {
+        clip-path: url(#clippath-97);
+      }
+
+      .cls-63 {
+        clip-path: url(#clippath-93);
+      }
+
+      .cls-64 {
+        clip-path: url(#clippath-91);
+      }
+
+      .cls-65 {
+        clip-path: url(#clippath-96);
+      }
+
+      .cls-66 {
+        clip-path: url(#clippath-94);
+      }
+
+      .cls-67 {
+        clip-path: url(#clippath-38);
+      }
+
+      .cls-68 {
+        clip-path: url(#clippath-31);
+      }
+
+      .cls-69 {
+        clip-path: url(#clippath-99);
+      }
+
+      .cls-70 {
+        clip-path: url(#clippath-95);
+      }
+
+      .cls-71 {
+        clip-path: url(#clippath-60);
+      }
+
+      .cls-72 {
+        clip-path: url(#clippath-69);
+      }
+
+      .cls-73 {
+        clip-path: url(#clippath-76);
+      }
+
+      .cls-74 {
+        clip-path: url(#clippath-71);
+      }
+
+      .cls-75 {
+        clip-path: url(#clippath-78);
+      }
+
+      .cls-76 {
+        clip-path: url(#clippath-74);
+      }
+
+      .cls-77 {
+        clip-path: url(#clippath-77);
+      }
+
+      .cls-78 {
+        clip-path: url(#clippath-75);
+      }
+
+      .cls-79 {
+        clip-path: url(#clippath-72);
+      }
+
+      .cls-80 {
+        clip-path: url(#clippath-70);
+      }
+
+      .cls-81 {
+        clip-path: url(#clippath-66);
+      }
+
+      .cls-82 {
+        clip-path: url(#clippath-58);
+      }
+
+      .cls-83 {
+        clip-path: url(#clippath-57);
+      }
+
+      .cls-84 {
+        clip-path: url(#clippath-52);
+      }
+
+      .cls-85 {
+        clip-path: url(#clippath-51);
+      }
+
+      .cls-86 {
+        clip-path: url(#clippath-55);
+      }
+
+      .cls-87 {
+        clip-path: url(#clippath-56);
+      }
+
+      .cls-88 {
+        clip-path: url(#clippath-50);
+      }
+
+      .cls-89 {
+        clip-path: url(#clippath-54);
+      }
+
+      .cls-90 {
+        clip-path: url(#clippath-53);
+      }
+
+      .cls-91 {
+        clip-path: url(#clippath-65);
+      }
+
+      .cls-92 {
+        clip-path: url(#clippath-63);
+      }
+
+      .cls-93 {
+        clip-path: url(#clippath-59);
+      }
+
+      .cls-94 {
+        clip-path: url(#clippath-73);
+      }
+
+      .cls-95 {
+        clip-path: url(#clippath-67);
+      }
+
+      .cls-96 {
+        clip-path: url(#clippath-61);
+      }
+
+      .cls-97 {
+        clip-path: url(#clippath-64);
+      }
+
+      .cls-98 {
+        clip-path: url(#clippath-68);
+      }
+
+      .cls-99 {
+        clip-path: url(#clippath-62);
+      }
+
+      .cls-100 {
+        clip-path: url(#clippath-79);
+      }
+
+      .cls-101 {
+        opacity: .08;
+      }
+
+      .cls-105 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-106 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-107 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-108 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-109 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-110 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-111 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-112 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-113 {
+        fill: url(#linear-gradient-59);
+      }
+
+      .cls-114 {
+        fill: url(#linear-gradient-57);
+      }
+
+      .cls-115 {
+        fill: url(#linear-gradient-58);
+      }
+
+      .cls-116 {
+        fill: url(#linear-gradient-55);
+      }
+
+      .cls-117 {
+        fill: url(#linear-gradient-56);
+      }
+
+      .cls-118 {
+        fill: url(#linear-gradient-53);
+      }
+
+      .cls-119 {
+        fill: url(#linear-gradient-54);
+      }
+
+      .cls-120 {
+        fill: url(#linear-gradient-51);
+      }
+
+      .cls-121 {
+        fill: url(#linear-gradient-52);
+      }
+
+      .cls-122 {
+        fill: url(#linear-gradient-50);
+      }
+
+      .cls-123 {
+        fill: url(#linear-gradient-77);
+      }
+
+      .cls-124 {
+        fill: url(#linear-gradient-78);
+      }
+
+      .cls-125 {
+        fill: url(#linear-gradient-79);
+      }
+
+      .cls-126 {
+        fill: url(#linear-gradient-74);
+      }
+
+      .cls-127 {
+        fill: url(#linear-gradient-75);
+      }
+
+      .cls-128 {
+        fill: url(#linear-gradient-76);
+      }
+
+      .cls-129 {
+        fill: url(#linear-gradient-70);
+      }
+
+      .cls-130 {
+        fill: url(#linear-gradient-71);
+      }
+
+      .cls-131 {
+        fill: url(#linear-gradient-72);
+      }
+
+      .cls-132 {
+        fill: url(#linear-gradient-73);
+      }
+
+      .cls-133 {
+        fill: url(#linear-gradient-68);
+      }
+
+      .cls-134 {
+        fill: url(#linear-gradient-67);
+      }
+
+      .cls-135 {
+        fill: url(#linear-gradient-69);
+      }
+
+      .cls-136 {
+        fill: url(#linear-gradient-64);
+      }
+
+      .cls-137 {
+        fill: url(#linear-gradient-63);
+      }
+
+      .cls-138 {
+        fill: url(#linear-gradient-66);
+      }
+
+      .cls-139 {
+        fill: url(#linear-gradient-65);
+      }
+
+      .cls-140 {
+        fill: url(#linear-gradient-60);
+      }
+
+      .cls-141 {
+        fill: url(#linear-gradient-62);
+      }
+
+      .cls-142 {
+        fill: url(#linear-gradient-61);
+      }
+
+      .cls-143 {
+        fill: url(#linear-gradient-98);
+      }
+
+      .cls-144 {
+        fill: url(#linear-gradient-91);
+      }
+
+      .cls-145 {
+        fill: url(#linear-gradient-95);
+      }
+
+      .cls-146 {
+        fill: url(#linear-gradient-99);
+      }
+
+      .cls-147 {
+        fill: url(#linear-gradient-96);
+      }
+
+      .cls-148 {
+        fill: url(#linear-gradient-97);
+      }
+
+      .cls-149 {
+        fill: url(#linear-gradient-94);
+      }
+
+      .cls-150 {
+        fill: url(#linear-gradient-92);
+      }
+
+      .cls-151 {
+        fill: url(#linear-gradient-93);
+      }
+
+      .cls-152 {
+        fill: url(#linear-gradient-90);
+      }
+
+      .cls-153 {
+        fill: url(#linear-gradient-81);
+      }
+
+      .cls-154 {
+        fill: url(#linear-gradient-80);
+      }
+
+      .cls-155 {
+        fill: url(#linear-gradient-88);
+      }
+
+      .cls-156 {
+        fill: url(#linear-gradient-89);
+      }
+
+      .cls-157 {
+        fill: url(#linear-gradient-87);
+      }
+
+      .cls-158 {
+        fill: url(#linear-gradient-86);
+      }
+
+      .cls-159 {
+        fill: url(#linear-gradient-85);
+      }
+
+      .cls-160 {
+        fill: url(#linear-gradient-84);
+      }
+
+      .cls-161 {
+        fill: url(#linear-gradient-83);
+      }
+
+      .cls-162 {
+        fill: url(#linear-gradient-82);
+      }
+
+      .cls-163 {
+        fill: url(#linear-gradient-41);
+      }
+
+      .cls-164 {
+        fill: url(#linear-gradient-40);
+      }
+
+      .cls-165 {
+        fill: url(#linear-gradient-43);
+      }
+
+      .cls-166 {
+        fill: url(#linear-gradient-42);
+      }
+
+      .cls-167 {
+        fill: url(#linear-gradient-45);
+      }
+
+      .cls-168 {
+        fill: url(#linear-gradient-46);
+      }
+
+      .cls-169 {
+        fill: url(#linear-gradient-44);
+      }
+
+      .cls-170 {
+        fill: url(#linear-gradient-49);
+      }
+
+      .cls-171 {
+        fill: url(#linear-gradient-47);
+      }
+
+      .cls-172 {
+        fill: url(#linear-gradient-48);
+      }
+
+      .cls-173 {
+        fill: url(#linear-gradient-14);
+      }
+
+      .cls-174 {
+        fill: url(#linear-gradient-18);
+      }
+
+      .cls-175 {
+        fill: url(#linear-gradient-22);
+      }
+
+      .cls-176 {
+        fill: url(#linear-gradient-20);
+      }
+
+      .cls-177 {
+        fill: url(#linear-gradient-21);
+      }
+
+      .cls-178 {
+        fill: url(#linear-gradient-23);
+      }
+
+      .cls-179 {
+        fill: url(#linear-gradient-15);
+      }
+
+      .cls-180 {
+        fill: url(#linear-gradient-19);
+      }
+
+      .cls-181 {
+        fill: url(#linear-gradient-16);
+      }
+
+      .cls-182 {
+        fill: url(#linear-gradient-17);
+      }
+
+      .cls-183 {
+        fill: url(#linear-gradient-13);
+      }
+
+      .cls-184 {
+        fill: url(#linear-gradient-12);
+      }
+
+      .cls-185 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-186 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-187 {
+        fill: url(#linear-gradient-27);
+      }
+
+      .cls-188 {
+        fill: url(#linear-gradient-24);
+      }
+
+      .cls-189 {
+        fill: url(#linear-gradient-26);
+      }
+
+      .cls-190 {
+        fill: url(#linear-gradient-38);
+      }
+
+      .cls-191 {
+        fill: url(#linear-gradient-35);
+      }
+
+      .cls-192 {
+        fill: url(#linear-gradient-37);
+      }
+
+      .cls-193 {
+        fill: url(#linear-gradient-34);
+      }
+
+      .cls-194 {
+        fill: url(#linear-gradient-39);
+      }
+
+      .cls-195 {
+        fill: url(#linear-gradient-36);
+      }
+
+      .cls-196 {
+        fill: url(#linear-gradient-25);
+      }
+
+      .cls-197 {
+        fill: url(#linear-gradient-28);
+      }
+
+      .cls-198 {
+        fill: url(#linear-gradient-29);
+      }
+
+      .cls-199 {
+        fill: url(#linear-gradient-33);
+      }
+
+      .cls-200 {
+        fill: url(#linear-gradient-30);
+      }
+
+      .cls-201 {
+        fill: url(#linear-gradient-32);
+      }
+
+      .cls-202 {
+        fill: url(#linear-gradient-31);
+      }
+
+      .cls-102 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="1366" height="447"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-1" points="963.1 35.31 983.27 .35 942.92 .35 963.1 35.31"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="376.93" y1="652.12" x2="377.01" y2="652.12" gradientTransform="translate(35689.03 20679.41) rotate(-90) scale(53.25 -53.25)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-2">
+      <polygon class="cls-1" points="1011.35 6.1 1037.4 51.22 985.3 51.22 1011.35 6.1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="376.37" y1="650.38" x2="376.45" y2="650.38" gradientTransform="translate(45724.68 26664.72) rotate(-90) scale(68.75 -68.75)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-3">
+      <polygon class="cls-1" points="1059.59 35.31 1079.77 .35 1039.41 .35 1059.59 35.31"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="376.93" y1="652.12" x2="377.01" y2="652.12" gradientTransform="translate(35790.04 20681.72) rotate(-90) scale(53.26 -53.26)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-4">
+      <polygon class="cls-1" points="866.59 30.62 884.07 .35 849.12 .35 866.59 30.62"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="377.31" y1="653.31" x2="377.4" y2="653.31" gradientTransform="translate(30994.81 17926.14) rotate(-90) scale(46.12 -46.12)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-5">
+      <polygon class="cls-1" points="914.84 9.18 938.21 49.67 891.47 49.67 914.84 9.18"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="376.59" y1="651.06" x2="376.67" y2="651.06" gradientTransform="translate(41076.21 23942.32) rotate(-90) scale(61.69 -61.69)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-6">
+      <polygon class="cls-1" points="1042.79 73.74 1011.35 128.21 979.9 73.74 1042.79 73.74"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="376.03" y1="649.35" x2="376.12" y2="649.35" gradientTransform="translate(54901.44 32226.94) rotate(-90) scale(82.99 -82.99)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-7">
+      <polygon class="cls-1" points="1107.85 9.52 1130.93 49.5 1084.76 49.5 1107.85 9.52"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="376.61" y1="651.14" x2="376.7" y2="651.14" gradientTransform="translate(40776.9 23647.88) rotate(-90) scale(60.92 -60.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-8">
+      <polygon class="cls-1" points="1156.1 31 1173.8 .35 1138.4 .35 1156.1 31"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-8" x1="377.28" y1="653.2" x2="377.36" y2="653.2" gradientTransform="translate(31665.15 18154.16) rotate(-90) scale(46.71 -46.71)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-9">
+      <polygon class="cls-1" points="770.09 24.83 784.23 .35 755.96 .35 770.09 24.83"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-9" x1="378" y1="655.43" x2="378.08" y2="655.43" gradientTransform="translate(25211.57 14521.21) rotate(-90) scale(37.29 -37.29)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-10">
+      <polygon class="cls-1" points="818.34 15.89 835.91 46.32 800.78 46.32 818.34 15.89"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-10" x1="377.3" y1="653.27" x2="377.39" y2="653.27" gradientTransform="translate(31096.71 18031.58) rotate(-90) scale(46.35 -46.35)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-11">
+      <polygon class="cls-1" points="942.64 75.85 914.84 123.99 887.05 75.85 942.64 75.85"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-11" x1="376.24" y1="650" x2="376.33" y2="650" gradientTransform="translate(48592.37 28509.28) rotate(-90) scale(73.35 -73.35)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-12">
+      <polygon class="cls-1" points="963.1 81.68 996.07 138.78 930.12 138.78 963.1 81.68"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-12" x1="375.96" y1="649.12" x2="376.05" y2="649.12" gradientTransform="translate(57437.19 33782.05) rotate(-90) scale(87 -87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-13">
+      <polygon class="cls-1" points="1059.59 80.92 1093.22 139.16 1025.97 139.16 1059.59 80.92"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-13" x1="375.93" y1="649.03" x2="376.02" y2="649.03" gradientTransform="translate(58647.84 34448.39) rotate(-90) scale(88.73 -88.73)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-14">
+      <polygon class="cls-1" points="1135.58 75.88 1107.85 123.91 1080.12 75.88 1135.58 75.88"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-14" x1="376.25" y1="650.01" x2="376.33" y2="650.01" gradientTransform="translate(48679.69 28445.65) rotate(-90) scale(73.18 -73.19)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-15">
+      <polygon class="cls-1" points="1204.34 15.31 1222.41 46.61 1186.28 46.61 1204.34 15.31"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-15" x1="377.22" y1="653.02" x2="377.31" y2="653.02" gradientTransform="translate(32339.1 18543.77) rotate(-90) scale(47.68 -47.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-16">
+      <polygon class="cls-1" points="1252.59 25.87 1267.33 .35 1237.86 .35 1252.59 25.87"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-16" x1="377.85" y1="654.97" x2="377.94" y2="654.97" gradientTransform="translate(26717.45 15133.96) rotate(-90) scale(38.88 -38.88)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-17">
+      <polygon class="cls-1" points="681.73 3.62 673.6 17.71 665.47 3.62 681.73 3.62"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-17" x1="380.62" y1="663.56" x2="380.71" y2="663.56" gradientTransform="translate(14917.61 8418.75) rotate(-90) scale(21.47 -21.47)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-18">
+      <polygon class="cls-1" points="721.85 23.32 732.97 42.59 710.72 42.59 721.85 23.32"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-18" x1="378.96" y1="658.41" x2="379.05" y2="658.41" gradientTransform="translate(20049.17 11482.08) rotate(-90) scale(29.35 -29.35)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-19">
+      <polygon class="cls-1" points="837.36 80.91 818.34 113.85 799.33 80.91 837.36 80.91"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-19" x1="377.08" y1="652.59" x2="377.17" y2="652.59" gradientTransform="translate(33566.01 19575.09) rotate(-90) scale(50.18 -50.18)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-20">
+      <polygon class="cls-1" points="866.59 90.84 891.63 134.2 841.56 134.2 866.59 90.84"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-20" x1="376.44" y1="650.62" x2="376.53" y2="650.62" gradientTransform="translate(43848.46 25713.13) rotate(-90) scale(66.06 -66.06)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-21">
+      <polygon class="cls-1" points="999.21 154.61 963.1 217.16 926.99 154.62 999.21 154.61"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-21" x1="375.83" y1="648.71" x2="375.91" y2="648.71" gradientTransform="translate(62781.12 37054.66) rotate(-90) scale(95.29 -95.29)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-22">
+      <polygon class="cls-1" points="1011.34 156.86 1051.58 226.54 971.12 226.54 1011.34 156.86"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-22" x1="375.68" y1="648.27" x2="375.77" y2="648.27" gradientTransform="translate(69831.95 41249.7) rotate(-90) scale(106.16 -106.16)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-23">
+      <polygon class="cls-1" points="1098.61 152.93 1059.59 220.51 1020.58 152.93 1098.61 152.93"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-23" x1="375.72" y1="648.39" x2="375.81" y2="648.39" gradientTransform="translate(67822.67 40013.44) rotate(-90) scale(102.97 -102.97)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-24">
+      <polygon class="cls-1" points="1156.1 88.63 1183.04 135.3 1129.15 135.3 1156.1 88.63"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-24" x1="376.3" y1="650.18" x2="376.39" y2="650.18" gradientTransform="translate(47386.97 27655.88) rotate(-90) scale(71.11 -71.11)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-25">
+      <polygon class="cls-1" points="1224.68 80.15 1204.35 115.36 1184.02 80.15 1224.68 80.15"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-25" x1="376.91" y1="652.06" x2="377" y2="652.06" gradientTransform="translate(36186.11 20911.99) rotate(-90) scale(53.65 -53.65)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-26">
+      <polygon class="cls-1" points="1300.85 21.88 1313.22 43.32 1288.47 43.32 1300.85 21.88"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-26" x1="378.5" y1="656.99" x2="378.59" y2="656.99" gradientTransform="translate(22759.44 12756.74) rotate(-90) scale(32.66 -32.66)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-27">
+      <polygon class="cls-1" points="1344.62 12.24 1344.62 2.47 1338.98 2.47 1344.62 12.24"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-27" x1="386.64" y1="682.18" x2="386.73" y2="682.18" gradientTransform="translate(8770.74 4338.39) rotate(-90) scale(10.89 -10.89)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-28">
+      <polygon class="cls-1" points="577.1 11.2 579.6 6.88 574.6 6.88 577.1 11.2"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-28" x1="394.59" y1="706.78" x2="394.67" y2="706.78" gradientTransform="translate(5239.03 2684.73) rotate(-90) scale(6.6 -6.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-29">
+      <polygon class="cls-1" points="625.35 31.17 629.68 38.67 621.02 38.67 625.35 31.17"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-29" x1="386.06" y1="680.39" x2="386.15" y2="680.39" gradientTransform="translate(8403.55 4574.51) rotate(-90) scale(11.43 -11.43)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-30">
+      <polygon class="cls-1" points="732.29 85.86 721.84 103.95 711.39 85.86 732.29 85.86"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-30" x1="379.25" y1="659.32" x2="379.34" y2="659.32" gradientTransform="translate(18896.63 10854.53) rotate(-90) scale(27.57 -27.57)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-31">
+      <polygon class="cls-1" points="770.09 103.02 784.58 128.11 755.61 128.11 770.09 103.02"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-31" x1="377.91" y1="655.16" x2="378" y2="655.16" gradientTransform="translate(25812.14 14983.47) rotate(-90) scale(38.22 -38.22)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-32">
+      <polygon class="cls-1" points="892.3 160.62 866.59 205.15 840.88 160.62 892.3 160.62"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-32" x1="376.39" y1="650.46" x2="376.48" y2="650.46" gradientTransform="translate(44998.05 26470.84) rotate(-90) scale(67.85 -67.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-33">
+      <polygon class="cls-1" points="914.84 167 946.29 221.47 883.4 221.47 914.84 167"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-33" x1="376.03" y1="649.35" x2="376.12" y2="649.35" gradientTransform="translate(54803 32319.05) rotate(-90) scale(82.99 -82.99)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-34">
+      <polygon class="cls-1" points="1051.2 236.02 1011.35 305.05 971.5 236.02 1051.2 236.02"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-34" x1="375.7" y1="648.3" x2="375.78" y2="648.3" gradientTransform="translate(69194.01 40946.89) rotate(-90) scale(105.17 -105.17)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-35">
+      <polygon class="cls-1" points="1107.85 158.44 1146.71 225.75 1068.99 225.75 1107.85 158.44"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-35" x1="375.73" y1="648.4" x2="375.81" y2="648.4" gradientTransform="translate(67608.65 39862.3) rotate(-90) scale(102.56 -102.56)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-36">
+      <polygon class="cls-1" points="1188.83 156.56 1156.1 213.25 1123.37 156.56 1188.83 156.56"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-36" x1="375.97" y1="649.15" x2="376.06" y2="649.15" gradientTransform="translate(57224.87 33614.25) rotate(-90) scale(86.37 -86.37)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-37">
+      <polygon class="cls-1" points="1252.6 98.55 1270.95 130.35 1234.24 130.35 1252.6 98.55"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-37" x1="377.18" y1="652.89" x2="377.26" y2="652.89" gradientTransform="translate(32879.66 18921.78) rotate(-90) scale(48.44 -48.44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-38">
+      <polygon class="cls-1" points="1313.6 84.52 1300.85 106.62 1288.09 84.52 1313.6 84.52"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-38" x1="378.38" y1="656.62" x2="378.47" y2="656.62" gradientTransform="translate(23403.83 13205.21) rotate(-90) scale(33.66 -33.66)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-39">
+      <polygon class="cls-1" points="529.57 36.59 528.85 35.33 528.12 36.59 529.57 36.59"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-39" x1="443.6" y1="858.51" x2="443.68" y2="858.51" gradientTransform="translate(2178.9 909.83) rotate(-90) scale(1.92 -1.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-40">
+      <polygon class="cls-1" points="628.71 89.95 625.35 95.77 621.98 89.95 628.71 89.95"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-40" x1="389.4" y1="690.73" x2="389.49" y2="690.73" gradientTransform="translate(6759.06 3649.04) rotate(-90) scale(8.88 -8.88)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-41">
+      <polygon class="cls-1" points="673.6 112.91 679.51 123.17 667.67 123.17 673.6 112.91"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-41" x1="382.94" y1="670.72" x2="383.02" y2="670.72" gradientTransform="translate(11157.59 6276.73) rotate(-90) scale(15.63 -15.63)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-42">
+      <polygon class="cls-1" points="783.31 167.83 770.09 190.71 756.88 167.83 783.31 167.83"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-42" x1="378.25" y1="656.19" x2="378.33" y2="656.19" gradientTransform="translate(23646.35 13751.51) rotate(-90) scale(34.86 -34.86)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-43">
+      <polygon class="cls-1" points="818.34 182.03 836.77 213.96 799.92 213.96 818.34 182.03"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-43" x1="377.17" y1="652.85" x2="377.25" y2="652.85" gradientTransform="translate(32570.43 19080.11) rotate(-90) scale(48.64 -48.64)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-44">
+      <polygon class="cls-1" points="944.44 241.94 914.84 293.2 885.24 241.94 944.44 241.94"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-44" x1="376.13" y1="649.66" x2="376.22" y2="649.66" gradientTransform="translate(51658.38 30511.14) rotate(-90) scale(78.11 -78.11)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-45">
+      <polygon class="cls-1" points="963.1 247.93 996.84 306.37 929.35 306.37 963.1 247.93"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-45" x1="375.92" y1="649.01" x2="376.01" y2="649.01" gradientTransform="translate(58756.91 34738.48) rotate(-90) scale(89.05 -89.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-46">
+      <polygon class="cls-1" points="1059.59 239.06 1101.02 310.8 1018.17 310.8 1059.59 239.06"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-46" x1="375.65" y1="648.15" x2="375.73" y2="648.15" gradientTransform="translate(71910.67 42547.64) rotate(-90) scale(109.31 -109.31)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-47">
+      <polygon class="cls-1" points="1149.11 235.21 1107.85 306.68 1066.58 235.21 1149.11 235.21"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-47" x1="375.65" y1="648.17" x2="375.74" y2="648.17" gradientTransform="translate(71690.86 42383.29) rotate(-90) scale(108.9 -108.9)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-48">
+      <polygon class="cls-1" points="1204.34 168.35 1234.63 220.8 1174.06 220.8 1204.34 168.35"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-48" x1="376.1" y1="649.54" x2="376.18" y2="649.54" gradientTransform="translate(53111.65 31134.36) rotate(-90) scale(79.91 -79.91)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-49">
+      <polygon class="cls-1" points="1274.92 162.57 1252.6 201.23 1230.28 162.57 1274.92 162.57"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-49" x1="376.69" y1="651.38" x2="376.78" y2="651.38" gradientTransform="translate(39616.12 23019.25) rotate(-90) scale(58.9 -58.9)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-50">
+      <polygon class="cls-1" points="1344.62 125.43 1344.62 116.14 1339.26 125.43 1344.62 125.43"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-50" x1="387.27" y1="684.13" x2="387.36" y2="684.13" gradientTransform="translate(8426.41 4245.74) rotate(-90) scale(10.36 -10.36)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-51">
+      <polygon class="cls-1" points="578.18 120.37 577.1 118.5 576.01 120.37 578.18 120.37"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-51" x1="420.85" y1="788.08" x2="420.93" y2="788.08" gradientTransform="translate(2834.16 1356.44) rotate(-90) scale(2.86 -2.86)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-52">
+      <polygon class="cls-1" points="678.23 172.79 673.6 180.81 668.96 172.79 678.23 172.79"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-52" x1="385.31" y1="678.05" x2="385.39" y2="678.05" gradientTransform="translate(8963.54 5022.92) rotate(-90) scale(12.23 -12.23)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-53">
+      <polygon class="cls-1" points="721.85 194.61 729.4 207.68 714.3 207.68 721.85 194.61"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-53" x1="381.11" y1="665.05" x2="381.19" y2="665.05" gradientTransform="translate(13968.34 8012.47) rotate(-90) scale(19.92 -19.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-54">
+      <polygon class="cls-1" points="833.97 250.01 818.35 277.07 802.73 250.01 833.97 250.01"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-54" x1="377.66" y1="654.37" x2="377.74" y2="654.37" gradientTransform="translate(27795.5 16289.1) rotate(-90) scale(41.23 -41.23)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-55">
+      <polygon class="cls-1" points="866.59 263.5 886.85 298.58 846.34 298.58 866.59 263.5"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-55" x1="376.92" y1="652.09" x2="377.01" y2="652.09" gradientTransform="translate(35719.48 21018.18) rotate(-90) scale(53.45 -53.45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-56">
+      <polygon class="cls-1" points="990.89 326.56 963.09 374.71 935.29 326.56 990.89 326.56"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-56" x1="376.24" y1="650" x2="376.33" y2="650" gradientTransform="translate(48647.07 28763.85) rotate(-90) scale(73.36 -73.36)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-57">
+      <polygon class="cls-1" points="1011.34 335.99 1041.2 387.69 981.49 387.69 1011.34 335.99"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-57" x1="376.12" y1="649.61" x2="376.21" y2="649.61" gradientTransform="translate(52191.14 30866.4) rotate(-90) scale(78.79 -78.79)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-58">
+      <polygon class="cls-1" points="1097.66 320.63 1059.59 386.56 1021.53 320.63 1097.66 320.63"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-58" x1="375.76" y1="648.49" x2="375.84" y2="648.49" gradientTransform="translate(66205.24 39213.08) rotate(-90) scale(100.46 -100.46)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-59">
+      <polygon class="cls-1" points="1156.1 241.21 1195.66 309.73 1116.53 309.73 1156.1 241.21"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-59" x1="375.71" y1="648.33" x2="375.79" y2="648.33" gradientTransform="translate(68843.86 40655.76) rotate(-90) scale(104.4 -104.4)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-60">
+      <polygon class="cls-1" points="1238.05 239.57 1204.35 297.95 1170.65 239.57 1238.05 239.57"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-60" x1="375.93" y1="649.02" x2="376.01" y2="649.02" gradientTransform="translate(58931.78 34690.38) rotate(-90) scale(88.95 -88.95)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-61">
+      <polygon class="cls-1" points="1300.85 182.7 1318.7 213.63 1282.99 213.63 1300.85 182.7"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-61" x1="377.25" y1="653.12" x2="377.34" y2="653.12" gradientTransform="translate(32077.97 18497.01) rotate(-90) scale(47.12 -47.12)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-62">
+      <polygon class="cls-1" points="1344.62 180.74 1344.62 168.94 1337.81 168.94 1344.62 180.74"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-62" x1="384.54" y1="675.67" x2="384.62" y2="675.67" gradientTransform="translate(10230.98 5379.8) rotate(-90) scale(13.16 -13.16)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-63">
+      <polygon class="cls-1" points="627.12 204.34 625.35 201.27 623.57 204.34 627.12 204.34"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-63" x1="402.81" y1="732.25" x2="402.9" y2="732.25" gradientTransform="translate(4055.21 2141.42) rotate(-90) scale(4.68 -4.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-64">
+      <polygon class="cls-1" points="727.38 255.84 721.84 265.43 716.31 255.84 727.38 255.84"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-64" x1="383.53" y1="672.56" x2="383.62" y2="672.56" gradientTransform="translate(10545.85 6024.49) rotate(-90) scale(14.61 -14.61)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-65">
+      <polygon class="cls-1" points="770.09 277.7 778.06 291.48 762.14 291.48 770.09 277.7"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-65" x1="380.76" y1="663.98" x2="380.85" y2="663.98" gradientTransform="translate(14715.11 8513.8) rotate(-90) scale(21 -21)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-66">
+      <polygon class="cls-1" points="881.42 334.05 866.59 359.72 851.77 334.05 881.42 334.05"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-66" x1="377.83" y1="654.91" x2="377.92" y2="654.91" gradientTransform="translate(26484.73 15559.42) rotate(-90) scale(39.12 -39.12)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-67">
+      <polygon class="cls-1" points="914.84 350.18 932.41 380.6 897.28 380.6 914.84 350.18"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-67" x1="377.3" y1="653.27" x2="377.39" y2="653.27" gradientTransform="translate(31190.63 18364.33) rotate(-90) scale(46.35 -46.35)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-68">
+      <polygon class="cls-1" points="1034.07 413.05 1011.35 452.41 988.62 413.05 1034.07 413.05"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-68" x1="376.65" y1="651.25" x2="376.73" y2="651.25" gradientTransform="translate(40066.94 23684.1) rotate(-90) scale(59.97 -59.97)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-69">
+      <polygon class="cls-1" points="1107.85 326.48 1145.93 392.45 1069.77 392.45 1107.85 326.48"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-69" x1="375.75" y1="648.48" x2="375.84" y2="648.48" gradientTransform="translate(66284.43 39237.46) rotate(-90) scale(100.51 -100.51)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-70">
+      <polygon class="cls-1" points="1196.08 319.52 1156.1 388.77 1116.11 319.52 1196.08 319.52"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-70" x1="375.69" y1="648.29" x2="375.78" y2="648.29" gradientTransform="translate(69556.56 41160.8) rotate(-90) scale(105.51 -105.51)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-71">
+      <polygon class="cls-1" points="1252.6 253.09 1281.87 303.79 1223.33 303.79 1252.6 253.09"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-71" x1="376.15" y1="649.72" x2="376.24" y2="649.72" gradientTransform="translate(51436.8 30187.39) rotate(-90) scale(77.24 -77.24)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-72">
+      <polygon class="cls-1" points="1321.3 247.23 1300.85 282.65 1280.4 247.23 1321.3 247.23"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-72" x1="376.89" y1="652.01" x2="376.98" y2="652.01" gradientTransform="translate(36492.68 21204.85) rotate(-90) scale(53.97 -53.97)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-73">
+      <polygon class="cls-1" points="625.35 260.28 626.43 258.4 624.25 258.4 625.35 260.28"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-73" x1="420.74" y1="787.73" x2="420.82" y2="787.73" gradientTransform="translate(2886.92 1499.05) rotate(-90) scale(2.87 -2.87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-74">
+      <polygon class="cls-1" points="675.57 288.03 673.6 284.61 671.62 288.03 675.57 288.03"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-74" x1="399.95" y1="723.39" x2="400.04" y2="723.39" gradientTransform="translate(4441.76 2427.33) rotate(-90) scale(5.21 -5.21)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-75">
+      <polygon class="cls-1" points="775.04 339.75 770.09 348.31 765.16 339.75 775.04 339.75"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-75" x1="384.62" y1="675.94" x2="384.71" y2="675.94" gradientTransform="translate(9587.05 5505.43) rotate(-90) scale(13.04 -13.04)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-76">
+      <polygon class="cls-1" points="818.34 362.6 825.14 374.39 811.54 374.39 818.34 362.6"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-76" x1="381.84" y1="667.31" x2="381.92" y2="667.31" gradientTransform="translate(12801.19 7423.86) rotate(-90) scale(17.96 -17.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-77">
+      <polygon class="cls-1" points="926.37 419.52 914.84 439.47 903.32 419.52 926.37 419.52"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-77" x1="378.81" y1="657.93" x2="378.89" y2="657.93" gradientTransform="translate(20914.55 12280.86) rotate(-90) scale(30.4 -30.4)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-78">
+      <polygon class="cls-1" points="963.1 438.11 976.89 461.99 949.31 461.99 963.1 438.11"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-78" x1="378.09" y1="655.7" x2="378.17" y2="655.7" gradientTransform="translate(24817.22 14607.29) rotate(-90) scale(36.38 -36.38)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-79">
+      <polygon class="cls-1" points="1059.59 424.69 1085.01 468.69 1034.18 468.69 1059.59 424.69"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-79" x1="376.41" y1="650.53" x2="376.5" y2="650.53" gradientTransform="translate(44680.05 26428.95) rotate(-90) scale(67.05 -67.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-80">
+      <polygon class="cls-1" points="1140.72 407.19 1107.85 464.13 1074.98 407.19 1140.72 407.19"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-80" x1="375.96" y1="649.13" x2="376.05" y2="649.13" gradientTransform="translate(57415.68 34008.02) rotate(-90) scale(86.74 -86.74)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-81">
+      <polygon class="cls-1" points="1204.34 328.45 1240.73 391.46 1167.97 391.46 1204.34 328.45"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-81" x1="375.82" y1="648.68" x2="375.9" y2="648.68" gradientTransform="translate(63483.75 37504.75) rotate(-90) scale(96.01 -96.01)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-82">
+      <polygon class="cls-1" points="1283.67 324.66 1252.6 378.48 1221.53 324.66 1283.67 324.66"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-82" x1="376.05" y1="649.41" x2="376.14" y2="649.41" gradientTransform="translate(54498.3 32092.04) rotate(-90) scale(81.99 -81.99)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-83">
+      <polygon class="cls-1" points="1344.62 295.15 1344.62 278.13 1334.79 295.15 1344.62 295.15"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-83" x1="381.43" y1="666.07" x2="381.52" y2="666.07" gradientTransform="translate(13985.62 7738.68) rotate(-90) scale(18.99 -18.99)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-84">
+      <polygon class="cls-1" points="577.25 286.98 577.1 286.7 576.93 286.98 577.25 286.98"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-84" x1="684.31" y1="1603.68" x2="684.39" y2="1603.68" gradientTransform="translate(1265.07 585.16) rotate(-90) scale(.43 -.43)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-85">
+      <polygon class="cls-1" points="673.6 343.61 674.47 342.09 672.72 342.09 673.6 343.61"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-85" x1="431.98" y1="822.55" x2="432.06" y2="822.55" gradientTransform="translate(2573.67 1366.29) rotate(-90) scale(2.31 -2.31)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-86">
+      <polygon class="cls-1" points="723.34 371.33 721.84 368.73 720.34 371.33 723.34 371.33"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-86" x1="408.05" y1="748.44" x2="408.13" y2="748.44" gradientTransform="translate(3681.94 2027.62) rotate(-90) scale(3.95 -3.95)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-87">
+      <polygon class="cls-1" points="821.98 424.08 818.34 430.37 814.71 424.08 821.98 424.08"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-87" x1="388.31" y1="687.36" x2="388.4" y2="687.36" gradientTransform="translate(7401.2 4252.1) rotate(-90) scale(9.58 -9.58)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-88">
+      <polygon class="cls-1" points="866.59 448.33 871.54 456.89 861.65 456.89 866.59 448.33"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-88" x1="384.63" y1="675.95" x2="384.71" y2="675.95" gradientTransform="translate(9681.62 5612.85) rotate(-90) scale(13.04 -13.04)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-89">
+      <polygon class="cls-1" points="1156.1 416.67 1188.45 472.71 1123.75 472.71 1156.1 416.67"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-89" x1="375.99" y1="649.21" x2="376.08" y2="649.21" gradientTransform="translate(56582.41 33489.69) rotate(-90) scale(85.37 -85.37)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-90">
+      <polygon class="cls-1" points="1237.33 407.13 1204.35 464.27 1171.35 407.13 1237.33 407.13"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-90" x1="375.96" y1="649.12" x2="376.05" y2="649.12" gradientTransform="translate(57711.3 34127.18) rotate(-90) scale(87.05 -87.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-91">
+      <polygon class="cls-1" points="1300.85 343.53 1324.17 383.92 1277.53 383.92 1300.85 343.53"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-91" x1="376.59" y1="651.08" x2="376.68" y2="651.08" gradientTransform="translate(41366.84 24219.56) rotate(-90) scale(61.54 -61.54)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-92">
+      <polygon class="cls-1" points="1344.62 352.33 1344.62 333.86 1333.96 333.86 1344.62 352.33"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-92" x1="380.89" y1="664.37" x2="380.97" y2="664.37" gradientTransform="translate(15024.61 8416.95) rotate(-90) scale(20.6 -20.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-93">
+      <polygon class="cls-1" points="577.1 342.62 577.11 342.59 577.07 342.59 577.1 342.62"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-93" x1="2788.06" y1="8127.96" x2="2788.14" y2="8127.96" gradientTransform="translate(1024.13 496.56) rotate(-90) scale(.05 -.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-94">
+      <polygon class="cls-1" points="625.43 370.51 625.35 370.36 625.26 370.51 625.43 370.51"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-94" x1="970.56" y1="2489.84" x2="970.64" y2="2489.84" gradientTransform="translate(1180.58 589.34) rotate(-90) scale(.22 -.22)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-95">
+      <polygon class="cls-1" points="721.85 426.82 722.4 425.85 721.29 425.85 721.85 426.82"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-95" x1="464.8" y1="924.16" x2="464.89" y2="924.16" gradientTransform="translate(2081.28 1126.34) rotate(-90) scale(1.47 -1.47)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-96">
+      <polygon class="cls-1" points="1252.6 424.03 1278.58 469.04 1226.61 469.04 1252.6 424.03"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-96" x1="376.37" y1="650.39" x2="376.46" y2="650.39" gradientTransform="translate(45849.94 27013.21) rotate(-90) scale(68.57 -68.57)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-97">
+      <polygon class="cls-1" points="1321.76 414.1 1300.85 450.33 1279.92 414.1 1321.76 414.1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-97" x1="376.84" y1="651.84" x2="376.93" y2="651.84" gradientTransform="translate(37284.63 21845.91) rotate(-90) scale(55.2 -55.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-98">
+      <polygon class="cls-1" points="625.35 426.18 625.35 426.17 625.35 426.17 625.35 426.18"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-98" x1="625.34" y1="426.18" x2="625.35" y2="426.18" gradientTransform="translate(1043.89 561.22) rotate(-90) scale(0 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <clipPath id="clippath-99">
+      <polygon class="cls-1" points="1344.62 460.75 1344.62 448.37 1337.47 460.75 1344.62 460.75"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-99" x1="384.06" y1="674.19" x2="384.14" y2="674.19" gradientTransform="translate(10650.96 5910.86) rotate(-90) scale(13.81 -13.81)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#797982"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_25391" data-name="Group 25391">
+    <path id="BG-white" class="cls-104" d="m32,0h1302c17.67,0,32,14.33,32,32v415H0V32C0,14.33,14.33,0,32,0Z"/>
+    <g class="cls-102">
+      <g id="pattern" class="cls-101">
+        <g id="Group_24499" data-name="Group 24499">
+          <g id="Group_24269" data-name="Group 24269">
+            <g class="cls-10">
+              <g id="Group_24268" data-name="Group 24268">
+                <rect id="Rectangle_684" data-name="Rectangle 684" class="cls-103" x="936.47" y="-8.8" width="53.25" height="53.25" transform="translate(269.48 686.23) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24271" data-name="Group 24271">
+            <g class="cls-9">
+              <g id="Group_24270" data-name="Group 24270">
+                <rect id="Rectangle_685" data-name="Rectangle 685" class="cls-109" x="976.97" y="-5.72" width="68.75" height="68.75" transform="translate(275.95 723.52) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24273" data-name="Group 24273">
+            <g class="cls-7">
+              <g id="Group_24272" data-name="Group 24272">
+                <rect id="Rectangle_686" data-name="Rectangle 686" class="cls-107" x="1032.96" y="-8.8" width="53.26" height="53.26" transform="translate(297.74 754.47) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24275" data-name="Group 24275">
+            <g class="cls-8">
+              <g id="Group_24274" data-name="Group 24274">
+                <rect id="Rectangle_687" data-name="Rectangle 687" class="cls-108" x="843.54" y="-7.57" width="46.12" height="46.12" transform="translate(242.87 617.31) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24277" data-name="Group 24277">
+            <g class="cls-6">
+              <g id="Group_24276" data-name="Group 24276">
+                <rect id="Rectangle_688" data-name="Rectangle 688" class="cls-112" x="884" y="-1.41" width="61.69" height="61.69" transform="translate(247.14 655.51) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24279" data-name="Group 24279">
+            <g class="cls-4">
+              <g id="Group_24278" data-name="Group 24278">
+                <rect id="Rectangle_689" data-name="Rectangle 689" class="cls-110" x="969.85" y="59.48" width="82.99" height="82.99" transform="translate(224.82 744.7) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24281" data-name="Group 24281">
+            <g class="cls-3">
+              <g id="Group_24280" data-name="Group 24280">
+                <rect id="Rectangle_690" data-name="Rectangle 690" class="cls-111" x="1077.38" y="-.95" width="60.92" height="60.92" transform="translate(303.61 792.01) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24283" data-name="Group 24283">
+            <g class="cls-2">
+              <g id="Group_24282" data-name="Group 24282">
+                <rect id="Rectangle_691" data-name="Rectangle 691" class="cls-105" x="1132.74" y="-7.68" width="46.71" height="46.71" transform="translate(327.53 822.07) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24285" data-name="Group 24285">
+            <g class="cls-5">
+              <g id="Group_24284" data-name="Group 24284">
+                <rect id="Rectangle_692" data-name="Rectangle 692" class="cls-106" x="751.45" y="-6.06" width="37.29" height="37.29" transform="translate(216.65 548.23) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24287" data-name="Group 24287">
+            <g class="cls-19">
+              <g id="Group_24286" data-name="Group 24286">
+                <rect id="Rectangle_693" data-name="Rectangle 693" class="cls-185" x="795.17" y="7.93" width="46.35" height="46.35" transform="translate(217.69 587.77) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24289" data-name="Group 24289">
+            <g class="cls-14">
+              <g id="Group_24288" data-name="Group 24288">
+                <rect id="Rectangle_694" data-name="Rectangle 694" class="cls-186" x="878.17" y="63.24" width="73.35" height="73.35" transform="translate(197.3 676.16) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24291" data-name="Group 24291">
+            <g class="cls-13">
+              <g id="Group_24290" data-name="Group 24290">
+                <rect id="Rectangle_695" data-name="Rectangle 695" class="cls-184" x="919.6" y="66.73" width="87" height="87" transform="translate(204.14 713.3) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24293" data-name="Group 24293">
+            <g class="cls-11">
+              <g id="Group_24292" data-name="Group 24292">
+                <rect id="Rectangle_696" data-name="Rectangle 696" class="cls-183" x="1015.23" y="65.67" width="88.73" height="88.73" transform="translate(232.54 781.48) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24295" data-name="Group 24295">
+            <g class="cls-12">
+              <g id="Group_24294" data-name="Group 24294">
+                <rect id="Rectangle_697" data-name="Rectangle 697" class="cls-173" x="1071.25" y="63.3" width="73.19" height="73.18" transform="translate(253.84 812.62) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24297" data-name="Group 24297">
+            <g class="cls-20">
+              <g id="Group_24296" data-name="Group 24296">
+                <rect id="Rectangle_698" data-name="Rectangle 698" class="cls-179" x="1180.51" y="7.12" width="47.68" height="47.68" transform="translate(330.85 860.67) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24299" data-name="Group 24299">
+            <g class="cls-18">
+              <g id="Group_24298" data-name="Group 24298">
+                <rect id="Rectangle_699" data-name="Rectangle 699" class="cls-181" x="1233.16" y="-6.32" width="38.88" height="38.88" transform="translate(357.6 889.56) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24301" data-name="Group 24301">
+            <g class="cls-17">
+              <g id="Group_24300" data-name="Group 24300">
+                <rect id="Rectangle_700" data-name="Rectangle 700" class="cls-182" x="662.86" y="-.06" width="21.47" height="21.47" transform="translate(189.75 479.43) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24303" data-name="Group 24303">
+            <g class="cls-15">
+              <g id="Group_24302" data-name="Group 24302">
+                <rect id="Rectangle_701" data-name="Rectangle 701" class="cls-174" x="707.17" y="18.28" width="29.35" height="29.35" transform="translate(188.12 520.08) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24305" data-name="Group 24305">
+            <g class="cls-16">
+              <g id="Group_24304" data-name="Group 24304">
+                <rect id="Rectangle_702" data-name="Rectangle 702" class="cls-180" x="793.26" y="72.29" width="50.18" height="50.18" transform="translate(170.83 607.18) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24307" data-name="Group 24307">
+            <g class="cls-26">
+              <g id="Group_24306" data-name="Group 24306">
+                <rect id="Rectangle_703" data-name="Rectangle 703" class="cls-176" x="833.56" y="79.49" width="66.06" height="66.06" transform="translate(174.25 645.73) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24309" data-name="Group 24309">
+            <g class="cls-25">
+              <g id="Group_24308" data-name="Group 24308">
+                <rect id="Rectangle_704" data-name="Rectangle 704" class="cls-177" x="915.45" y="138.24" width="95.29" height="95.29" transform="translate(150.64 735.46) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24311" data-name="Group 24311">
+            <g class="cls-22">
+              <g id="Group_24310" data-name="Group 24310">
+                <rect id="Rectangle_705" data-name="Rectangle 705" class="cls-175" x="958.27" y="138.62" width="106.16" height="106.16" transform="translate(160.66 771.28) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24313" data-name="Group 24313">
+            <g class="cls-23">
+              <g id="Group_24312" data-name="Group 24312">
+                <rect id="Rectangle_706" data-name="Rectangle 706" class="cls-178" x="1008.11" y="135.24" width="102.97" height="102.97" transform="translate(178.32 803.94) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24315" data-name="Group 24315">
+            <g class="cls-24">
+              <g id="Group_24314" data-name="Group 24314">
+                <rect id="Rectangle_707" data-name="Rectangle 707" class="cls-188" x="1120.54" y="76.42" width="71.11" height="71.11" transform="translate(259.44 850.28) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24317" data-name="Group 24317">
+            <g class="cls-21">
+              <g id="Group_24316" data-name="Group 24316">
+                <rect id="Rectangle_708" data-name="Rectangle 708" class="cls-196" x="1177.52" y="70.93" width="53.65" height="53.65" transform="translate(283.62 880.23) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24319" data-name="Group 24319">
+            <g class="cls-57">
+              <g id="Group_24318" data-name="Group 24318">
+                <rect id="Rectangle_709" data-name="Rectangle 709" class="cls-189" x="1284.51" y="16.27" width="32.66" height="32.66" transform="translate(357.96 929.39) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24321" data-name="Group 24321">
+            <g class="cls-59">
+              <g id="Group_24320" data-name="Group 24320">
+                <rect id="Rectangle_710" data-name="Rectangle 710" class="cls-187" x="1336.35" y="1.91" width="10.89" height="10.89" transform="translate(387.8 950.95) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24323" data-name="Group 24323">
+            <g class="cls-58">
+              <g id="Group_24322" data-name="Group 24322">
+                <rect id="Rectangle_711" data-name="Rectangle 711" class="cls-197" x="573.8" y="5.74" width="6.6" height="6.6" transform="translate(162.64 410.72) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24325" data-name="Group 24325">
+            <g class="cls-56">
+              <g id="Group_24324" data-name="Group 24324">
+                <rect id="Rectangle_712" data-name="Rectangle 712" class="cls-198" x="619.63" y="29.21" width="11.43" height="11.43" transform="translate(158.47 452.42) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24327" data-name="Group 24327">
+            <g class="cls-49">
+              <g id="Group_24326" data-name="Group 24326">
+                <rect id="Rectangle_713" data-name="Rectangle 713" class="cls-200" x="708.06" y="81.12" width="27.57" height="27.57" transform="translate(144.32 538.22) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24329" data-name="Group 24329">
+            <g class="cls-68">
+              <g id="Group_24328" data-name="Group 24328">
+                <rect id="Rectangle_714" data-name="Rectangle 714" class="cls-202" x="750.98" y="96.45" width="38.22" height="38.22" transform="translate(143.84 578.39) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24331" data-name="Group 24331">
+            <g class="cls-50">
+              <g id="Group_24330" data-name="Group 24330">
+                <rect id="Rectangle_715" data-name="Rectangle 715" class="cls-201" x="832.67" y="148.96" width="67.85" height="67.85" transform="translate(124.5 666.34) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24333" data-name="Group 24333">
+            <g class="cls-51">
+              <g id="Group_24332" data-name="Group 24332">
+                <rect id="Rectangle_716" data-name="Rectangle 716" class="cls-199" x="873.35" y="152.75" width="82.99" height="82.99" transform="translate(130.6 703.78) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24335" data-name="Group 24335">
+            <g class="cls-48">
+              <g id="Group_24334" data-name="Group 24334">
+                <rect id="Rectangle_717" data-name="Rectangle 717" class="cls-193" x="958.76" y="217.95" width="105.17" height="105.17" transform="translate(104.92 794.37) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24337" data-name="Group 24337">
+            <g class="cls-52">
+              <g id="Group_24336" data-name="Group 24336">
+                <rect id="Rectangle_718" data-name="Rectangle 718" class="cls-191" x="1056.57" y="140.81" width="102.56" height="102.56" transform="translate(188.65 839.63) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24339" data-name="Group 24339">
+            <g class="cls-53">
+              <g id="Group_24338" data-name="Group 24338">
+                <rect id="Rectangle_719" data-name="Rectangle 719" class="cls-195" x="1112.91" y="141.72" width="86.37" height="86.37" transform="translate(207.86 871.64) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24341" data-name="Group 24341">
+            <g class="cls-55">
+              <g id="Group_24340" data-name="Group 24340">
+                <rect id="Rectangle_720" data-name="Rectangle 720" class="cls-192" x="1228.37" y="90.23" width="48.44" height="48.44" transform="translate(285.95 919.24) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24343" data-name="Group 24343">
+            <g class="cls-67">
+              <g id="Group_24342" data-name="Group 24342">
+                <rect id="Rectangle_721" data-name="Rectangle 721" class="cls-190" x="1284.01" y="78.74" width="33.66" height="33.66" transform="translate(313.43 947.83) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24345" data-name="Group 24345">
+            <g class="cls-54">
+              <g id="Group_24344" data-name="Group 24344">
+                <rect id="Rectangle_722" data-name="Rectangle 722" class="cls-194" x="527.88" y="35" width="1.92" height="1.92" transform="translate(129.46 384.48) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24347" data-name="Group 24347">
+            <g class="cls-28">
+              <g id="Group_24346" data-name="Group 24346">
+                <rect id="Rectangle_723" data-name="Rectangle 723" class="cls-164" x="620.9" y="88.42" width="8.88" height="8.88" transform="translate(117.5 469.38) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24349" data-name="Group 24349">
+            <g class="cls-30">
+              <g id="Group_24348" data-name="Group 24348">
+                <rect id="Rectangle_724" data-name="Rectangle 724" class="cls-163" x="665.78" y="110.22" width="15.63" height="15.63" transform="translate(113.82 510.88) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24351" data-name="Group 24351">
+            <g class="cls-29">
+              <g id="Group_24350" data-name="Group 24350">
+                <rect id="Rectangle_725" data-name="Rectangle 725" class="cls-166" x="752.67" y="161.84" width="34.86" height="34.86" transform="translate(98.79 597.05) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24353" data-name="Group 24353">
+            <g class="cls-32">
+              <g id="Group_24352" data-name="Group 24352">
+                <rect id="Rectangle_726" data-name="Rectangle 726" class="cls-165" x="794.03" y="173.68" width="48.64" height="48.64" transform="translate(99.68 636.65) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24355" data-name="Group 24355">
+            <g class="cls-31">
+              <g id="Group_24354" data-name="Group 24354">
+                <rect id="Rectangle_727" data-name="Rectangle 727" class="cls-169" x="875.79" y="228.52" width="78.11" height="78.11" transform="translate(78.75 725.26) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24357" data-name="Group 24357">
+            <g class="cls-27">
+              <g id="Group_24356" data-name="Group 24356">
+                <rect id="Rectangle_728" data-name="Rectangle 728" class="cls-167" x="918.57" y="232.63" width="89.05" height="89.05" transform="translate(86.11 762.19) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24359" data-name="Group 24359">
+            <g class="cls-33">
+              <g id="Group_24358" data-name="Group 24358">
+                <rect id="Rectangle_729" data-name="Rectangle 729" class="cls-168" x="1004.94" y="220.27" width="109.31" height="109.31" transform="translate(115.94 829.77) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24361" data-name="Group 24361">
+            <g class="cls-34">
+              <g id="Group_24360" data-name="Group 24360">
+                <rect id="Rectangle_730" data-name="Rectangle 730" class="cls-171" x="1053.4" y="216.5" width="108.9" height="108.9" transform="translate(132.89 862.72) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24363" data-name="Group 24363">
+            <g class="cls-36">
+              <g id="Group_24362" data-name="Group 24362">
+                <rect id="Rectangle_731" data-name="Rectangle 731" class="cls-172" x="1164.39" y="154.62" width="79.91" height="79.91" transform="translate(215.16 908.59) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24365" data-name="Group 24365">
+            <g class="cls-35">
+              <g id="Group_24364" data-name="Group 24364">
+                <rect id="Rectangle_732" data-name="Rectangle 732" class="cls-170" x="1223.15" y="152.46" width="58.9" height="58.9" transform="translate(238.25 939) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24367" data-name="Group 24367">
+            <g class="cls-88">
+              <g id="Group_24366" data-name="Group 24366">
+                <rect id="Rectangle_733" data-name="Rectangle 733" class="cls-122" x="1336.76" y="115.61" width="10.36" height="10.36" transform="translate(307.64 984.27) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24369" data-name="Group 24369">
+            <g class="cls-85">
+              <g id="Group_24368" data-name="Group 24368">
+                <rect id="Rectangle_734" data-name="Rectangle 734" class="cls-120" x="575.66" y="118" width="2.86" height="2.86" transform="translate(84.57 443.05) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24371" data-name="Group 24371">
+            <g class="cls-84">
+              <g id="Group_24370" data-name="Group 24370">
+                <rect id="Rectangle_735" data-name="Rectangle 735" class="cls-121" x="667.48" y="170.69" width="12.23" height="12.23" transform="translate(72.27 528.09) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24373" data-name="Group 24373">
+            <g class="cls-90">
+              <g id="Group_24372" data-name="Group 24372">
+                <rect id="Rectangle_736" data-name="Rectangle 736" class="cls-118" x="711.89" y="191.18" width="19.92" height="19.92" transform="translate(69.2 569.34) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24375" data-name="Group 24375">
+            <g class="cls-89">
+              <g id="Group_24374" data-name="Group 24374">
+                <rect id="Rectangle_737" data-name="Rectangle 737" class="cls-119" x="797.73" y="242.93" width="41.23" height="41.23" transform="translate(53.33 655.85) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24377" data-name="Group 24377">
+            <g class="cls-86">
+              <g id="Group_24376" data-name="Group 24376">
+                <rect id="Rectangle_738" data-name="Rectangle 738" class="cls-116" x="839.87" y="254.32" width="53.45" height="53.45" transform="translate(55.09 695.09) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24379" data-name="Group 24379">
+            <g class="cls-87">
+              <g id="Group_24378" data-name="Group 24378">
+                <rect id="Rectangle_739" data-name="Rectangle 739" class="cls-117" x="926.42" y="313.95" width="73.36" height="73.36" transform="translate(34.15 783.71) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24381" data-name="Group 24381">
+            <g class="cls-83">
+              <g id="Group_24380" data-name="Group 24380">
+                <rect id="Rectangle_740" data-name="Rectangle 740" class="cls-114" x="971.95" y="322.45" width="78.79" height="78.79" transform="translate(40.36 821.11) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24383" data-name="Group 24383">
+            <g class="cls-82">
+              <g id="Group_24382" data-name="Group 24382">
+                <rect id="Rectangle_741" data-name="Rectangle 741" class="cls-115" x="1009.37" y="303.36" width="100.46" height="100.46" transform="translate(60.32 852.81) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24385" data-name="Group 24385">
+            <g class="cls-93">
+              <g id="Group_24384" data-name="Group 24384">
+                <rect id="Rectangle_742" data-name="Rectangle 742" class="cls-113" x="1103.89" y="223.27" width="104.4" height="104.4" transform="translate(143.83 898.17) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24387" data-name="Group 24387">
+            <g class="cls-71">
+              <g id="Group_24386" data-name="Group 24386">
+                <rect id="Rectangle_743" data-name="Rectangle 743" class="cls-140" x="1159.88" y="224.29" width="88.95" height="88.95" transform="translate(162.7 930.32) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24389" data-name="Group 24389">
+            <g class="cls-96">
+              <g id="Group_24388" data-name="Group 24388">
+                <rect id="Rectangle_744" data-name="Rectangle 744" class="cls-142" x="1277.29" y="174.6" width="47.12" height="47.12" transform="translate(240.89 977.88) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24391" data-name="Group 24391">
+            <g class="cls-99">
+              <g id="Group_24390" data-name="Group 24390">
+                <rect id="Rectangle_745" data-name="Rectangle 745" class="cls-141" x="1334.63" y="168.26" width="13.16" height="13.16" transform="translate(269.2 999.59) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24393" data-name="Group 24393">
+            <g class="cls-92">
+              <g id="Group_24392" data-name="Group 24392">
+                <rect id="Rectangle_746" data-name="Rectangle 746" class="cls-137" x="623.01" y="200.46" width="4.68" height="4.68" transform="translate(39.76 501.59) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24395" data-name="Group 24395">
+            <g class="cls-97">
+              <g id="Group_24394" data-name="Group 24394">
+                <rect id="Rectangle_747" data-name="Rectangle 747" class="cls-136" x="714.54" y="253.33" width="14.61" height="14.61" transform="translate(27.13 586.76) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24397" data-name="Group 24397">
+            <g class="cls-91">
+              <g id="Group_24396" data-name="Group 24396">
+                <rect id="Rectangle_748" data-name="Rectangle 748" class="cls-139" x="759.59" y="274.09" width="21" height="21" transform="translate(24.32 627.9) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24399" data-name="Group 24399">
+            <g class="cls-81">
+              <g id="Group_24398" data-name="Group 24398">
+                <rect id="Rectangle_749" data-name="Rectangle 749" class="cls-138" x="847.04" y="327.33" width="39.12" height="39.12" transform="translate(8.54 714.38) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24401" data-name="Group 24401">
+            <g class="cls-95">
+              <g id="Group_24400" data-name="Group 24400">
+                <rect id="Rectangle_750" data-name="Rectangle 750" class="cls-134" x="891.68" y="342.22" width="46.35" height="46.35" transform="translate(9.58 753.92) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24403" data-name="Group 24403">
+            <g class="cls-98">
+              <g id="Group_24402" data-name="Group 24402">
+                <rect id="Rectangle_751" data-name="Rectangle 751" class="cls-133" x="981.36" y="402.75" width="59.97" height="59.97" transform="translate(-9.77 841.88) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24405" data-name="Group 24405">
+            <g class="cls-72">
+              <g id="Group_24404" data-name="Group 24404">
+                <rect id="Rectangle_752" data-name="Rectangle 752" class="cls-135" x="1057.6" y="309.21" width="100.51" height="100.51" transform="translate(70.3 888.65) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24407" data-name="Group 24407">
+            <g class="cls-80">
+              <g id="Group_24406" data-name="Group 24406">
+                <rect id="Rectangle_753" data-name="Rectangle 753" class="cls-129" x="1103.34" y="301.39" width="105.51" height="105.51" transform="translate(88.2 921.21) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24409" data-name="Group 24409">
+            <g class="cls-74">
+              <g id="Group_24408" data-name="Group 24408">
+                <rect id="Rectangle_754" data-name="Rectangle 754" class="cls-130" x="1213.98" y="239.82" width="77.24" height="77.24" transform="translate(169.99 967.27) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24411" data-name="Group 24411">
+            <g class="cls-79">
+              <g id="Group_24410" data-name="Group 24410">
+                <rect id="Rectangle_755" data-name="Rectangle 755" class="cls-131" x="1273.86" y="237.95" width="53.97" height="53.97" transform="translate(193.67 997.44) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24413" data-name="Group 24413">
+            <g class="cls-94">
+              <g id="Group_24412" data-name="Group 24412">
+                <rect id="Rectangle_756" data-name="Rectangle 756" class="cls-132" x="623.91" y="257.91" width="2.87" height="2.87" transform="translate(-.22 518.14) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24415" data-name="Group 24415">
+            <g class="cls-76">
+              <g id="Group_24414" data-name="Group 24414">
+                <rect id="Rectangle_757" data-name="Rectangle 757" class="cls-126" x="670.99" y="283.72" width="5.21" height="5.21" transform="translate(-5.17 560.16) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24417" data-name="Group 24417">
+            <g class="cls-78">
+              <g id="Group_24416" data-name="Group 24416">
+                <rect id="Rectangle_758" data-name="Rectangle 758" class="cls-127" x="763.57" y="337.51" width="13.04" height="13.04" transform="translate(-17.71 645.3) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24419" data-name="Group 24419">
+            <g class="cls-73">
+              <g id="Group_24418" data-name="Group 24418">
+                <rect id="Rectangle_759" data-name="Rectangle 759" class="cls-128" x="809.36" y="359.52" width="17.96" height="17.96" transform="translate(-20.88 686.59) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24421" data-name="Group 24421">
+            <g class="cls-77">
+              <g id="Group_24420" data-name="Group 24420">
+                <rect id="Rectangle_760" data-name="Rectangle 760" class="cls-123" x="899.65" y="414.3" width="30.4" height="30.4" transform="translate(-35.75 772.69) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24423" data-name="Group 24423">
+            <g class="cls-75">
+              <g id="Group_24422" data-name="Group 24422">
+                <rect id="Rectangle_761" data-name="Rectangle 761" class="cls-124" x="944.91" y="431.86" width="36.38" height="36.38" transform="translate(-36.15 812.83) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24425" data-name="Group 24425">
+            <g class="cls-100">
+              <g id="Group_24424" data-name="Group 24424">
+                <rect id="Rectangle_762" data-name="Rectangle 762" class="cls-125" x="1026.07" y="413.17" width="67.05" height="67.05" transform="translate(-5.51 880.08) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24427" data-name="Group 24427">
+            <g class="cls-44">
+              <g id="Group_24426" data-name="Group 24426">
+                <rect id="Rectangle_763" data-name="Rectangle 763" class="cls-154" x="1064.47" y="392.29" width="86.74" height="86.74" transform="translate(16.42 910.97) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24429" data-name="Group 24429">
+            <g class="cls-41">
+              <g id="Group_24428" data-name="Group 24428">
+                <rect id="Rectangle_764" data-name="Rectangle 764" class="cls-153" x="1156.34" y="311.95" width="96.01" height="96.01" transform="translate(98.22 957.03) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24431" data-name="Group 24431">
+            <g class="cls-46">
+              <g id="Group_24430" data-name="Group 24430">
+                <rect id="Rectangle_765" data-name="Rectangle 765" class="cls-162" x="1211.6" y="310.58" width="81.99" height="81.99" transform="translate(118.28 988.69) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24433" data-name="Group 24433">
+            <g class="cls-42">
+              <g id="Group_24432" data-name="Group 24432">
+                <rect id="Rectangle_766" data-name="Rectangle 766" class="cls-161" x="1330.21" y="277.14" width="18.99" height="18.99" transform="translate(189.71 1031.27) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24435" data-name="Group 24435">
+            <g class="cls-38">
+              <g id="Group_24434" data-name="Group 24434">
+                <rect id="Rectangle_767" data-name="Rectangle 767" class="cls-160" x="576.88" y="286.63" width=".43" height=".43" transform="translate(-33.8 492.08) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24437" data-name="Group 24437">
+            <g class="cls-43">
+              <g id="Group_24436" data-name="Group 24436">
+                <rect id="Rectangle_768" data-name="Rectangle 768" class="cls-159" x="672.44" y="341.7" width="2.31" height="2.31" transform="translate(-45.15 576.71) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24439" data-name="Group 24439">
+            <g class="cls-37">
+              <g id="Group_24438" data-name="Group 24438">
+                <rect id="Rectangle_769" data-name="Rectangle 769" class="cls-158" x="719.87" y="368.05" width="3.95" height="3.95" transform="translate(-50.22 618.81) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24441" data-name="Group 24441">
+            <g class="cls-45">
+              <g id="Group_24440" data-name="Group 24440">
+                <rect id="Rectangle_770" data-name="Rectangle 770" class="cls-157" x="813.56" y="422.44" width="9.58" height="9.58" transform="translate(-62.41 703.79) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24443" data-name="Group 24443">
+            <g class="cls-39">
+              <g id="Group_24442" data-name="Group 24442">
+                <rect id="Rectangle_771" data-name="Rectangle 771" class="cls-155" x="860.08" y="446.09" width="13.04" height="13.04" transform="translate(-66.22 745.34) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24451" data-name="Group 24451">
+            <g class="cls-47">
+              <g id="Group_24450" data-name="Group 24450">
+                <rect id="Rectangle_775" data-name="Rectangle 775" class="cls-156" x="1113.41" y="402" width="85.37" height="85.37" transform="translate(24.17 947.73) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24453" data-name="Group 24453">
+            <g class="cls-61">
+              <g id="Group_24452" data-name="Group 24452">
+                <rect id="Rectangle_776" data-name="Rectangle 776" class="cls-152" x="1160.82" y="392.17" width="87.05" height="87.05" transform="translate(44.66 979.21) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24455" data-name="Group 24455">
+            <g class="cls-64">
+              <g id="Group_24454" data-name="Group 24454">
+                <rect id="Rectangle_777" data-name="Rectangle 777" class="cls-144" x="1270.08" y="332.96" width="61.54" height="61.54" transform="translate(123.82 1026.37) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24457" data-name="Group 24457">
+            <g class="cls-60">
+              <g id="Group_24456" data-name="Group 24456">
+                <rect id="Rectangle_778" data-name="Rectangle 778" class="cls-150" x="1328.99" y="332.8" width="20.6" height="20.6" transform="translate(149.66 1047.51) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24459" data-name="Group 24459">
+            <g class="cls-63">
+              <g id="Group_24458" data-name="Group 24458">
+                <rect id="Rectangle_779" data-name="Rectangle 779" class="cls-151" x="577.07" y="342.58" width=".05" height=".05" transform="translate(-73.31 508.12) rotate(-44.97)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24461" data-name="Group 24461">
+            <g class="cls-66">
+              <g id="Group_24460" data-name="Group 24460">
+                <rect id="Rectangle_780" data-name="Rectangle 780" class="cls-149" x="625.24" y="370.32" width=".22" height=".22" transform="translate(-78.78 550.69) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24463" data-name="Group 24463">
+            <g class="cls-70">
+              <g id="Group_24462" data-name="Group 24462">
+                <rect id="Rectangle_781" data-name="Rectangle 781" class="cls-145" x="721.11" y="425.6" width="1.47" height="1.47" transform="translate(-90.04 635.29) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24475" data-name="Group 24475">
+            <g class="cls-65">
+              <g id="Group_24474" data-name="Group 24474">
+                <rect id="Rectangle_787" data-name="Rectangle 787" class="cls-147" x="1218.31" y="412.25" width="68.57" height="68.57" transform="translate(51.13 1016.5) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24477" data-name="Group 24477">
+            <g class="cls-62">
+              <g id="Group_24476" data-name="Group 24476">
+                <rect id="Rectangle_788" data-name="Rectangle 788" class="cls-148" x="1273.24" y="404.61" width="55.2" height="55.2" transform="translate(75.39 1046.43) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24479" data-name="Group 24479">
+            <g class="cls-40">
+              <g id="Group_24478" data-name="Group 24478">
+                <rect id="Rectangle_789" data-name="Rectangle 789" class="cls-143" x="625.34" y="426.17" width="0" height="0" transform="translate(-118.78 563.85) rotate(-44.76)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_24491" data-name="Group 24491">
+            <g class="cls-69">
+              <g id="Group_24490" data-name="Group 24490">
+                <rect id="Rectangle_795" data-name="Rectangle 795" class="cls-146" x="1334.14" y="447.65" width="13.81" height="13.81" transform="translate(71.36 1081.4) rotate(-45)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
