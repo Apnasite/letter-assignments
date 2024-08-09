@@ -2,7 +2,6 @@ body {
   /*.letter-background*/
 }
 body .letter-wrapper {
-  border: 1pt solid;
   margin: auto;
   overflow: hidden;
   background-color: #fff;
@@ -10,8 +9,7 @@ body .letter-wrapper {
   top: auto;
   width: 210mm;
   height: 297mm;
-   box-shadow: 23px 4px 64px black;
-  /* background-image: url("../img/watermark2.png"); */
+   box-shadow: 25px 37px 80px gray;
   position: relative;
   /*.main-letter*/
 }
@@ -21,7 +19,7 @@ body .letter-wrapper .topbox1 {
     top: -12mm;
     width: 12mm;
     height: 48mm;
-    background-color:#2a89eb;
+    background-color:rgb(0, 164, 243);
     transform: rotate(90deg);
 }
 body .letter-wrapper .topbox2 {
@@ -30,7 +28,7 @@ position: absolute;
     top: 7mm;
     width: 3mm;
     height: 31mm;
-    background-color:#2a89eb;
+    background-color:rgb(0, 164, 243);
     transform: rotate(90deg);
 }
 body .letter-wrapper .topbox3 {
@@ -39,7 +37,7 @@ body .letter-wrapper .topbox3 {
     top: -47mm;
     width: 3mm;
     height: 139mm;
-    background-color:#2a89eb;
+    background-color:rgb(0, 164, 243);
     transform: rotate(90deg);
 }
 body .letter-wrapper .topboxtitle {
@@ -48,7 +46,7 @@ body .letter-wrapper .topboxtitle {
     top: -50mm;
     width: 11mm;
     height: 124mm;
-    background-color: #2a89eb;
+    background-color:rgb(0, 164, 243);
     transform: rotate(90deg);
 }
 body .letter-wrapper .bottombox1 {
@@ -57,29 +55,9 @@ body .letter-wrapper .bottombox1 {
     top: 283mm;
     width: 259mm;
     height: 15mm;
-    background-color:#2a89eb;
+    background-color:rgb(0, 164, 243);
 }
-body .letter-wrapper .bottombox2 {
-  position: absolute;
-  left: -20mm;
-  top: 271mm;
-  width: auto;
-  height: auto;
-  border-style: solid;
-  border-width: 15mm 0mm 90mm 103mm;
-  border-color: transparent transparent transparent #aedee299;
-  transform: rotate(17deg);
-}
-body .letter-wrapper .bottombox3 {
-  position: absolute;
-  left: 4mm;
-  top: 252mm;
-  width: auto;
-  height: auto;
-  border-style: solid;
-  border-width: 29mm 234mm 102mm 39mm;
-  border-color: transparent #aedee2 transparent transparent;
-}
+
 body .letter-wrapper .letter-content {
   /*header*/
   /*letter-body*/
@@ -226,14 +204,14 @@ body .letter-wrapper .letter-content .letter-body .letter-body-subject {
   font-weight: bold;
 }
 body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
-  position: absolute;
-  left: 0mm;
-  top: 70mm;
-  width: auto;
-  height: auto;
-  margin-left: 15mm;
-  font-weight: bold;
-  font-size: 15pt;
+ position: absolute;
+    left: 15mm;
+    top: 57mm;
+    width: auto;
+    height: auto;
+    margin-left: 15mm;
+    font-weight: bold;
+    font-size: 15pt;
 }
 body .letter-wrapper .letter-content .letter-body .letter-body-message {
   position: absolute;
