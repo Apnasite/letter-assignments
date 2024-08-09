@@ -172,7 +172,7 @@ body .letter-wrapper .letter-content header .letter-org-name {
     height: auto;
     font-size: 34pt;
 }
-body .letter-wrapper .letter-content header .letter-org-name1 {
+body .letter-wrapper .letter-content header .letter-org-details {
      font-weight: normal;
     font-family: sans-serif;
     position: absolute;
@@ -182,16 +182,40 @@ body .letter-wrapper .letter-content header .letter-org-name1 {
     height: auto;
     font-size: 34pt;
 }
-
-
-body .letter-wrapper .letter-content header .letter-org-details {
-  position: absolute;
-  left: 96mm;
-  top: 25mm;
-  width: 100%;
-  height: auto;
-  font-size: 12pt;
+body .letter-wrapper .letter-content header .letter-ref {
+     font-weight: Bold;
+    position: absolute;
+    left: 213mm;
+    top:94mm;
+    width: 30%;
+    height: auto;
+    font-size: 12pt;
+	color:black;
 }
+body .letter-wrapper .letter-content header .letter-date {
+     font-weight: Bold;
+    position: absolute;
+    left: 147mm;
+    top:94mm;
+    width: 30%;
+    height: auto;
+    font-size: 12pt;
+	color:black;
+}
+body .letter-wrapper .letter-content header .letter-date1 {
+     font-weight: Bold;
+    position: absolute;
+    left: 158mm;
+    top:94mm;
+    width: 30%;
+    height: auto;
+    font-size: 12pt;
+	color:black;
+}
+
+
+
+ 
 
 body .letter-wrapper .letter-content header .letter-org-phone {
 position: absolute;
@@ -239,7 +263,7 @@ body .letter-wrapper .letter-content .letter-body {
 body .letter-wrapper .letter-content .letter-body .letter-body-to {
   position: absolute;
   left: 15mm;
-  top: 15mm;
+  top: 20mm;
   width: 70mm;
   height: 35mm;
   font-weight: bold;
@@ -251,13 +275,26 @@ body .letter-wrapper .letter-content .letter-body .letter-body-to {
 body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
   position: absolute;
     left: 1mm;
-    top: 45mm;
+    top: 57mm;
     width: auto;
     height: auto;
     margin-left: 15mm;
-    font-size: 35pt;
+    font-size: 25pt;
     color: #ff00005e;
+	
+	
 }
+body .letter-wrapper .letter-content .letter-body .letter-body-subject{
+	 position: absolute;
+    left: -47mm;
+    top: 57mm;
+    width: auto; 
+    height: auto;
+    margin-left: 15mm;
+    font-size: 25pt;
+    color: #ff00005e;
+}	
+	
 body .letter-wrapper .letter-content .letter-body .letter-body-message {
   position: absolute;
   left: 0mm;
