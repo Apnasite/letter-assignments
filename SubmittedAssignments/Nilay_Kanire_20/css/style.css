@@ -1,0 +1,422 @@
+body  {
+  /*.letter-background*/
+  
+  background: linear-gradient(to top left, rgb(169, 169, 169) 50% , rgb(211,211,211) 50%);
+  background-repeat: no-repeat;
+  background-size: 100% 110%;;
+   margin: 0;
+    padding: 0;
+    position: relative; /* Ensure body background stays in its layer */
+    
+    z-index: 0;
+}
+.letter-background{
+  background-color: white;
+  position: relative;
+  z-index: 10;
+}
+body .letter-wrapper {
+  position: relative;
+  
+  border: 1pt solid;
+  margin: auto;
+  overflow: hidden;
+  background-color: white;
+  left: auto;
+  top: 10mm;;
+  width: 210mm;
+  height: 297mm;
+  box-shadow: 35px 35px rgba(0, 0, 0, 0.1);
+  
+  z-index: 10;
+  
+  
+  
+  /* background-image: url("../img/watermark2.png"); */
+  position: relative;
+  /*.main-letter*/
+}
+
+body .letter-wrapper .topbox1 {
+  position: absolute;
+  left: -10mm;
+  top: -35mm;
+  width: 40mm;
+  height: 100mm;
+  background-color: #d0edef;
+  transform: rotate(42deg);
+}
+body .letter-wrapper .topbox2 {
+  position: absolute;
+  left: 22mm;
+  top: -25mm;
+  width: 20mm;
+  height: 120mm;
+  background-color: #aedee2;
+  transform: rotate(42deg);
+}
+body .letter-wrapper .topbox3 {
+  position: absolute;
+  left: 39mm;
+  top: -50mm;
+  width: 20mm;
+  height: 170mm;
+  background-color: #d0edef;
+  transform: rotate(42deg);
+}
+body .letter-wrapper .topboxtitle {
+  position: absolute;
+  left: 54mm;
+  top: 0mm;
+  width: 115mm;
+  height: 45mm;
+  background-color: #39abb685;
+  transform: skewX(-112deg);
+}
+body .letter-wrapper .bottombox1 {
+  position: absolute;
+  left: -50mm;
+  top: 260mm;
+  width: 312mm;
+  height: 75mm;
+  background-color: #239bb1d9;
+}
+body .letter-wrapper .bottombox2 {
+  position: absolute;
+  left: -20mm;
+  top: 271mm;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-width: 15mm 0mm 90mm 103mm;
+  border-color: transparent transparent transparent #aedee299;
+  transform: rotate(17deg);
+}
+body .letter-wrapper .bottombox3 {
+  position: absolute;
+  left: 4mm;
+  top: 252mm;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-width: 29mm 234mm 102mm 39mm;
+  border-color: transparent #aedee2 transparent transparent;
+}
+
+
+body .letter-wrapper .letter-content {
+  /*header*/
+  /*letter-body*/
+  /*footer*/
+  background-color: rgb(237, 234, 222);
+}
+
+.vertical_line {
+  border-top: 1px dotted #C0C0C0; /* Adds a horizontal dotted border at the top */
+  height: 30px; /* Adjust the height based on your design */
+  background-color: white;
+  background-image: repeating-linear-gradient(
+    145deg, /* Rotate the dotted lines by 90 degrees */
+    transparent, 
+    transparent 5px, 
+    #C0C0C0 0px, 
+    #C0C0C0 8px
+  );
+}
+
+body .letter-wrapper .letter-content header {
+  position: absolute;
+  left: 0mm;
+  top: 0mm;
+  width: 100%;
+  height: 45mm;
+  
+  
+  
+}
+body .letter-wrapper .letter-content header .letter-org-logo {
+  font-weight: bold;
+  position: absolute;
+  left: 10mm;
+  top: 5mm;
+  width: 30mm;
+  height: 25mm;
+  margin: 5mm;
+}
+body .letter-wrapper .letter-content header .letter-org-logo img {
+  width: 100%;
+  height: 100%;
+}
+body .letter-wrapper .letter-content header .letter-org-name {
+  
+  position: absolute;
+  left: 56mm;
+  top: 15mm;
+  width: 100%;
+  height: auto;
+  font-size: 25pt;
+}
+body .letter-wrapper .letter-content header .letter-org-details {
+  position: absolute;
+  left: 57mm;
+  top: 25mm;
+  width: 100%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content header .letter-ref {
+  font-weight: bold;
+  position: absolute;
+  left: 15mm;
+  top: 50mm;
+  width: 50%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content header .letter-date {
+ 
+  position: absolute;
+  left: 140mm;
+  top: 80mm;
+  width: 30%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-body {
+  position: absolute;
+  left: 0mm;
+  top: 45mm;
+  width: 100%;
+  height: 200mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-to {
+  position: absolute;
+  left: 15mm;
+  top: 10mm;
+  width: 100mm;
+  height: 35mm;
+
+  font-size: 13pt;
+  margin: 0mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+  position: absolute;
+  left: 0mm;
+  top: 50mm;
+  width: calc(100% - 45mm);
+  height: 20mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 15pt;
+  font-weight: bold;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+  position: absolute;
+  left: 0mm;
+  top: 70mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  font-weight: bold;
+  font-size: 15pt;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message {
+  position: absolute;
+  left: 0mm;
+  top: 60mm;
+  width: auto;
+  height: 115mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+  overflow: auto;
+  text-align: justify;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+  position: absolute;
+  left: 0mm;
+  top: 165mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 12pt;
+  
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign p:second-child  {
+  margin: 0mm;
+  font-size: 10pt;
+  position:absolute;
+  top: -10mm;
+  
+}
+
+.letter-body-sign  p:first-child{
+  font-family:  Brush Script MT, Brush Script Std, cursive;
+  font-size: 30pt;
+  
+}
+body .letter-wrapper .letter-content .letter-footer {
+  position: absolute;
+  left: 0mm;
+  top: 256mm;
+  width: 100%;
+  height: 35mm;
+  
+}
+body .letter-wrapper .letter-content .letter-footer .fa {
+  width: 7mm;
+  height: 7mm;
+  border-radius: 50%;
+  padding: 1mm;
+  margin-right: 3mm;
+  background-color: #43a9bb;
+  text-align: center;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+  position: absolute;
+  left: 32mm;
+  top: 10mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 20pt;
+  font-weight: bold;
+  text-shadow: 0.2mm 0.2mm white;
+  
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+  position: absolute;
+  left: 0mm;
+  top: 0mm;
+  width: 40%;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+  
+}
+.letter-org-phone img{
+  position: absolute;
+  top: -10mm;
+}
+.letter-org-email img{
+  position: absolute;
+  top: -8mm;
+  
+}
+.letter-org-address img{
+  position: absolute;
+  top: -10px;
+  
+}
+.phone_{
+  position: absolute;
+  top: -35px;
+  left: 65px;
+  font-size: 15px;
+}
+.email_{
+  position: absolute;
+  top: -25px;
+  left: 65px;
+  font-size: 15px;
+}
+
+.address_{
+  position: absolute;
+  top: -10px;
+  left: 65px;
+  font-size: 15px;
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+  position: absolute;
+  left: 0mm;
+  top: 12mm;
+  width: 87mm;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+  position: absolute;
+  left: 0mm;
+  top: 20mm;
+  width: 100%;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+
+
+.triangle-left {
+  position: absolute;
+  top: -26mm;
+  left: 180mm;
+	width: 0;
+	height: 0;
+  
+	border-top: 180px solid transparent;
+	border-right: 200px solid black;
+	border-bottom: 170px solid transparent;
+}
+.triangle-up {
+  position: absolute;
+  top: 20mm;
+  left: 158mm;
+  width: 0;
+	height: 0;
+	border-left: 88px solid transparent;
+	border-right: 95px solid transparent;
+  
+	border-bottom: 75px solid #4169E1;
+}
+.triangle-down{
+  position: absolute;
+  top: 17mm;
+  left: 150mm;
+  width:  0;
+  height: 0;
+  border-left: 45px solid transparent;
+	border-right: 90px solid transparent;
+	border-top: 75px solid #6495ED;
+}
+.triangle-grey{
+  position: absolute;
+  top: -16mm;
+  left: 151mm;
+  width: 0;
+  height: 0;
+  border-top: 80px solid transparent;
+	border-right: 75px solid grey;
+	border-bottom:80px solid transparent;
+  rotate: 45deg;
+}
+.triangle-up1{
+  position: absolute;
+  top: -3mm;
+  left: 167mm;
+  width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+  
+	border-bottom: 75px solid #1E90FF;
+}
+.bottom-border{
+  position:absolute;
+  top: 32mm;
+  width: 1000px;
+  height: 35px;
+  background-color: black;
+}
+/*body*/
