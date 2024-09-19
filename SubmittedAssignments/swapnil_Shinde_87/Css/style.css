@@ -1,0 +1,294 @@
+@font-face {
+    font-family: name;
+    src: url(../Font/Poppins-Light.ttf);
+  }
+  body .letter-wrapper {
+      border: 3pt solid burlywood;
+      margin: auto;
+      overflow: hidden;
+      box-shadow: 0mm 8mm 15mm grey;
+      /* background-color: #aedee230; */
+      left: auto;
+      top: auto;
+      width: 210mm;
+      height: 297mm;
+      /* background-image: url("../img/watermark2.png"); */
+      position: relative;
+      /*.main-letter*/
+    }
+    body .letter-wrapper .topbox1 {
+      position: absolute;
+      left: 0mm;
+      top: 0mm;
+      width: 210mm;
+      height: 30mm;
+      background-color:black ;
+      /* transform: rotate(42deg); */
+    }
+     body .letter-wrapper .topbox2 {
+      position: absolute;
+      left: 20mm;
+      top: 0mm;
+      width: 50mm;
+      height: 48mm;
+      background-color: #ffc105;
+      /* transform: rotate(42deg); */
+    }
+   body .letter-wrapper .topbox3 {
+      position: absolute;
+      left: 110mm;
+      top: 24mm;
+      width: 100mm;
+      height: 6mm;
+      background-color: #ffc105;
+      /* transform: rotate(42deg); */
+    }
+    body .letter-wrapper .logo1 img {
+      position: absolute;
+      left: 20mm;
+      top: -7mm;
+      height: 68mm;
+    }
+    body .letter-wrapper .logo2 img {
+      position: absolute;
+      right: -4mm;
+      top: 22mm;
+      height: 75mm;
+    }
+
+/* 
+    Header
+*/
+        body .letter-wrapper .letter-content header {
+            position: absolute;
+            left: 15mm;
+            top: -8mm;
+            width: 195mm;
+            height: 43mm;
+            /* border-bottom: 1mm solid red; */
+            color: #fff;
+        }
+
+        body .letter-wrapper .letter-content header .letter-org-name {
+            font-weight: bold;
+            position: absolute;
+            left: 89mm;
+            top: 15mm;
+            /* width: 100%; */
+            height: auto;
+            font-size: 25pt;
+          }
+          body .letter-wrapper .letter-content header .letter-org-details {
+            position: absolute;
+            left: 133mm;
+            top: 25mm;
+            /* width: 100%; */
+            height: auto;
+            font-size: 12pt;
+          }
+
+    body .letter-wrapper .letter-content header .letter-ref {
+      /* font-weight: bold; */
+      font-weight: bold;
+      position: absolute;
+      left: 6mm;
+      top: 63mm;
+      /* width: 50%; */
+      /* height: auto; */
+      font-size: 15pt;
+      line-height: 15pt;
+      color: black;
+    }
+    
+    body .letter-wrapper .letter-content header .letter-date {
+      font-weight: bold;
+      position: absolute;
+      right: 10mm;
+      top: 55mm;
+      width: 30%;
+      height: auto;
+      font-size: 12pt
+      font-family: 'Fran klin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: black;
+    }
+    body .letter-wrapper .letter-content .letter-body .letter-ref {
+      /* font-weight: bold; */
+      position: absolute;
+      left: 15mm;
+      top: 30mm;
+      width: 50%;
+      height: auto;
+      font-size: 12pt;
+      line-height: 1mm;
+    }
+    body .letter-wrapper .letter-content .letter-date {
+      font-weight: bold;
+      position: absolute;
+      right: 2mm ;
+      top: 99mm;
+      width: 30%;
+      height: auto;
+      font-size: 12pt;
+      /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    }
+    .letter-ref h2{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .letter-ref p{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+      position: absolute;
+      left: 0mm;
+      top: 90mm;
+      width: calc(100% - 45mm);
+      /* height: 20mm; */
+      margin-left: 15mm;
+      margin-right: 15mm;
+      font-size: 15pt;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;      
+    }
+    body .letter-wrapper .letter-content .letter-body {
+      position: absolute;
+      left: 6mm;
+      top: 45mm;
+      width: 100%;
+      height: 200mm;
+    }
+    body .letter-wrapper .letter-content .letter-body .letter-body-to {
+      position: absolute;
+      left: 15mm;
+      top: 48mm;
+      width: 100%;
+      height: 35mm;
+      /* font-weight: bold; */
+      font-size: 13pt;
+      margin: 0mm;
+    }
+    body .letter-wrapper .letter-content .letter-body .letter-body-to i{
+      /* position: absolute;
+      font-size: 14pt;
+      right: 40mm; */
+      margin: 2mm;
+      color: #e9b003;
+    } 
+      body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+        position: absolute;
+        left: 0mm;
+        top: 26mm;
+        width: auto;
+        height: auto;
+        margin-left: 15mm;
+        font-weight: bold;
+        font-size: 15pt;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      body .letter-wrapper .letter-content .letter-body .letter-body-message {
+        position: absolute;
+        left: 0mm;
+        top: 48mm;
+        width: auto;
+        height: 115mm;
+        margin-left: 3mm;
+        margin-right: 41mm;
+        font-size: 5mm;
+        font-family: name;
+        text-indent: 22mm;
+      }
+      /* body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+        font-size: 13pt;
+        text-indent: 15mm;
+        font-family: "Times New Roman", Times, serif;
+        overflow: auto;
+        text-align: justify;
+      } */
+      body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+        position: absolute;
+        left: 0mm;
+        top: 172mm;
+        width: auto;
+        height: auto;
+        margin-left: 3mm;
+        margin-right: 15mm;
+        font-size: 12pt;
+        font-weight: bold;
+        border-top: 1pt solid black;
+        padding-top: 2mm;
+      }
+      body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+        margin: 0mm;
+        font-size: 10pt;
+        font-weight: name;
+      }
+      body .letter-wrapper .letter-footer {
+        position: absolute;
+        bottom: 0mm;
+        /* top: 256mm; */
+        width: 210mm;
+        height: 7mm;
+        /* border: 1mm solid red; */
+        background-color: #e9b003;
+        /* z-index: 1; */
+      }
+      body .letter-wrapper .letter-footer .color {
+        position: absolute;
+        background-color: #040404;
+        height: 100%;
+        width: 30%;
+        right: 0mm;
+        color:#fafafa;
+        /* z-index: 1; */
+      }
+      body .letter-wrapper .letter-footer .fa {
+        width: 7mm;
+        height: 7mm;
+        border-radius: 50%;
+        padding: 1mm;
+        margin-right: 3mm;
+        background-color: #43a9bb;
+        text-align: center;
+        font-size: 12pt;
+      }
+      body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+        position: absolute;
+        right: 32mm;
+        top: 2mm;
+        /* width: auto; */
+        /* height: auto; */
+        /* margin-left: 15mm; */
+        margin-right: 17mm;
+        font-size: 20pt;
+        font-weight: bold;
+        text-shadow: 0.2mm 0.2mm white;
+      }
+      body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+        position: absolute;
+        right: 142mm;
+        top: 15mm;
+        width: 67%;
+        height: auto;
+        /* margin-left: 15mm; */
+        margin-right: 10mm;
+        font-size: 13pt;
+      }
+      body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+        position: absolute;
+        right: 0mm;
+        top: 15mm;
+        width: 87mm;
+        height: auto;
+        margin-left: 15mm;
+        margin-right: 15mm;
+        font-size: 13pt;
+      }
+      body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+        position: absolute;
+        right: 24mm;
+        top: 25mm;
+         width: 270%;
+        height: auto;
+        /* margin-left: 1mm; */
+        /* margin-right: 15mm; */
+        font-size: 13pt;
+      }
