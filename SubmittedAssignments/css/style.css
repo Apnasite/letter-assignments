@@ -1,5 +1,6 @@
-
-
+body {
+  /*.letter-background*/
+}
 body .letter-wrapper {
   border: 1pt solid;
   margin: auto;
@@ -11,18 +12,8 @@ body .letter-wrapper {
   height: 297mm;
   /* background-image: url("../img/watermark2.png"); */
   position: relative;
-  /*.main-letter*/ 
+  /*.main-letter*/
 }
-body .letter-wrapper .topbox {
-  left: 45;
-  right: 45;
-  width: 40 ;
-  height: 45;
-  background-color:blue ;
-  transform: (42deg);
-}
-
-
 body .letter-wrapper .topbox1 {
   position: absolute;
   left: -10mm;
@@ -88,11 +79,11 @@ body .letter-wrapper .bottombox3 {
   border-width: 29mm 234mm 102mm 39mm;
   border-color: transparent #aedee2 transparent transparent;
 }
-/* body .letter-wrapper .letter-content {
-  header
-  letter-body
-   /*footer *
-} */
+body .letter-wrapper .letter-content {
+  /*header*/
+  /*letter-body*/
+  /*footer*/
+}
 body .letter-wrapper .letter-content header {
   position: absolute;
   left: 0mm;

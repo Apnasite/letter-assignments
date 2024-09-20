@@ -84,11 +84,12 @@ body .letter-wrapper .bottombox3 {
   border-width: 29mm 234mm 102mm 39mm;
   border-color: transparent #aedee2 transparent transparent;
 }
+/*
 body .letter-wrapper .letter-content {
   /*header*/
   /*letter-body*/
-  /*footer*/
-}
+  /*footer*/ */
+
 body .letter-wrapper .letter-content header {
   position: absolute;
   left: 0mm;

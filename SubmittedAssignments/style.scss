@@ -1,4 +1,4 @@
-c@mixin absolute-div($left,$top,$width,$height)
+@mixin absolute-div($left,$top,$width,$height)
 {
 left:$left;
 top:$top;
@@ -10,21 +10,21 @@ body{
 	    border: 1pt solid;
 	  margin: auto;
 	  overflow: hidden;
-	  background-color:white;
-		@include absolute-div(auto,auto,210,297mm);
+	  background-color:#aedee230;
+		@include absolute-div(auto,auto,210mm,297mm);
 	 /* background-image: url("../img/watermark2.png"); */
-	/*  position:relative;
+	  position:relative;
 	  		.topbox1 {
 			  position: absolute;
 			  @include absolute-div(-10mm,-35mm,40mm,100mm);
 			   background-color: #d0edef;
 			  transform: rotate(42deg);
-					} */
+					}
 		.topbox2 {
 			position: absolute;
 			@include absolute-div(22mm,-25mm,20mm,120mm);
 			background-color: #aedee2;
-			transform: rotate(42deg); 
+			transform: rotate(42deg);
 					}
 		.topbox3{
 			position: absolute;
