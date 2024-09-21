@@ -1,0 +1,392 @@
+body 
+	.letter-background1 {
+    background-color: #ffbd54;
+    margin: auto;
+    padding: auto;
+    width: 426mm;
+    height: 434mm;       
+ }
+  body .letter-wrapper {
+    box-shadow: 5.0270833333mm 6.0854166667mm 29.36875mm rgb(5, 4, 4);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f1e8e8;
+    left: auto;
+    top: 21mm;
+    width: 222mm;
+    height: 322mm;
+    position: relative;
+    height: 393mm;
+    width: 266mm;
+
+  }
+   .tri1{
+        
+    left: 247mm;
+    top: 48mm;
+    width: -29mm;
+    height: 2mm;
+    border-style: solid;
+    border-width: 14.8167mm 20.4611mm 20.4611mm 0;
+    border-color: transparent #DC143C transparent transparent  !important;
+    position: absolute;
+    transform: rotate(359deg);
+  }
+  .rectbtm{
+    left: -36mm;
+    top: 357.5mm;
+    width: 328mm;
+    height: 27mm;
+    background: #bd1e0e !important;
+    transform: skewX(-50deg);
+    position: absolute;
+	}
+  .topbox2{
+    position: absolute;
+    top: -9mm;
+    left: 44mm;
+    height: 46mm;
+    width: 21mm;
+    background-color: #f36e34;
+    transform: skew(82deg 1deg);
+    z-index: 1;
+    transform: skew(-269deg, -63deg);
+  }
+  .topbox3{
+    position: absolute;
+    top: -1mm;
+    left: -22mm;
+    height: 53mm;
+    width: 119mm;
+    background-color: #a50c23;
+    transform: skew(-760deg);
+    z-index: 1;
+  }
+
+  .box1{
+    position: absolute;
+    left: -17mm;
+    top: -256mm;
+    height: 46mm;
+    width: 112mm;
+    background-color: #a50c23;
+    transform: skew(-35deg);
+    z-index: 1;
+}
+
+.box2{
+  position: absolute;
+  left: 65.616666667mm;
+  top: -256mm;
+  height: 27mm;
+  width: 206mm;
+  background-color: #df7266;
+  transform: skew(-6deg);
+}
+
+.tri2{
+  position: absolute;
+  top: 32mm;
+  left: -3mm;
+  width: 0;
+  height: 0;
+  border-top: 1.3229166667mm solid transparent;
+  border-left: 115.35833333mm solid #f5f2f2;
+  border-bottom: 121.17916667mm solid transparent;
+}
+
+.lines-1{
+  position: absolute;
+  left:5mm;
+  top:2mm;
+}
+
+.lines-2{
+  position: absolute;
+  right: 7mm;
+  top:280mm;
+}
+
+.line1{
+  position: absolute;
+  left: 5mm;
+  top: 61mm;
+  width: 8mm;
+  height: 2mm;
+  background-color: #d56e27;
+  z-index: 2;
+  transform: rotate(47deg);
+}
+.line2{
+  position: absolute;
+  left: 5mm;
+  top: 61mm;
+  width: 8mm;
+  height: 2mm;
+  background-color: #d56e27;
+  z-index: 2;
+  transform: rotate(-54deg);
+}
+.line3{
+  position: absolute;
+  left: 5mm;
+  top: 73mm;
+  width: 8mm;
+  height: 2mm;
+  background-color: #d56e27;
+  transform: rotate(-49deg);
+}
+.line4{
+  position: absolute;
+  left: 5mm;
+  top: 73mm;
+  width: 8mm;
+  height: 2mm;
+  background-color: #d56e27;
+  transform: rotate(52deg);
+}
+.line5{
+  position: absolute;
+  left: 5mm;
+  top: 85mm;
+  width: 8mm;
+  height: 2mm;
+  background-color: #d56e27;
+  transform: rotate(44deg);
+}
+.line6{
+  position: relative;
+  left: -125mm;
+  top: 85mm;
+  width: 8mm;
+  height: 2mm;
+  background-color: #d56e27;
+  transform: rotate(-46deg);
+}
+
+
+.line7{
+  position: relative;
+  left: 120mm;
+  top: 344mm;
+  width: 8mm;
+  height: 2mm;
+  background-color: #c52121;
+  transform: rotate(-43deg);
+}
+.line8{
+  position: absolute;
+  left: 249mm;
+  top: 346mm;
+  width: 8mm;
+  height: 2mm;
+  background-color: #c52121;
+  transform: rotate(-139deg);
+}
+.line9{
+  position: absolute;
+  left: 249mm;
+  top: 333mm;
+  width: 9mm;
+  height: 2mm;
+  background-color: #c52121;
+  transform: rotate(-43deg);
+}
+.line10{
+  position: absolute;
+  left: 249mm;
+  top: 333mm;
+  width: 9mm;
+  height: 2mm;
+  background-color: #c52121;
+  transform: rotate(-130deg);
+}
+.line11{
+  position: absolute;
+  left: 249mm;
+  top: 321mm;
+  width: 9mm;
+  height: 2mm;
+  background-color: #c52121;
+  transform: rotate(-43deg);
+}
+.line12{
+  position: absolute;
+  left: 249mm;
+  top: 321mm;
+  width: 9mm;
+  height: 2mm;
+  background-color: #c52121;
+  transform: rotate(-126deg);
+}
+  
+
+
+  body .letter-wrapper .letter-content header {
+	position: absolute;
+	left: 0mm;
+	top: 0mm;
+	width: 100%;
+	height: 45mm;
+	
+  }
+  
+  body .letter-wrapper .letter-content header .letter-org-logo img{
+    position: absolute;
+    top: 5mm;
+    left: 13mm;
+    width: 54mm;
+    height: 43mm;
+    z-index: 3;
+  }
+  body .letter-wrapper .letter-content header .letter-org-details {
+    position: absolute;
+    top: 26mm;
+    width: 100%;
+    height: auto;
+    font-size: 9pt;
+    text-align: center;
+    font-weight: 100;
+	}
+  body .letter-wrapper .letter-content header .letter-ref {
+    /* font-weight: bold; */
+    position: absolute;
+    left: 192mm;
+    top: 45mm;
+    width: 30%;
+    height: auto;
+    font-size: 18pt;
+    font-family: bold;
+  }
+  body .letter-wrapper .letter-content header .letter-date {
+    position: absolute;
+    left: 192mm;
+    top: 57mm;
+    width: 30%;
+    height: auto;
+    font-size: 18pt;
+    font-family: bold;
+  }
+  body .letter-wrapper .letter-content .letter-body {
+	position: absolute;
+	left: 0mm;
+	top: 45mm;
+	width: 100%;
+	height: 200mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-to {
+    position: absolute;
+    left: 21mm;
+    top: 26mm;
+    width: 70mm;
+    height: 47mm;
+    font-family: serif;
+    /* font-weight: bold; */
+    font-size: 20pt;
+    margin: 0mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+    position: absolute;
+    left: 7mm;
+    top: 84mm;
+    width: calc(100% - 45mm);
+    height: 20mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 21pt;
+    font-weight: bold;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+    position: absolute;
+    left: 7mm;
+    top: 100mm;
+    width: auto;
+    height: auto;
+    margin-left: 15mm;
+    font-weight: bold;
+    font-size: 21pt;
+
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-message {
+    position: absolute;
+    left: 7mm;
+    top: 108mm;
+    width: auto;
+    height: 115mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+	    font-size: 23pt;
+    text-indent: 3mm;
+    font-family: unset;
+    overflow: auto;
+    text-align: justify;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+    position: absolute;
+    left: 164mm;
+    top: 265mm;
+    width: auto;
+    height: 43mm;
+    border-top: 1.0583333333mm solid black;
+    
+    margin-left: 19mm;
+    margin-right: 15mm;
+    margin-top: 2mm;
+    font-size: 17pt;
+    line-height: 2.6;
+    font-weight: bold;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-sign p{
+    position: absolute;
+    left:10mm;
+    top:10mm;
+    border-bottom: solid;
+  }
+  body .letter-wrapper .letter-content .letter-footer {
+	position: absolute;
+	left: 0mm;
+	top: 256mm;
+	width: 100%;
+	height: 35mm;
+  }
+  body .letter-wrapper .letter-content .letter-footer .fa {
+    position: absolute;
+    left: -18mm;
+    top: 1mm;
+    width: 6mm;
+    height: 6mm;
+    border-radius: 50%;
+    padding: 3mm;
+    margin-right: -5mm;
+    background-color: #d56e27;
+    font-size: 23pt;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+    position: absolute;
+    left: 22mm;
+    top: 78mm;
+    font-size: 27pt;
+    font-family: serif;
+    font-weight: bold;
+    color: #b17d1e;
+  }
+  
+ 
+  body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+    position: absolute;
+    left: 27mm;
+    top: 57mm;
+    width: 100%;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 15pt;
+
+  }
+
+
+  /*body*/
+  
