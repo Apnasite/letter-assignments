@@ -92,16 +92,16 @@
 .letter-org-name {
     position: absolute;
     left: 38mm;
-    top: 18mm;
-    font-size: 19pt;
+    top: 15mm;
+    font-size: 20pt;
     margin-left: 15mm;
 }
-.letter-org-namedetails {
+.letter-org-name p{
     position: absolute;
-    left: 38mm;
-    top: 26mm;
+    left: 3mm;
+    top: 3mm;
     font-size: 14pt;
-    margin-left: 15mm;
+    width: 36mm;
 }
 
 .letter-org-details {
@@ -113,16 +113,16 @@
     font-size: 11.3pt;
     line-height: 1mm;
 }
-.letter-icon {
+.letter-footer{
     position: absolute;
     left: 181mm;
-    top: 12mm;
+    top: 20mm;
     width: 9mm;
     height: 30mm;
     overflow: hidden;
     background-color: red;
 }
-.icon-box1 {
+.letter-org-phone i{
     position: absolute;
     left: 0mm;
     top: 0mm;
@@ -133,18 +133,18 @@
     text-align: center;
     background-color: #ff354f;
 }
-.icon-box2 {
+.letter-org-email {
     position: absolute;
     left: 0mm;
     top: 10mm;
     width: 9mm;
-    height: 20mm;
+    height: 10mm;
     font-size: 19.84pt;
     color: white;
     text-align: center;
     background-color: #cc1d34;
 }
-.icon-box3 {
+.letter-org-address {
     position: absolute;
     left: 0mm;
     top: 20mm;
@@ -155,9 +155,9 @@
     text-align: center;
     background-color: #a01b2f;
 }
-.letter-icon i {
-    font-size: 10pt;
-    line-height: 8mm;
+.letter-footer i {
+    font-size: 13pt;
+    line-height: 10mm;
 }
 .letter-ref {
     left: 20mm;
@@ -232,14 +232,15 @@
 }
 .letter-body-sign {
     position: absolute;
-    left: 0mm;
-    top: 190mm;
+    left: 20mm;
+    top: 200mm;
     width: 30mm;
-    height: 18mm;
+    height: 10mm;
     font-size: 12pt;
-    margin-left: 20mm;
 }
-.letter-body-sign .signature {
+.letter-body-sign p {
+    position: absolute;
+    top: -18mm;
     font-family: "sign", cursive;
     font-weight: 400;
     font-style: normal;
