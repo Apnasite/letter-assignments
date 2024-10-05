@@ -206,15 +206,15 @@
                       }
                       .letter-org-phone{
                         position: relative;
-                        margin-left: 49mm;
+                        margin-left: 42mm;
                         color: white;
                         font-size: 8pt;
-                        margin-top: 8mm;
+                        margin-top: 22mm;
                       }
                       .letter-org-email{
                         position: absolute;
                         color: white;
-                        margin-left: 76mm;
+                        margin-left: 80mm;
                         margin-top: -3mm;
                         font-size: 8pt;
                       }
@@ -234,10 +234,10 @@
                       }
                       .letter-org-address{
                         position: absolute;
-                        margin-left: 115mm;
+                        margin-left: 130mm;
                         font-size: 8pt;
                         color: white;
-                        margin-top: -2mm;
+                        margin-top: -3mm;
                       }
                      
 
