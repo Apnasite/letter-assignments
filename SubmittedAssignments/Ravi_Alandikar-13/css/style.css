@@ -1,0 +1,384 @@
+body .letter-wrapper {
+  margin: auto;
+  overflow: hidden;
+  background-color: #9c99994f;
+  left: auto;
+  top: auto;
+  width: 526mm;
+  height: 488mm;
+  position: relative;
+}
+
+body .letter-wrapper .container1 {
+  position: absolute;
+  height: 430mm;
+  width: 317mm;
+  left: 58mm;
+  top: 15mm;
+  background-color: rgb(255, 255, 255);
+  margin: 8mm 45mm;
+  box-shadow: 7mm 8mm 20px 10px #8b8484;
+}
+
+body .letter-wrapper .box1 {
+  position: absolute;
+  background-color: #131701c9;
+  margin-top: 15mm;
+  height: 40mm;
+  width: 210mm;
+  left: 00mm;
+  top: 0mm;
+}
+body .letter-wrapper .BOX1 {
+  position: relative;
+  background-color: rgb(239, 59, 149);
+  margin-top: -5mm;
+  height: 50mm; 
+  width: 10mm;
+  left: 210mm;
+}
+
+body .letter-wrapper .box2 {
+  position: relative;
+  background-color: rgb(193, 180, 180);
+  height: 20mm;
+  width: 317mm;
+  left: 0mm;
+  top: 1000mm;
+}
+
+body .letter-wrapper .box3 {
+  position: absolute;
+  background-color: rgb(239, 59, 149);
+  height: 20mm;
+  width: 317mm;
+  left: 0mm;
+  bottom: 0mm;
+}
+
+.logo2 {
+  position: absolute;
+  top: 375mm;
+  left: 38mm;
+  height: 10mm;
+  width: 10mm;
+  /* border-radius: 50%; */
+  background-color: rgb(230, 61, 129);
+  /* background-color: rgb(220, 194, 146); */
+}
+
+.logo3 {
+  position: absolute;
+  top: 375mm;
+  left: 109mm;
+  height: 10mm;
+  width: 10mm;
+  /* border-radius: 50%; */
+  background-color: rgb(201, 140, 27);
+}
+
+
+
+.logo4 {
+  position: absolute;
+  top: 375mm;
+  left: 200mm;
+  height: 10mm;
+  width: 10mm;
+  /* border-radius: 50%; */
+  background-color: rgb(230, 61, 129);
+}
+
+.logo6 {
+  position: absolute;
+  top: 376mm;
+  left: 39mm;
+  height: 50mm;
+  width: 50mm;
+  background-image: url("../img/phone.png");
+  background-repeat: no-repeat;
+  background-size: 16%;
+}
+
+.logo7 {
+  position: absolute;
+  top: 376mm;
+  left: 110mm;
+  height: 50mm;
+  width: 50mm;
+  background-image: url("../img/mail.png");
+  background-repeat: no-repeat;
+  background-size: 16%;
+}
+
+.logo8 {
+  position: absolute;
+  top: 376mm;
+  left: 201mm;
+  height: 50mm;
+  width: 50mm;
+  background-image: url("../img/location.png");
+  background-repeat: no-repeat;
+  background-size: 16%;
+}
+
+body .letter-wrapper .letter-content {
+  /*header*/
+  /*letter-body*/
+  /*footer*/
+  position: absolute;
+}
+
+body .letter-wrapper .letter-content header {
+  position: absolute;
+  height: 430mm;
+  width: 317mm;
+  margin: 0mm;
+  top: 7mm;
+  left: 46mm;
+}
+
+body .letter-wrapper .letter-content header .letter-org-logo {
+  font-weight: bold;
+  position: absolute;
+  left: 90mm;
+  top: 15mm;
+  width: 63mm;
+  height: 70mm;
+  
+}
+
+body .letter-wrapper .letter-content header .letter-org-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+body .letter-wrapper .letter-content header .letter-org-name {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 38mm;
+  left: 165mm;
+  font-size: 30pt;
+}
+
+body .letter-wrapper .letter-content header .letter-org-details {
+  position: absolute;
+  top: 52mm;
+  left: 167mm;
+  font-size: 15pt !important;
+  color: #bdbdc3;
+  letter-spacing: 2mm;
+}
+
+body .letter-wrapper .letter-content header .letter-ref {
+  font-weight: bold;
+  position: absolute;
+  left: 95mm;
+  top: 90mm;
+  width: 50%;
+  height: auto;
+  font-size: 17pt;
+}
+
+body .letter-wrapper .letter-content header .letter-date {
+  font-weight: bold;
+  position: absolute;
+  left: 274mm;
+  top: 92mm;
+  width: 50%;
+  height: auto;
+  font-size: 17pt;
+}
+
+body .letter-wrapper .letter-content .letter-body {
+  position: absolute;
+  top: 95mm;
+  width: 300mm;
+  height: 300mm;
+  margin-left: 111mm;
+  margin-top: 20mm;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-to {
+  position: absolute;
+  width: 150mm;
+  height: 150mm;
+  font-size: 15pt;
+  color: rgb(135, 134, 134);
+  top: 26mm;
+  margin-left: 30mm;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-to p {
+  margin-top: -5mm;
+  padding: 4px;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-to1 {
+  position: absolute;
+  left: 15mm;
+  top: -6mm;
+  width: calc(100% - 45mm);
+  height: 20mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 15pt;
+  font-weight: bold;
+  color: rgb(230, 61, 129);
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-to2 {
+  position: absolute;
+  left: 14mm;
+  top: 8mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  font-weight: bold;
+  font-size: 17pt;
+  color: #0f0f0f85;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+  font-weight: bold;
+  position: absolute;
+  left: 30mm;
+  top: 62mm;
+  width: 30%;
+  height: auto;
+  font-size: 20pt;
+  color: #100e0eba;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+  font-weight: bold;
+  position: absolute;
+  left: 31mm;
+  top: 75mm;
+  width: 30%;
+  height: auto;
+  font-size: 20pt;
+  color: #100e0eba;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-message {
+  position: absolute;
+  top: 91mm;
+  font-size: 12pt;
+  color: rgb(135, 134, 134);
+  width: 245mm;
+  left: 31mm;
+
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+  margin-top: -4mm;
+  word-break: break-all;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+  font-size: 16.6pt;
+  font-family: "Times New Roman", Times, serif;
+  overflow: auto;
+  text-align: justify;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+  position: absolute;
+  left: 15mm;
+  top: 240mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  margin-bottom: 800px;
+  font-size: 10pt;
+  font-weight: bold;
+  /* color: #f47a00; */
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-sign img {
+  height: 33%;
+  width: 25%;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+  margin: 0mm;
+  font-size: 16pt;
+  font-weight: normal;
+}
+
+body .letter-wrapper .letter-content .letter-footer {
+  position: absolute;
+  left: -9mm;
+  margin-top: 1210px;
+  top: 0mm;
+  width: 100%;
+  height: 35mm;
+  color: rgb(27, 26, 26);
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+  position: absolute;
+  left: 191mm;
+  top: 435mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 35pt;
+  font-weight: bold;
+  color: black;
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+  position: absolute;
+  left: 148mm;
+  top: 82mm;
+  width: 100mm;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+  /* background-image: url("../img/phone.png"); */
+  /* background-repeat: no-repeat; */
+
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-phone p {
+  margin-top: -4mm;
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+  position: absolute;
+  left: 200mm;
+  top: 82mm;
+  width: 87mm;
+  height: auto;
+  margin-left: 35mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-email p {
+  margin-top: -4mm;
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+  position: absolute;
+  left: 310mm;
+  top: 82mm;
+  width: 150mm;
+  height: auto;
+  /* background-image: url("../img/location.png"); */
+  background-repeat: no-repeat;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-address p {
+  margin-top: -4mm;
+}
+
+/*body*/
