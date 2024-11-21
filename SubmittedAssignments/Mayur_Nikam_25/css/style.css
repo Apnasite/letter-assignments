@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  padding: 100px;
+}
+
+.letterhead {
+  background-color: white;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  position: relative; /* Important for pseudo-elements */
+}
+
+/* Right side black top half line */
+.letterhead::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 60%; /* Top half only */
+  right: 0;
+  width: 20px; /* Adjust the width for the line */
+  background-color: #333; /* Black color for the top half of the right side */
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 90%);
+}
+
+/* Right side red bottom half line */
+.letterhead .right-bottom {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 50%; /* Bottom half only */
+  right: 0;
+  width: 20px; /* Adjust the width for the line */
+  background-color: #e53935; /* Red color for the bottom half of the right side */
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.logo img {
+  max-width: 250px;
+}
+
+.company-info {
+  text-align: right;
+}
+
+.company-info h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.company-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Contact Info */
+.contact-info {
+  margin-top: 20px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20px;
+}
+
+.contact-info p {
+  color: #e53935;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Date */
+.date {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Body */
+.body {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+.body p {
+  margin-bottom: 20px;
+}
+
+/* Signature */
+.signature {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.signature p:first-child {
+  font-family: 'Cursive', sans-serif;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  border-top: 2px solid pink;
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: left;
+  font-size: 12px;
+  color: #666;
+}
