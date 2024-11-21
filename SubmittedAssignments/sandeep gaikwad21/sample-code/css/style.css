@@ -1,5 +1,4 @@
 
-
 body .letter-wrapper {
   border: 1pt solid;
   margin: auto;
@@ -11,18 +10,9 @@ body .letter-wrapper {
   height: 297mm;
   /* background-image: url("../img/watermark2.png"); */
   position: relative;
-  /*.main-letter*/ 
-}
-body .letter-wrapper .topbox {
-  left: 45;
-  right: 45;
-  width: 40 ;
-  height: 45;
-  background-color:blue ;
-  transform: (42deg);
-}
-
-
+  /*.main-letter*/
+  
+/* }
 body .letter-wrapper .topbox1 {
   position: absolute;
   left: -10mm;
@@ -30,17 +20,17 @@ body .letter-wrapper .topbox1 {
   width: 40mm;
   height: 100mm;
   background-color: #d0edef;
-  transform: rotate(42deg);
-}
-body .letter-wrapper .topbox2 {
+  transform: rotate(42deg); 
+} */
+/* body .letter-wrapper .topbox2 {
   position: absolute;
   left: 22mm;
   top: -25mm;
   width: 20mm;
   height: 120mm;
   background-color: #aedee2;
-  transform: rotate(42deg);
-}
+  transform: rotate(42deg); */
+ /*}
 body .letter-wrapper .topbox3 {
   position: absolute;
   left: 39mm;
@@ -88,24 +78,25 @@ body .letter-wrapper .bottombox3 {
   border-width: 29mm 234mm 102mm 39mm;
   border-color: transparent #aedee2 transparent transparent;
 }
-/* body .letter-wrapper .letter-content {
-  header
-  letter-body
-   /*footer *
-} */
+body .letter-wrapper .letter-content {
+  /*header*/
+  /*letter-body*/
+  /*footer*/
+/*}
 body .letter-wrapper .letter-content header {
   position: absolute;
   left: 0mm;
   top: 0mm;
   width: 100%;
   height: 45mm;
-  border-bottom: 1mm solid;
+  border-bottom: 1mm solid; */
+  
 }
 body .letter-wrapper .letter-content header .letter-org-logo {
   font-weight: bold;
   position: absolute;
-  left: 150mm;
-  top: -5mm;
+  left: 0mm;
+  top: 21mm;
   width: 50mm;
   height: 50mm;
   margin: 5mm;
@@ -113,6 +104,14 @@ body .letter-wrapper .letter-content header .letter-org-logo {
 body .letter-wrapper .letter-content header .letter-org-logo img {
   width: 100%;
   height: 100%;
+}
+.topbox {
+  left:100mm;
+  top: 50mm;
+  width: 60mm;
+  height: 50mm;
+  border-radius: 20px;
+  color: blue;
 }
 body .letter-wrapper .letter-content header .letter-org-name {
   font-weight: bold;

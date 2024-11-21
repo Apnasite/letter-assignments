@@ -58,11 +58,6 @@ body .letter-wrapper .bottombox1 {
     position: relative;
 }
 
-body .letter-wrapper .letter-content {
-  /*header*/
-  /*letter-body*/
-  /*footer*/
-}
 body .letter-wrapper .letter-content header {
   position: absolute;
   left: 0mm;

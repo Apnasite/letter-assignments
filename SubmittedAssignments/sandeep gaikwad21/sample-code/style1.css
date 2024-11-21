@@ -1,0 +1,57 @@
+.letter-wrapper {
+    border: 1pt solid;
+    margin: auto;
+    overflow: hidden;
+    background-color: #aedee230;
+    left: auto;
+    top: auto;
+    width: 210mm;
+    height: 297mm;
+    /* background-image: url("../img/watermark2.png"); */
+    position: relative;
+    /*.main-letter*/ 
+  }
+  .topbox1 {
+    position: absolute;
+    width: 520px;
+    height: 101px;
+    transform: skew(-26deg);
+    background: blue;
+    top: 35mm;
+    left: 79mm;
+    border-top-left-radius: 5mm;
+    rotate: 0deg
+  }
+  .topbox2 {
+    position: absolute;
+    width: 805px;
+    height: 50px;
+    background-color: blue;
+    top: 285mm;
+    left: -3mm;
+  }
+    body .letter-wrapper .letter-content 
+    .letter-body .letter-body-message p {
+      font-size: 12pt;
+      text-indent: 15mm;
+      overflow: auto;
+      text-align: justify;
+  }
+
+
+.letter-org-logo {
+  position: absolute;
+  top: 7mm;
+  left: 5mm;
+}
+.letter-org-logo img {
+  height: 50mm;
+    width: 58mm;
+}
+
+.letter-body-salutation {
+  position: absolute;
+  top: 50mm;
+  left: 10mm;
+}
+  
