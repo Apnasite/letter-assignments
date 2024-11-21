@@ -1,0 +1,382 @@
+body {
+  /*.letter-background*/
+}
+body .letter-wrapper {
+  border: 1pt solid;
+  margin: auto;
+  overflow: hidden;
+  /*background-color: #aedee230;*/
+  background-color: #ffffff;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 297mm;
+  /* background-image: url("../img/watermark2.png"); */
+  position: relative;
+  /*.main-letter*/
+}
+body .letter-wrapper .topbox1 {
+  /*position: absolute;
+  left: -10mm;
+  top: -35mm;
+  width: 40mm;
+  height: 100mm;
+  background-color: #d0edef;
+  transform: rotate(42deg);*/
+  left: -9mm;
+    top: auto;
+    width: 142.5mm;
+    height: 14.5mm;
+    background: #08090a !important;
+    transform: skewX(-50deg);
+    position: relative;
+}
+body .letter-wrapper .tri1{
+  /*left: 264mm;
+    top: 104mm;
+    width: 0mm;
+    height: 0mm;
+    border-style: solid;
+    border-width: 37pt 55pt 34pt 0;
+    border-color: transparent #DC143C transparent transparent !important;
+    position: absolute;*/
+    position: absolute;
+    left: 155mm;
+    top: -52mm;
+    width: 70mm;
+    height: 75mm;
+    background-color: #08090a;
+    transform: rotate(47deg);
+}
+body .letter-wrapper .tri2{
+  position: absolute;
+    left: 152mm;
+    top: -64mm;
+    width: 74mm;
+    height: 77mm;
+    background-color: #dc143c;
+    transform: rotate(47deg);
+}
+body .letter-wrapper .shape1{
+  left: 160mm;
+    top: -23mm;
+    width: 35mm;
+    height: 65mm;
+    border-left: 2.9pt solid #dc143c !important;
+    border-bottom: 2.9pt solid #dc143c !important;
+    transform: rotate(-43deg);
+    position: absolute;
+}
+body .letter-wrapper .topbox2 {
+  position: absolute;
+  left: 22mm;
+  top: -25mm;
+  width: 20mm;
+  height: 120mm;
+  background-color: #aedee2;
+  transform: rotate(42deg);
+}
+body .letter-wrapper .topbox3 {
+  position: absolute;
+  left: 39mm;
+  top: -50mm;
+  width: 20mm;
+  height: 170mm;
+  background-color: #d0edef;
+  transform: rotate(42deg);
+}
+body .letter-wrapper .topboxtitle {
+  position: absolute;
+  left: 54mm;
+  top: 0mm;
+  width: 115mm;
+  height: 45mm;
+  background-color: #39abb685;
+  transform: skewX(-112deg);
+}
+body .letter-wrapper .bottombox1 {
+  position: absolute;
+  left: -50mm;
+  top: 260mm;
+  width: 312mm;
+  height: 75mm;
+  background-color: #239bb1d9;
+}
+body .letter-wrapper .bottombox2 {
+  position: absolute;
+  left: -20mm;
+  top: 271mm;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-width: 15mm 0mm 90mm 103mm;
+  border-color: transparent transparent transparent #aedee299;
+  transform: rotate(17deg);
+}
+body .letter-wrapper .bottombox3 {
+  position: absolute;
+  left: 4mm;
+  top: 252mm;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-width: 29mm 234mm 102mm 39mm;
+  border-color: transparent #aedee2 transparent transparent;
+}
+body .letter-wrapper .downbox1{
+  /*left: 85mm;*/
+  right: -42mm;
+    top: 281mm;
+    width: 160mm;
+    height: 15mm;
+    background: #08090a !important;
+    transform: skewX(-50deg);
+    position: absolute;
+}
+body .letter-wrapper .tri3{
+  position: absolute;
+    left: -18mm;
+    top: 273mm;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-width: 0mm 0mm 84mm 92mm;
+    z-index: 144;
+    border-color: transparent transparent transparent #08090a;
+    transform: rotate(40deg);
+}
+body .letter-wrapper .tri4{
+  position: absolute;
+    left: -17mm;
+    top: 285mm;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-width: 0mm 0mm 84mm 92mm;
+    z-index: 144;
+    border-color: transparent transparent transparent #dc143c;
+    transform: rotate(40deg);
+}
+body .letter-wrapper .shape2r{
+  position: absolute;
+    left: 66mm;
+    top: 226mm;
+    width: 1mm;
+    height: 122mm;
+    background-color: #dc143c;
+    transform: rotate(130deg);
+}
+body .letter-wrapper .shape2l{
+  left: 13px;
+    top: 242mm;
+    width: 1mm;
+    height: 45mm;
+    background: #dc143c !important;
+    transform: rotate(44deg);
+    position: absolute;
+}
+body .letter-wrapper .letter-content {
+  /*header*/
+  /*letter-body*/
+  /*footer*/
+}
+body .letter-wrapper .letter-content header {
+  position: absolute;
+  left: 0mm;
+  top: 0mm;
+  width: 100%;
+  height: 45mm;
+  border-bottom: 0mm solid;
+}
+body .letter-wrapper .letter-content header .letter-org-logo {
+  font-weight: bold;
+  position: absolute;
+  left: 5mm;
+  top: 25mm;
+  width: 45mm;
+  height: 45mm;
+  margin: 5mm;
+}
+body .letter-wrapper .letter-content header .letter-org-logo img {
+  width: 100%;
+  height: 100%;
+}
+body .letter-wrapper .letter-content header .letter-org-name {
+  font-weight: bold;
+  position: absolute;
+  left: 53mm;
+  top: 45mm;
+  width: 100%;
+  height: auto;
+  font-size: 25pt;
+}
+body .letter-wrapper .letter-content header .letter-org-details {
+  position: absolute;
+  left: 73mm;
+  top: 58mm;
+  width: 100%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content header .letter-ref {
+  font-weight: bold;
+  position: absolute;
+  left: 15mm;
+  top: 50mm;
+  width: 50%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content header .letter-date {
+  font-weight: bold;
+  position: absolute;
+  left: 165mm;
+  top: 50mm;
+  width: 30%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-body {
+  position: absolute;
+  left: 0mm;
+  top: 45mm;
+  width: 100%;
+  height: 200mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-to {
+  position: absolute;
+  left: 15mm;
+  top: 45mm;
+  width: 70mm;
+  height: 35mm;
+  font-weight: bold;
+  font-size: 13pt;
+  margin: 0mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+  position: absolute;
+  left: 0mm;
+  top: 35mm;
+  width: calc(100% - 45mm);
+  height: 20mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 18pt;
+  font-weight: bold;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+  position: absolute;
+  left: 0mm;
+  top: 70mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  font-weight: bold;
+  font-size: 15pt;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message {
+  position: absolute;
+  left: 0mm;
+  top: 80mm;
+  width: auto;
+  height: 115mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+  font-size: 13pt;
+  text-indent: 15mm;
+  font-family: "Times New Roman", Times, serif;
+  overflow: auto;
+  text-align: justify;
+}
+body .letter-wrapper .letter-content .letter-body .letter-sign{
+  /*width: 100%;
+  height: 100%;
+  top: 200mm;*/
+  font-weight: bold;
+    /*position: absolute;*/
+    /*left: 0mm;*/
+    margin-left: 5mm;
+    /*top: 160mm;*/
+    width: 50mm;
+    height: 25mm;
+    margin-top: 160mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+  position: absolute;
+  left: 0mm;
+  top: 180mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 12pt;
+  font-weight: bold;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+  margin: 0mm;
+  font-size: 10pt;
+  font-weight: normal;
+}
+body .letter-wrapper .letter-content .letter-footer {
+  position: absolute;
+  left: 85mm;
+  top: 210mm;
+  width: 70%;
+  height: 35mm;
+}
+body .letter-wrapper .letter-content .letter-footer .fa {
+  width: 10mm;
+  height: 7mm;
+  border-radius: 50%;
+  padding: 1mm;
+  margin-right: 3mm;
+  background-color: #dc143c;
+  text-align: center;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+  position: absolute;
+  left: 32mm;
+  top: 10mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 20pt;
+  font-weight: bold;
+  text-shadow: 0.2mm 0.2mm white;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+  position: absolute;
+  left: 0mm;
+  top: 12mm;
+  width: 40%;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+  position: absolute;
+  left: 0mm;
+  top: 20mm;
+  width: 87mm;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+  position: absolute;
+  left: 0mm;
+  top: 30mm;
+  width: 100%;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+
+/*body*/
