@@ -1,0 +1,83 @@
+body{
+  background-color: gray;
+}
+.container{
+  height: 880px;
+  width: 700px;
+  border: 1px solid white;
+  margin-left: 250px;
+  background-color: white;
+  border-bottom: 40px solid yellow;
+}
+.yellow{
+  width: 700px;
+  height: 70px;
+  border: 1px solid yellow;
+  background-color: yellow;
+  margin-top: 30px;
+}
+h3{
+  float: right;
+  margin-right: 70px;
+  margin-top: 40px;
+  color:rgb(142, 126, 126) ;
+}
+h2{
+  margin-top: 70px;
+  margin-left: 60px;
+}
+.demo{
+  width: 50px;
+  height: 30px;
+  background-color: rgb(60, 60, 145);
+  float: left;
+  margin-top: 20px ;
+
+}
+.demoo{
+  width: 350px;
+  height: 30px;
+  background-color: rgb(60, 60, 145);
+  float: right;
+  margin-top: 20px;
+  margin-right: 110px;
+}
+.demo1{
+text-align-last: center;
+text-align-last: left;
+margin-left: 60px;
+margin-right: 50px;
+font-size: 20px;
+color: rgb(142, 126, 126);
+margin-top: 30px;
+margin-bottom: 40px;
+
+}
+#demo2{
+margin-left: 57px;
+font-size: 40px;
+font-family: 'Brush Script MT', cursive;
+}
+#demo3{
+margin-left: 57px;
+font-size: 20px;
+}
+#demo4{
+margin-left: 57px;
+color: grey;
+}
+.logo{
+float: right;
+margin-right: 80px;
+color: rgb(142, 126, 126);
+line-height: 10px;
+text-align-last: right;
+
+}
+.foot{
+height: 25px;
+width: 300px;
+background-color:rgb(60, 60, 145);
+margin-top: 225px;
+
+}
