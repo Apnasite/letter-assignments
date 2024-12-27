@@ -1,0 +1,195 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper.card-front{
+  position:absolute;
+  width: 88.9mm;
+  height: 50.8mm;
+  background-color:rgb(249, 150, 31);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.3) 0pt 14.25pt 28.5pt, rgba(0, 0, 0, 0.22) 0pt 11.25pt 9pt;
+
+    border-radius: 5mm;
+
+}
+
+.card1-background .bottomrect1{
+  left: 65.5mm;
+  top: 42.6mm;
+  height: 7.2mm;
+  width: 27.8mm;
+  background: rgb(254, 246, 230) !important;
+  transform: skewX(-50deg);
+  position: absolute;
+}
+
+.card1-background .bottomrect2{
+  left: 26.5mm;
+  top: 42.6mm;
+  height: 7.2mm;
+  width: 38mm;
+  background: rgb(26, 25, 25) !important;
+  transform: skewX(-50deg);
+  position: absolute;
+}
+
+.card1-background .bottomrect3{
+  left: -4mm;
+  top: 42.6mm;
+  height: 7.2mm;
+  width: 29.5mm;
+  background: rgb(254, 246, 230) !important;
+  transform: skewX(-50deg);
+  position: absolute;
+}
+
+.card1-content
+{
+  margin-left: 2.11mm;
+  position: absolute;
+  top: 15%;
+  left:-0.2mm;
+  margin-top: 7pt;
+  text-align: start;
+  color: #333;
+}
+.card1-content .org-website
+{
+  position: relative;
+  top:95pt;
+  left: 86pt;
+  font-style: normal;
+  font-size: 11pt;
+  color:white;
+
+}
+
+.org-img{
+
+  position: absolute;
+  top: -4mm;
+  left: 73pt;
+  height: 35mm;
+  width: 34mm;
+  z-index: 1;
+}
+
+
+.card-wrapper.card-back{
+  position:absolute;
+  width: 88.9mm;
+  height: 50.8mm;
+  background-color: rgb(254, 246, 230);
+  overflow: hidden;
+  top: 67mm;
+  box-shadow: rgba(0, 0, 0, 0.3) 0pt 14.25pt 28.5pt, rgba(0, 0, 0, 0.22) 0pt 11.25pt 9pt;
+
+    border-radius: 5mm;
+
+}
+
+.card2-background .bottomrect1{
+  left: -7mm;
+  top: 29.9mm;
+  height: 21.2mm;
+  width: 64mm;
+  background:rgb(249, 150, 31) !important;
+  transform: skewX(33deg);
+  position: absolute;
+  z-index: 1;
+}
+.card2-background .bottomrect2{
+  left: -8mm;
+  top: 24.9mm;
+  height: 15.2mm;
+  width: 67mm;
+  background: rgb(26, 25, 25) !important;
+  transform: skewX(-47deg);
+  position: absolute;
+}
+
+.card2-background .bottomrect3{
+  position: absolute;
+  height: 15mm;
+  width: 15mm;
+  bottom: 5mm;
+  right: -12mm;
+  background-color: rgb(249, 150, 31);
+  border-radius: 50%;
+}
+
+
+.card2-content .org-img{
+
+  position: absolute;
+  top: -3mm;
+  left: 73pt;
+  height: 33mm;
+  width: 35mm;
+  z-index: 1;
+}
+
+.card2-content .party-name
+{
+  font-family: "Roboto Slab", serif;
+  font-style:italic;
+  font-size: 10pt;;
+  font-weight: bold; 
+  margin-top: 33mm;
+  margin-left: 59.7mm;
+  position: absolute;
+}
+
+.card2-content .party-job-title
+{
+  font-family: serif;
+  font-optical-sizing: auto;
+  font-size: 10pt;
+  margin-top: 38mm;
+  margin-left: 66.2mm;
+  position:absolute;
+}
+
+.party-address{
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 9.6pt;
+    position: relative;
+    top: 85pt;
+    left: -51pt;
+    z-index:1;
+ }
+
+ .party-website{
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 9.6pt;
+    position: relative;
+    top: 83pt;
+    left: -81pt;
+    z-index:1;
+ }
+
+ .party-email{
+ font-weight: bolder;
+   font-family: "Roboto Slab", serif;
+   font-size: 9.6pt;
+   position: relative;
+   top: 81pt;
+   left: -55pt;
+   z-index:1;
+}
+
+.party-phone{
+     font-weight: normal;
+     font-family: "Roboto Slab", serif;
+     font-size: 9.6pt;
+     position: relative;
+     top: 78pt;
+     left: -83pt;
+     z-index: 1;
+     
+ }
+ 

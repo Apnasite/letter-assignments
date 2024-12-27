@@ -1,185 +1,279 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background: gray;
+
+body {
+    font-family: 'Arial', sans-serif;
 }
 
-.letter-wrapper{
-    height: 297mm;
-    width: 210mm;
-    margin: auto;
-    background-color:white;
+.card-wrapper {
     position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    background-color: #ffffff;
+    border: 0.75pt solid #ccc;
     overflow: hidden;
-    color: black;
-   
-}
-.topbox1{
-    height: 8mm;
-    width: 100%;
-    background: rgb(88, 191, 101);
+    box-shadow: rgba(0, 0, 0, 0.3) 0pt 14.25pt 28.5pt, rgba(0, 0, 0, 0.22) 0pt 11.25pt 9pt;
+    border-radius: 5mm;
 }
 
-.topbox2{
-    height: 13mm;
-    width: 81mm;
-    border: 2.25pt solid rgb(88, 191, 101);
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.left-big{
+    height: 9mm;
+    width: 145mm;
+    transform: skew(-23deg);
+    border-top-left-radius: 15pt;
+    top: 33mm;
+    left: 34mm;
     position: absolute;
-    transform: rotate(90deg);
-    border-radius: 8mm;
-    right: -13mm;
-    top: 0pt;
+    text-align: center;
+    background: rgb(255, 177, 27);
 }
-
-.topbox3{
-   
-    height: 13mm;
-    width: 78mm;
-    border: 2.25pt solid rgb(88, 191, 101);
-    position: absolute;
-    border-radius: 8mm;
-    top: 66mm;
-    left: -6mm;
-
-}
-.bottombox1{
-    position: absolute;
-    bottom: 40mm;
-    left: 16mm;
-    display: flex;
-}
-.tri1{
-    height: 13mm;
-    margin: 2mm;
-    width: 4mm;
-    background: rgb(232, 227, 227);
-    border-radius: 18.75pt;
-}
-.bottombox2{
-    position: absolute;
-    bottom: 40mm;
-    left: 133mm;
-
-}
-.tri2{
-    height: 4mm;
-    margin: 2mm;
-    width: 13mm;
-    background: rgb(232, 227, 227);
-    border-radius: 18.75pt;
-}
-.bottombox3{
-    height: 12mm;
-    width: 130mm;
-    border: 2.25pt solid rgb(88, 191, 101);
-    position: absolute;
-    border-radius: 18.75pt;
-    bottom: 18mm;
-    left: -16.5pt;
-}
-
-
-
-
-
-
-.letter-org-logo{
-    position: absolute;
-    height: -1mm;
-    top: 22mm;
-    left: 25mm;
-}
+  .left-small{
     
-
-
-.letter-org-logo img{
-    height: 25mm;
-
-}
-.letter-org-name{
+    height: 9mm;
+    width: 47mm;
+    transform: skew(-24deg);
+    border-bottom-right-radius: 15pt;
+    top: 33mm;
+    left: -22mm;
     position: absolute;
-    top:46mm ;
-    left: 10mm;
+    background: rgb(1, 32, 63);
+    overflow: hidden;
+}
+  
+  .left-mid{
+    width: 0;
+    height: 0;
+    border-left: 54pt solid #262F38;
+    border-top: 75pt solid transparent;
+    border-bottom: 70pt solid transparent;
+    position: absolute;
+  }
+
+.card1-content
+{
+    margin-left: 17.25pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 7pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+
+  .party-name
+  {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: inherit;
+    width: 225pt;
+    font-size: 1.9em;
     font-weight: bold;
-    font-size: 16pt;
+    position: relative;
+    top: -24pt;
+  }
+
+  .party-job-title
+  {
+    font-family: serif;
+    font-optical-sizing: auto;
+    font-size: 1.4em;
+    /* margin-top: -5pt; */
+    position: relative;
+    top: -27pt;
 }
-.letter-org-details{
+  
+
+  .qr-img
+  {
+   height: 50pt;
+    top: -39pt;
+    position: relative;
+  }
+
+  .qr-code
+  {
+    top: 12pt;
+    left: -58pt;
     position: absolute;
-    top:52mm ;
+  }
+  
+  .company
+  {
+    font-weight: 700;
+    font-size: 1.0em;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3em;
+    margin-top: -30pt;
+    position: absolute;
+  }
+
+ .party-phone
+ {
+  position: absolute;
+    top: 37pt;
+    left: 61pt;
+ }
+
+ .party-email
+ {
+  position: absolute;
+  top: 47pt;
+  left: 31pt;
+ }
+
+  .party-phone-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+      
+  }
+  
+  .party-phone-number
+  {
+    font-weight: normal;
+      font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      
+  }
+  
+  .party-email-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+  }
+  
+  .party-email-address
+  {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    
+  }
+
+  .card2-background
+  {
+    /* background-color: #fa8f0d; */
+    height: 100%;
+    /* color: black; */
+  }
+
+  .Right-big
+  {
+    height: 16mm;
+    width: 160mm;
+    transform: skew(-23deg);
+    border-top-left-radius: 15pt;
+    top: 41mm;
     left: 10mm;
-}
-.letter-date{
     position: absolute;
-    right: 40mm;
-    top: 45mm;
+    background: rgb(255, 177, 27);
 }
-.letter-ref{
+  
+
+  .Right-mid
+  {
+    height: 22mm;
+    width: 65.44mm;
+    transform: skew(-34deg);
+    border-top-left-radius: 30pt;
+    top: 19mm;
+    left: 34mm;
     position: absolute;
-    top: 70mm;
-    left: 10mm;
+    background: rgb(1, 32, 63);
 }
 
-.letter-body-to{
-    position: absolute;
-    top: 85mm;
-    width: 70mm;
-    margin-left: 10mm;
-    font-weight: bold;
-    line-height: 17pt;
 
-}
-.letter-body-subject{
+  .Right-small
+  {    height: 11mm;
+    width: 42mm;
+    transform: skew(-24deg);
+    border-bottom-right-radius: 15pt;
+    top: 4mm;
+    left: -8mm;
     position: absolute;
-    top: 116mm;
-    font-weight: bold;
-    margin-left: 10mm;
-    font-size: 14pt;
-
-}
-.letter-body-salutation{
-    position: absolute;
-    top: 130mm;
-    left: 10mm;
-    font-weight: bold;
-    font-size: 14pt;
-
-
-}
-.letter-body-message{
-    position: absolute;
-    top: 140mm;
-    margin-left: 10mm;
-    line-height: 25pt;
-    text-align: justify;
-    margin-right: 10mm;
-    font-size: 13pt;
-}
-.letter-body-sign{
-    position: absolute;
-    bottom: 40mm;
-    right: 10mm;
-    text-align: right;
-}
-.letter-org-website{
-    position: absolute;
-    right: 10mm;
-    bottom: 22mm;
-}
-.letter-org-phone{
-    position: absolute;
-    left: 10mm;
-    bottom: 22mm;
+    background: rgb(255, 177, 27);
+    overflow: hidden;
 }
 
-.letter-org-email{
+  .card2-content
+  {
     position: absolute;
-    left: 45mm;
-    bottom: 22mm;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    /* color: #ffffff; */
+  }
+
+  .org-logo-img
+  {
+    position: relative;
+    top: 3pt;
+    left: -42pt;
+  }
+
+  .org-name
+  {
+    line-height: 94%;
+    text-align-last: inherit;
+    position: relative;
+    top: -22pt;
+    left: 87pt;
+    font-style: oblique;
+    font-size: 11pt;
+  }
+
+  .org-address
+  {
+    position: relative;
+    top: 62pt;
+    left: 54pt;
+    font-style: normal;
+    font-size: 7pt;
+  }
+
+
+
+  .org-email
+  {
+    
+    position: relative;
+    top: -19pt;
+    left: 87pt;
+    font-style: normal;
+    font-size: 9pt;
+    color: white;
 }
-.letter-org-address{
-    position: absolute;
-    left: 10mm;
-    bottom: 10mm;
-}
+
+  
+  .org-phone
+  {
+    position: relative;
+    top: 0pt;
+    left: 84.75pt;
+    font-style: normal;
+    font-size: 9pt;
+    color: white;
+  }
+
+  .org-website
+  {
+    position: relative;
+    top: -29pt;
+    left: 95pt;
+    font-style: normal;
+    font-size: 9pt;
+    color: white;
+  }

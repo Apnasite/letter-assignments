@@ -1,0 +1,357 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+    position: relative;
+    width: 88.9mm; 
+    height: 50.8mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10pt;
+}
+
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.left-big{
+     width: 150pt;
+     height: 30pt;
+     background-color:  #F9961E;
+     position: absolute;
+     top: 123pt;
+     right:125pt;
+     padding: 10pt;
+     border-top-right-radius: 25pt;
+  }
+  .left-small{
+    width: 100pt;
+    height: 18pt;
+    background-color:  #414143;
+    position: absolute;
+    top: 105pt;
+    right:170pt;
+    border-top-right-radius: 25mm;
+
+  }
+  .left-mid{
+    width: 85pt;
+    height: 100pt;
+    background-color: #262F38;
+    position: absolute;
+    top: 130pt;
+    left: 130pt;
+    transform: skew(15deg);
+    border-top-right-radius: 25pt;
+  }
+
+.card1-content
+{
+    margin-left: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 7pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+
+  .party-name
+  {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: inherit;
+    width: 168pt;
+    font-size: 1.9em;
+    font-weight: bold; 
+  }
+
+  .party-job-title
+  {
+    font-family: serif;
+    font-optical-sizing: auto;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    position: absolute;
+    top: 12mm;
+    left: 2mm;
+  }
+
+  .qr-img
+  {
+    max-width: 21%;
+    height: auto;
+  }
+
+  .qr-code
+  {
+    top: -9pt;
+    left: 1pt;
+    position: absolute;
+    height: 300pt;
+    width: 340pt;
+  }
+  
+  .company
+  {
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: inherit;
+    width: 168pt;
+    font-size: 1.9em;
+    font-weight: bold; 
+    position: absolute;
+    top: 4mm;
+    left: -4mm;
+  }
+
+ .party-phone
+ {
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3em;
+    margin-top: 16pt;
+    position: relative;
+    top: 0pt;
+    left: -14pt;
+ }
+
+ .party-email
+ {
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.9em;
+    position: relative;
+    top: 38pt;
+    left: -90pt;
+ }
+
+  .party-phone-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+      
+  }
+  
+  .party-phone-number
+  {
+    font-weight: normal;
+      font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      
+  }
+  
+  .party-email-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 0.9em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+  }
+  
+  .party-email-address
+  {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    
+  }
+
+  .card2-background
+  {
+    background-color: #ffffff;
+    height: 100%;
+  }
+
+  .Right-big
+  {
+    width: 150pt;
+     height: 30pt;
+     background-color:  #F9961E;
+     position: absolute;
+     top: 123pt;
+     right:125pt;
+     padding: 10pt;
+     border-top-right-radius: 25pt;
+  }
+
+  .Right-mid
+  { width: 85pt;
+    height: 100pt;
+    background-color: #262F38;
+    position: absolute;
+    top: 130pt;
+    left: 130pt;
+    transform: skew(15deg);
+    border-top-right-radius: 25pt;
+   
+
+  }
+
+  .Right-small
+  {
+    width: 100pt;
+    height: 18pt;
+    background-color:  #414143;
+    position: absolute;
+    top: 105pt;
+    right:170pt;
+    border-top-right-radius: 25mm;
+
+  }
+
+  .parallelogram {
+
+    height: 100pt;
+    width :150pt;
+    transform: skew(15deg);
+    position:absolute;
+    left: 124pt;
+    top:-46pt;
+    background-color: #F9961E;
+  }
+
+  .card2-content
+  {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .org-logo-img
+  {
+    position: relative;
+    top: 20pt;
+    left: 123pt;
+  }
+
+  .org-name
+  {
+    line-height: 94%;
+    text-align-last: inherit;
+    position: relative;
+    top: -16pt;
+    left: 3pt;
+    font-style: oblique;
+    font-size: 13pt;
+  }
+
+  .org-address
+  {
+    position: absolute;
+    top: -32pt;
+    left: 177px;
+    font-size: 13pt;
+}
+  .org-address-line-2 {
+    position: absolute;
+    top: 0pt;
+    left: 50px;
+    font-size: 13pt;
+    color:#100404;
+  }
+
+  .org-address-location {
+    position: absolute;
+    top:20pt;
+    left: 40px;
+    font-size: 6pt;
+    color:#ffffff;
+  }
+
+  .org-address-area{
+
+    position: absolute;
+    top:20pt;
+    left: 76px;
+    font-size: 6pt;
+    color:#ffffff;
+  }
+  .org-address-area1{
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 168pt;
+    font-size: 0.7em;
+    font-weight: bold; 
+    position: absolute;
+    top: 26mm;
+    left: -18mm;
+    color: #100404;
+
+  }
+
+  .org-address-city {
+    position: absolute;
+    top: 26pt;
+    left: -10px;
+    height: 1pt;
+    width: 30pt;
+    background-color: #ffffff;
+  }
+
+  .org-address-pincode{
+    position: absolute;
+    top: 26pt;
+    left: 26px;
+    height: 1pt;
+    width: 7pt;
+    background-color:#100404;
+
+  }
+
+  .org-address-pincode2 {
+    font-family: serif;
+    font-optical-sizing: auto;
+    width: 168pt;
+    font-size: 0.5em;
+    margin-top: -1pt;
+    position: absolute;
+    top: 30mm;
+    left: -18mm;
+    color: #100404;
+    font-style: normal;
+  }
+
+  .org-email
+  {
+    position: absolute;
+    top: -17pt;
+    left: -6pt;
+    font-style: normal;
+    font-size: 10pt;
+    color: #100404;
+  }
+  
+  .org-phone
+  {
+    position: relative;
+    top: -10pt;
+    left: -8px;
+    font-style: normal;
+    font-size: 9pt;
+    color:#100404;
+  }
+
+  .org-website
+  {
+    position: relative;
+    top: -1pt;
+    left: -7pt;
+    font-style: normal;
+    font-size: 10pt;
+    color:#100404
+  }

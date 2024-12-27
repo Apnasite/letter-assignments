@@ -1,0 +1,317 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+    position: relative;
+    width: 79.37mm;
+    height: 53mm;
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0pt 14.25pt 28.5pt, rgba(0, 0, 0, 0.22) 0pt 11.25pt 9pt;
+
+    border-radius: 5mm;
+}
+
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.left-big{
+    width: 0;
+    height: 0;
+    left: 27mm;
+    transform: skewX(26deg);
+    top: 40.48mm;
+    z-index: 1;
+    border-top: 56pt solid #d4a13c;
+    border-right: 105pt solid #d4a13c;
+    position: absolute;
+}
+  .left-small{
+        width: 4.23mm;
+    height: 5.29mm;
+    transform: skewX(-31deg);
+    left:16mm;
+    top: 40.48mm;
+    border-top: 40pt solid #d4a13c;
+    border-right: 107pt solid #d4a13c;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .left-mid{
+    width: 80.43mm;
+    height: 14.55mm;
+    top: 33mm;
+    left: 0mm;
+    border-top: 75pt solid #212529;
+    transform: rotate(180deg);
+    position: absolute;
+  }
+
+.card1-content
+{
+     margin-left: 7.40mm;
+    position: absolute;
+    top: 18.25mm;
+    left: 67%;
+    font: message-box;
+    margin-top: 9pt;
+    transform: translate(-31%, -45%);
+    text-align: start;
+    color: #333;
+	z-index: 2
+}
+
+  .party-name
+  {
+        font-family: Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: inherit;
+    width: 168pt;
+    margin-bottom: 4.5pt;
+    margin-left: 3.75pt;
+    font-size: 9pt;
+  }
+
+  .party-job-title
+  {
+    font-family: Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16pt;
+    margin-top: 4pt;
+    margin-left: 4.23mm;
+  }
+  
+  .company
+  {
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    font-size: 3.3mm;
+    top: -2.25pt;
+    margin-bottom:4.75mm;
+    margin-left: 3.17mm;
+    margin-top: 1pt;
+  }
+
+ .party-phone
+ {
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.7em;
+    z-index: 3;
+    position: relative;
+    top: 7mm;
+    color: black;
+    left: -59pt;
+ }
+
+ .party-email
+ {
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.6em;
+    position: relative;
+    top: 26pt;
+    z-index: 2;
+    color: black;
+    left: -68pt;
+ }
+
+  .party-phone-lable
+  {
+    font-family: "Roboto Slab", serif;
+    font-size: -12.9em;
+    margin-top: -11pt;
+    color: black;
+    padding-left: 3pt;
+    z-index: auto;
+  }
+  
+  .party-phone-number
+  {
+    font-weight: normal;
+      font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      
+  }
+  
+  .party-email-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+  }
+  
+  .party-email-address
+  {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    
+  }
+
+  .card2-background
+  {
+    background-color: white;
+    height: 100%;
+  }
+
+  .Right-big
+  {
+    width: 0;
+    height: -6.75pt;
+    border-top: 141pt solid #ca9759;
+    border-left: 118pt solid transparent;
+    position: absolute;
+    left: 4.5pt;
+    top: -28.83mm;
+    transform: rotate(458deg);
+    right: 0;
+  }
+
+  .Right-mid
+  {
+    width: 50mm;
+    height: 9.78mm;
+    top: -18mm;
+    left: 1mm;
+    border-top: 77pt solid #d4a13c;
+    transform: skewX(-33deg);
+    position: absolute;
+  }
+
+  .Right-small
+  {
+       width: 8.46mm;
+    height: 13.75mm;
+    border-top: 105pt solid #d4a13c;
+    border-left: 981pt solid transparent;
+    border-right: 60pt solid transparent;
+    position: absolute;
+    top: 34mm;
+    right: 13mm;
+  }
+
+  .card2-content
+  {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .org-logo-img
+  {
+   position: relative;
+    top: -42pt;
+    left: -105pt;
+    z-index: 280;
+  }
+
+
+  .qr-img
+  {
+    max-width: 53%;
+    height: auto;
+  }
+
+  .qr-code
+  {
+    top: 11pt;
+    left: 143pt;
+    position: absolute;
+  }
+  
+ .hexagon {
+    width:23.81mm;
+    height: 53.18mm;
+    background-color: #1b1b1b;
+    transform: rotate(270deg);
+    top: 40.5pt;
+    left: 42.75pt;
+    position: relative;
+ }
+  .hexagon:before, .hexagon:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border-left:37.5pt solid transparent;
+    border-right:37.5pt solid transparent;
+  }
+  .hexagon:before {
+    top: -12.17mm;
+    left: -6pt;
+    border-bottom: 12.17mm solid #1b1b1b;
+  }
+  
+  .hexagon:after {
+    bottom: -7.67mm;
+    border-top: 7.67mm solid #6C5CE7;
+  }
+  
+  .org-name
+  {
+    line-height: initial;
+    text-align-last: inherit;
+    position: relative;
+    top: -104pt;
+    left: -29pt;
+    font-style: bold;
+    font-weight: bold;
+    color: black;
+    z-index: 100;
+    font-size: 7pt;
+  }
+
+  .org-address
+  {
+    line-height: initial;
+    text-align-last: center;
+    position: relative;
+    top: -103pt;
+    left: -9.26mm;
+    color: black;
+    font-weight: unset;
+    font-size: 5pt;
+    z-index: 3;
+  }
+
+  .org-email
+  {
+    position: relative;
+    top: -90pt;
+    left: 9.52mm;
+    color: white;
+    font-style: normal;
+    font-size: 9pt;
+  }
+  
+  .org-phone
+  {
+    position: relative;
+    top: -85pt;
+    left: 9.52mm;
+    color: white;
+    font-style: normal;
+    font-size: 9pt;
+  }
+
+  .org-website
+  {
+   position: relative;
+    top: -81pt;
+    color: white;
+    left: 23pt;
+    font-style: normal;
+    font-size: 9pt;
+  }

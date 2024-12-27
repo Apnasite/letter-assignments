@@ -1,0 +1,261 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper_card-front{
+color:black;
+}
+
+.card-wrapper_card-front .card1-background .bgimg{
+    position: relative;
+    padding: -40px;
+}
+
+.card-wrapper_card-front .card1-background .front-page{
+    position: relative;
+    top:-140mm;
+    background-color:rgb(32, 31, 31);
+    width:92mm;
+    height:52mm;
+    z-index:1;
+}
+
+.card-wrapper_card-front .card1-background .square1{
+    position:relative;
+    top:-192mm;
+    width:92mm;
+    height:7mm;
+    background-color:#f9b222;
+    z-index:2;
+}
+
+.card-wrapper_card-front .card1-background .square2{
+    position:relative;
+    top:-192mm;
+    width:92mm;
+    height:3mm;
+    background-color:black;
+    z-index:2;
+}
+
+.card-wrapper_card-front .card1-background .square3{
+    position: relative;
+    top:-212mm;
+    width:92mm;
+    height:3mm;
+    background-color: black;
+    z-index:2;
+}
+
+.card-wrapper_card-front .card1-background .square4{
+    position:relative;
+    top:-212mm;
+    width:92mm;
+    height:7mm;
+    background-color:rgb(240, 186, 10);
+    z-index:2;
+}
+
+.card-wrapper_card-front .card1-background .tri-1{
+    position: relative;
+    top:-198mm;
+    width: 0;
+    height: 0;
+    border-top:7mm solid #f9b222 ;
+    border-left: 5mm solid transparent;
+    border-right:5mm solid transparent;
+    z-index:3;
+}
+
+.card-wrapper_card-front .card1-background .tri-2{
+    position: relative;
+    top:-223mm;
+    width: 0;
+    height: 0;
+    border-bottom:7mm solid #f9b222 ;
+    border-left: 5mm solid transparent;
+    border-right:5mm solid transparent;
+    z-index:3;
+
+}
+
+.card-wrapper_card-front .card1-content .org-logo{
+    position:relative;
+    left:mm;
+    top:-260mm;
+    transform: rotate(-12deg);
+    z-index: 3;
+}
+
+.card-wrapper_card-front .card1-content .org-name{
+    position: relative;
+    left: 0mm;
+    top: -260mm;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18pt;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.card-wrapper_card-front .card1-content .org-job-title{
+    position: relative;
+    left: 0mm;
+    top: -259mm;
+    color: #f9b222;
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7pt;
+    z-index: 3;
+
+}
+
+.card-wrapper_card-back .card2-background .back-page{
+    position: relative;
+    top: -231mm;
+    background-color: rgb(32, 31, 31);
+    width: 92mm;
+    height: 56mm;
+    z-index: 1;
+}
+
+.card-wrapper_card-back .card2-background .square1{
+    position: relative;
+    left: omm;
+    top: -257mm;
+    width: 92mm;
+    height: 27mm;
+    background-color: white;
+    z-index: 2;
+}
+
+.card-wrapper_card-back .card2-background .square2{
+    position: relative;
+    left:omm;
+    top:-296mm;
+    width:92mm;
+    height:12mm;
+    background-color: #f9b222;
+    z-index:2;       
+}
+
+.card-wrapper_card-back .card2-background .tri-1{
+    position: relative;
+    left:-25mm;
+    top:-312mm;
+    width: 0;
+    height: 0;
+    border-bottom:7mm solid #f9b222 ;
+    border-left: 5mm solid transparent;
+    border-right:5mm solid transparent;
+    z-index:3;
+}
+
+.card-wrapper_card-back .card2-content .party-name{
+    position: relative;
+    left: -23mm;
+    top: -328mm;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 10pt;
+    font-weight: bold;
+    z-index: 4;
+}    
+
+
+.card-wrapper_card-back .card2-content .party-job-title{
+        position: relative;
+        left: -23mm;
+        top: -327mm;
+        color: #f9b222;
+        font-size: 7pt;
+        z-index: 4;
+}
+
+.card-wrapper_card-back .card2-content .org-logo{
+    position: relative;
+    left: 28mm;
+    top: -337mm;
+    transform: rotate(-12deg);
+    z-index: 4;
+}
+
+.card-wrapper_card-back .card2-content .org-name{
+    position: relative;
+    left: 26mm;
+    top: -336.5mm;
+    font-size: 9pt;
+    color: white;
+    z-index: 4;
+}
+
+.card-wrapper_card-back .card2-content .org-job-title{
+    position: relative;
+    left: 25mm;
+    top: -335mm;
+    font-size: 5pt;
+    color: #f9b222;
+    z-index: 4;
+}
+
+.card-wrapper_card-back .card2-content .designation{
+    position: relative;
+    left: 0mm;
+    top: -328mm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8.5pt;
+    font-weight: bolder;
+    z-index: 4;
+}
+
+.card-wrapper_card-back .card2-content .org-address{
+    position: relative;
+    left: 22mm;
+    top: -311mm;
+    font-family: "Buda", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: gray;
+    font-size: 6pt;
+    z-index: 4;
+}
+.card-wrapper_card-back .card2-content .org-email{
+    position: relative;
+    left: -25mm;
+    top: -330mm;
+    font-family: "Buda", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: gray;
+    font-size: 7pt;
+    z-index: 4;
+}
+
+.card-wrapper_card-back .card2-content .org-phone{
+    position: relative;
+    left: 22mm;
+    top: -334mm;
+    color: gray;
+    font-family: "Buda", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 7pt;
+    z-index: 4;
+}
+
+.card-wrapper_card-back .card2-content .org-website{
+    position: relative;
+    left: -25mm;
+    top: -327mm;
+    font-family: "Buda", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: gray;
+    font-size: 7pt;
+    z-index: 4;
+}

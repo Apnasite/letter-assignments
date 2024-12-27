@@ -1,0 +1,396 @@
+
+  
+@media all{
+
+    .body {
+        background-color: black;
+    }
+   
+    .card-wrapper .card1-background{
+        position: absolute;
+        left:100mm;
+        top:50mm;
+        width:550mm;
+        height:530mm;
+        background-color: rgb(229, 229, 229);
+        z-index: 2;
+    }
+
+    .card-wrapper .card1-background .col{
+        position: absolute;
+        left:0mm;
+        top:130mm;
+        background-color: rgb(242, 145, 1);
+        transform: skewY(-17deg);
+        width:550mm;
+        height:260mm;
+        z-index:3;
+    }
+
+    .card-wrapper .card1-background .box1{
+        position: relative;
+        left:105mm;
+        top:40mm;
+        background-color: white;
+        width:350mm;
+        height:200mm;
+        border-radius: 30mm;
+        box-shadow: -35px 32px 38px -18px rgba(0,0,0,0.45),
+          -25px 0px 20px -20px rgba(0,0,0,0.45);
+        z-index:3;
+
+    }
+
+    .card-wrapper .card1-background .box2{
+        position: relative;
+        left:105mm;
+        top:90mm;
+        background-color: white;
+        width:350mm;
+        height:200mm;
+        border-radius: 30mm;
+        box-shadow: -35px 32px 38px -18px rgba(0,0,0,0.45),
+          -25px 0px 20px -20px rgba(0,0,0,0.45);
+        z-index:3;
+
+    }
+
+     .card1-background .rectleft1 {
+        
+        width: 85mm;
+        height: 70mm;
+        top: 100mm;
+        left: 162mm;
+        background: rgb(18, 34, 58);
+        transform: skewY(0deg);
+        position: absolute;
+        z-index: 3;
+        border-radius: 200mm;
+        
+  
+    }
+  
+    .card1-background .rectleft2 {
+          
+      width: 110mm;
+      height: 70mm;
+      top: 100mm;
+      left: 105mm;
+      background: rgb(18, 34, 58);
+      transform: skewY(0deg);
+      position: absolute;
+      z-index: 4;
+      /* border-radius: 0%; */
+      
+  
+  }
+  
+  
+  
+  .semicircle {
+    position: absolute;
+    z-index: 9;
+    left: 428mm;
+    top: 85mm;
+    
+  }
+  
+  .card2-background .btmleft1 {
+          
+    width: 55mm;
+    height: 60mm;
+    top: 400mm;
+    left: 232mm;
+    background: rgb(18, 34, 58);
+    transform: skewY(0deg);
+    position: absolute;
+    z-index: 2;
+    border-radius: 120mm;
+    
+  
+  }
+  
+  .card2-background .btmleft2 {
+      
+  width: 55mm;
+  height: 60mm;
+  top: 400mm;
+  left: 205mm;
+  background: rgb(18, 34, 58);
+  transform: skewY(0deg);
+  position: absolute;
+  z-index: 2;
+  /* border-radius: 0%; */
+  
+  
+  }
+  
+  .card2-background .btmright1 {
+      
+    width: 85mm;
+    height: 60mm;
+    top: 400mm;
+    left: 470mm;
+    background: rgb(18, 34, 58);
+    transform: scaleX(10deg);
+    position: absolute;
+    z-index: 2;
+    border-top-left-radius: 300mm; 
+    border-bottom-left-radius: 300mm; 
+    border-right: 10mm;
+  
+  
+  }
+  
+  body .card-wrapper .card1-content {
+    position: absolute;
+    left: 100mm;
+    top: 50mm;
+    width: 100%;
+    height: 35mm;
+    z-index: 2;
+  }
+  
+  .card-wrapper .card-content {
+            
+    top: 17.5mm;
+    right: 15mm;
+    bottom: 15mm;
+    left: 17mm;
+    position: absolute; 
+  }
+  
+  .qr-code {
+    position: absolute;
+    z-index: 9;
+    left: 135mm;
+    top: 50mm;
+    background-color: white;
+  }
+  
+  .party-name {
+    position: absolute;
+    left: 110mm;
+    top:118mm;
+    color: white;
+    font-size: 45pt;
+    z-index:9;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .party-job-title {
+    position: absolute;
+    left: 115mm;
+    top:140mm;
+    color: white;
+    font-size: 26pt;
+    z-index:9;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .logo1 {
+    position: absolute;
+    z-index: 9;
+    left: 155mm;
+    top: 172mm;
+  }
+  
+  .company {
+    position: absolute;
+    left: 125mm;
+    top:195mm;
+    color: rgb(18, 34, 58);
+    font-size: 55pt;
+    z-index:9;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+  
+  }
+  
+  .slogantop {
+    position: absolute;
+    left: 125mm;
+    top:215mm;
+    color: rgb(242, 145, 1);
+    font-size: 35pt;
+    z-index:9;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+ .party-phone {
+    position: absolute;
+    left: 240mm;
+    top: 92mm;
+    width: 150mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 30pt;
+    color: rgb(18, 34, 58);
+    font-family: 'Helvetica', sans-serif;
+    z-index: 10;
+    font-weight: bold;
+  }
+  
+  .party-email {
+    position: absolute;
+    left: 240mm;
+    top: 113mm;
+    width: 180mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 26pt;
+    color: rgb(18, 34, 58);
+    font-family: 'Helvetica', sans-serif;
+    z-index: 10;
+    font-weight: bold;
+  }
+
+  .party-website {
+    position: absolute;
+    left: 240mm;
+    top: 133mm;
+    width: 200mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 29pt;
+    color: rgb(18, 34, 58);
+    font-family: 'Helvetica', sans-serif;
+    z-index: 10;
+    font-weight: bold;
+  }
+
+  .party-address {
+    position: absolute;
+    left: 240mm;
+    top: 153mm;
+    width: 180mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 30pt;
+    color: rgb(18, 34, 58);
+    font-family: 'Helvetica', sans-serif;
+    z-index: 10;
+    font-weight: bold;
+  }
+  
+  .party-phone-lable
+    {
+      font-family: "Roboto Slab", serif;
+        font-size: 1.1em;
+        margin-top: -1pt;
+        padding-left: 3pt;
+        font-weight: bold;
+        
+        
+    }
+    
+    .party-phone-number
+    {
+      font-weight: normal;
+        font-family: "Roboto Slab", serif;
+        font-size: 1.1em;
+        margin-top: -1pt;
+        font-weight: bold;
+        
+    }
+    
+    .party-email-lable
+    {
+      font-family: "Roboto Slab", serif;
+        font-size: 1.1em;
+        margin-top: -1pt;
+        padding-left: 3pt;
+        font-weight: bold;
+    }
+    
+    .party-email-address
+    {
+      font-weight: normal;
+      font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      font-weight: bold;
+      
+    }
+
+    .midline{
+      width: 2mm;
+      height: 90mm;
+      top: 85mm;
+      left: 250mm;
+      background: rgb(18, 34, 58);
+      position: absolute;
+      z-index: 5;
+      
+    }  
+
+  .org-logo {
+    position: absolute;
+    z-index: 9;
+    left: 345mm;
+    top: 353mm;
+  }
+  
+  .org-name{
+    position: absolute;
+    left: 310mm;
+    top:400mm;
+    color: rgb(18, 34, 58);
+    font-size: 100pt;
+    z-index:9;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    
+  }
+  .org-address{
+    position: absolute;
+    left: 215mm;
+    top:505mm;
+    color: rgb(18, 34, 58);
+    font-size: 30pt;
+    z-index:9;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+  }
+  
+  .org-email
+    {
+      position: absolute;
+      top: 465mm;
+      left: 300mm;
+      font-style: normal;
+      font-size: 35pt;
+      color: rgb(18, 34, 58);
+      z-index: 9;
+      font-weight: bold;
+    }
+    
+    .org-phone
+    {
+      position: relative;
+      top: 445mm;
+      left: 300mm;
+      font-style: normal;
+      font-size: 35pt;
+      color: rgb(18, 34, 58);
+      z-index: 9;
+      font-weight: bold;
+    }
+  
+    .org-website
+    {
+      position: relative;
+      top: 465mm;
+      left: 300mm;
+      font-style: normal;
+      font-size: 35pt;
+      color: rgb(18, 34, 58);
+      z-index: 9;
+      font-weight: bold;
+    }
+
+}

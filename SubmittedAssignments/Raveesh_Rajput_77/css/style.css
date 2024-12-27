@@ -1,248 +1,271 @@
-@font-face {
-    font-family: sign;
-    src: url("/fonts/GreatVibes-Regular.ttf");
-}
-.letter-wrapper {
+ 
+.card-wrapper {
+    left: 60mm;
+    top: 15mm;
+    width: 90mm;
+    height: 55mm;
     position: relative;
-    overflow: hidden;
-    margin: auto;
-    left: auto;
-    top: auto;
-    width: 210mm;
-    height: 297mm;
-    background-color: #F5F5F5;
+    background-image: url(/img/watermarkimg.jpg);
 }
-
-/* .letter-background style */
-
-.topbox1 {
-    position: absolute;
+/* frontside card design */
+/* card1 background design */
+.card1-background {
     left: 0mm;
     top: 0mm;
-    width: 210mm;
-    height: 8mm;
-    background-color: #e0e0e0;
-}
-.bottombox1 {
+    width: 90mm;
+    height: 55mm;
     position: absolute;
-    left: 0mm;
-    bottom: 0mm;
-    width: 210mm;
-    height: 15mm;
-    background-color: rgb(224, 47, 47);
-}
-.bottombox2 {
-    position: absolute;
-    left: 0mm;
-    bottom: 0mm;
-    width: 185mm;
-    height: 15mm;
-    background-color: rgb(219, 18, 18);
-    transform: skew(25deg, 0deg);
-}
-.bottombox3 {
-    position: absolute;
-    left: 0mm;
-    bottom: 0mm;
-    width: 141mm;
-    height: 15mm;
-    background-color: rgb(163, 28, 28);
-    transform: skew(25deg, 0deg);
-}
-.bottombox4 {
-    position: absolute;
-    left: 0mm;
-    bottom: 0mm;
-    width: 95mm;
-    height: 15mm;
-    background-color: rgb(119, 27, 27);
-    transform: skew(25deg, 0deg);
-}
-.bottombox5 {
-    position: absolute;
-    left: -3mm;
-    bottom: 0mm;
-    width: 52mm;
-    height: 15mm;
-    background-color: rgb(98, 0, 0);
-    transform: skew(25deg, 0deg);
-} 
 
-/* .letter-header style */
-
-.letter-header {
+}
+.card1-content {
+    position: absolute;
+    left: -5mm;
+    top: 5mm;
+    width: 80mm;
+    height: 45mm;
+    margin-left: 10mm;
+    margin-right: 10mm;
+    /* background-color: red;  */
+}
+.party-name {
+    position: absolute;
     left: 0mm;
-    top: 8mm;
-    width: 210mm;
-    height: 50mm;
-    position: absolute;
-    background-color: #F5F5F5;
-}
-.letter-org-logo {
-    position: absolute;
-    left: 14mm;
-    top: 7mm;
-    width: 42mm;
-    height: 32mm;
-}
-.letter-org-logo img {
-    width: 41mm;
-    height: 36mm;
-}
-.letter-org-name {
-    position: absolute;
-    left: 38mm;
     top: 18mm;
-    font-size: 19pt;
-    margin-left: 15mm;
+    font-size: 5mm;
+    font-weight: bold;
 }
-.letter-org-namedetails {
+.line {
     position: absolute;
-    left: 38mm;
-    top: 26mm;
-    font-size: 14pt;
-    margin-left: 15mm;
+    left: 35mm;
+    top: 22mm;
+    width: 50mm;
+    height: 1mm;
+    background-color: #00ADEF;
 }
-
-.letter-org-details {
-    position: absolute;
-    right: 33mm;
-    top: 10mm;
-    width: 35mm;
-    text-align: right;
-    font-size: 11.3pt;
-    line-height: 1mm;
-}
-.letter-icon {
-    position: absolute;
-    left: 181mm;
-    top: 12mm;
-    width: 9mm;
-    height: 30mm;
-    overflow: hidden;
-    background-color: red;
-}
-.icon-box1 {
-    position: absolute;
-    left: 0mm;
-    top: 0mm;
-    width: 9mm;
-    height: 30mm;
-    color: white;
-    font-size: 19.84pt;
-    text-align: center;
-    background-color: #ff354f;
-}
-.icon-box2 {
-    position: absolute;
-    left: 0mm;
-    top: 10mm;
-    width: 9mm;
-    height: 20mm;
-    font-size: 19.84pt;
-    color: white;
-    text-align: center;
-    background-color: #cc1d34;
-}
-.icon-box3 {
+.party-job-title {
     position: absolute;
     left: 0mm;
     top: 20mm;
-    width: 9mm;
+    width: 36mm;
     height: 10mm;
-    font-size: 22.67pt;
+}
+.company {
+    position: absolute;
+    left: 60mm;
+    top: 5mm;
+    font-weight: bold;
+}
+.company-logo {
+    left: 54mm;
+    top: -3mm;
+    position: absolute;
+    width: 26mm;
+    height: 8mm;
+}
+.orgLogo {
+    position: absolute;
+    width: 26mm;
+    height: 8mm;
+}
+
+.qr-code img{
+    left: 0mm;
+    top: -3mm;
+    position: absolute;
+    width: 15mm;
+    height: 15mm;
+}
+.contact-info {
+    left: 0mm;
+    top: 30mm;
+    width: 80mm;
+    height: 20mm;
+    position: absolute;
+}
+.contact-info .party-phone{
+    left: 0mm;
+    top: 10mm;
+    width: 37mm;
+    height: 10mm;
+    position: absolute;
+}
+.contact-info .phone-icon {
+    left: 12mm;
+    top: 5mm;
+    width: 8mm;
+    background-color: #00ADEF;
+    height: 8mm;
+    border-radius: 50%;
+    position: absolute;
+}
+.phone-icon1 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+.contact-info .party-email{
+    left: 41mm;
+    top: 8mm;
+    width: 35mm;
+    height: 10mm;
+    font-size: 5mm;
+    position: absolute;
+}
+.contact-info .email-icon {
+    left: 59mm;
+    top: 5mm;
+    width: 8mm;
+    background-color: #00ADEF;
+    height: 8mm;
+    border-radius: 50%;
+    position: absolute;
+}
+.email-icon1 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+
+.card-wrapper .bottombox {
+    left: 0mm;
+    top: 47mm;
+    width: 90mm;
+    height: 8mm;
+    position: absolute;
+    background-color: #00ADEF;
+    text-align: center;
+}
+.bottombox .content1 {
+    left: 21mm;
+    top: 2mm;
+    position: absolute;
     color: white;
     text-align: center;
-    background-color: #a01b2f;
 }
-.letter-icon i {
-    font-size: 10pt;
-    line-height: 8mm;
-}
-.letter-ref {
-    left: 20mm;
-    top: 50mm;
-    width: 20mm;
-    height: auto;
-    font-weight: bold;
+.bottombox .content2 {
+    left: 41mm;
+    top: 2mm;
     position: absolute;
+    width: 29mm;
+    color: #cfcfcf;
+    text-align: center;
 }
-.letter-date {
-    left: 155mm;
-    top: 50mm;
-    width: 35mm;
-    height: auto;
-    font-weight: bold;
+.card2-content {
     position: absolute;
+    left: 5mm;
+    top: 5mm;
+    width: 80mm;
+    height: 40mm;
 }
-
-/* letter- body */
-
-.letter-body {
+.org-logo {
+    left: 27mm;
+    top: -3mm;
     position: absolute;
-    left: 0mm;
-    top: 55mm;
-    width: 210mm;
-    height: 225mm;
-    border-bottom: 2pt solid #bc9199;
-}
-
-.letter-body .letter-body-to {
-    position: absolute;
-    left: 0mm;
-    top: 13mm;
-    width: 82mm;
-    height: 30mm;
-    font-weight: bold;
-    font-size: 13pt;
-    line-height: 1.76mm;
-    margin-left: 20mm;
-}
-.letter-body-subject {
-    position: absolute;
-    left: 0mm;
-    top: 50mm;
-    width: 82mm;
-    height: 7mm;
-    font-weight: bold;
-    font-size: 15pt;
-    margin-left: 20mm;
-}
-.letter-body-salutation {
-    position: absolute;
-    left: 0mm;
-    top: 65mm;
-    width: 30mm;
+    width: 26mm;
     height: 8mm;
+ }
+.line1 {
+    position: absolute;
+    left: -5mm;
+    top: 0mm;
+    width: 27mm;
+    height: 1mm;
+    background-color: #00ADEF;
+}
+.line2 {
+    position: absolute;
+    left: 58mm;
+    top: 0mm;
+    width: 27mm;
+    height: 1mm;
+    background-color: #00ADEF;
+} 
+.org-name {
+    position: absolute;
+    left: 0mm;
+    top: -25mm;
+    font-size: 4mm;
+    width: 80mm;
+    height: 6mm;
     font-weight: bold;
-    font-size: 15pt;
-    margin-left: 20mm;
+    text-align: center;
 }
-.letter-body-message {
+.org-address {
     position: absolute;
     left: 0mm;
-    top: 75mm;
-    width: 180mm;
-    line-height: 7mm;
-    font-family: "Times New Roman", Times, serif;
-    height: 100mm;
-    text-align: justify;
-    margin-left: 20mm;
-    margin-right: 20mm;
+    top: -20mm;
+    width: 80mm;
+    font-size: 3mm;
+    height: 15mm;
+    text-align: center;
 }
-.letter-body-sign {
+.party-phone1{
+    left: 25mm;
+    bottom: 30mm;
+    width: 35mm;
+    height: 5mm;
     position: absolute;
-    left: 0mm;
-    top: 190mm;
-    width: 30mm;
-    height: 18mm;
-    font-size: 12pt;
-    margin-left: 20mm;
 }
-.letter-body-sign .signature {
-    font-family: "sign", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25pt;
-    width: 55mm;
+.phone-icon01 {
+    left: 15mm;
+    top: -12mm;
+    width: 7mm;
+    background-color: #00ADEF;
+    height: 7mm;
+    font-size: 6.2mm;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.phone-icon2 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+.party-email1 {
+    left: 25mm;
+    bottom: 17mm;
+    width: 35mm;
+    height: 10mm;
+    font-size: 4mm;
+    position: absolute;
+}
+.email-icon01 {
+    position: absolute;
+    left: 15mm;
+    bottom: 17.5mm;
+    width: 7mm;
+    background-color: #00ADEF;
+    height: 7mm;
+    font-size: 6.3mm;
+    text-align: center;
+    border-radius: 50%;
+}
+.email-icon2 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+.org-website {
+    position: absolute;
+    left: 25mm;
+    top: 5mm;
+    width: 60mm;
+    height: 6mm;
+    font-size: 4mm;
+}
+.org-website-icon {
+    position: absolute;
+    left: -10mm;
+    bottom: 0mm;
+    width: 7mm;
+    height: 7mm;
+    background-color: #00ADEF;
+    border-radius: 50%;
+}
+
+.org-website-icon img {
+    position: absolute;
+    left: 1.5mm;
+    top: 1.5mm;
 }

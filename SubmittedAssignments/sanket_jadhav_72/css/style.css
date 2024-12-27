@@ -1,0 +1,303 @@
+@font-face {
+    font-family: sub;
+    src: url(../font/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: cub;
+    src: url(../font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: other;
+    src: url(../font/Raleway-light.ttf);
+}
+body {
+    background-color: #ccc; 
+}
+
+/*card 1*/
+
+.card-wrapper {
+    position: relative;
+    width: 90mm;
+    height: 52mm;
+    background-color: white;
+}
+.card1-background {
+    height: 52mm;
+    width: 90mm;
+    background-image: url("./img/watermark_earth.jpg");
+    background-size: cover;
+    border : 1pt ridge #dfdfdf;
+}
+.circular-rectangle {
+    position: absolute;
+    top: 39mm;
+    left: 26mm;
+    width: 38mm;
+    height: 5mm;
+    background-color: #FF3021;
+    border-radius: 8pt;
+    z-index: 2;
+}
+.circular-rectangle-border {
+    position: absolute;
+    top: 38mm;
+    left: 25mm;
+    width: 40mm;
+    height: 7mm;
+    background-color: white;
+    mix-blend-mode: multiply;
+    border: 1pt solid red;
+    border-radius: 10pt;
+    z-index: 1;
+}
+.bottom-rectangle {
+    position: absolute;
+    left: 0mm;
+    bottom: 0mm;
+    width: 90mm;
+    height: 10mm;
+    background-color: #303743;
+    border-top: 4pt solid #D12E21;
+}
+.card1-content {
+    position: absolute;
+    top: 0mm;
+    left: 0mm;
+    width: 90mm;
+    height: 52mm
+}
+.org-logo {
+    position: absolute;
+    top: 17mm;
+    left: 26mm;
+}
+.org-logo-img {
+    width: 38mm;
+    height: 10mm;
+}
+.org-name {
+    position: absolute;
+    top: 28mm;
+    left: 0mm;
+    margin-left: 19mm;
+    margin-right: 19mm;
+    font-size: 8pt;
+    font-family: cub;
+    text-transform: uppercase;
+}
+.org-address {
+    position: absolute;
+    bottom: -2mm;
+    left: 0mm;
+    width: 90mm;
+    height: 6mm;
+    color: white;
+    font-family: cub;
+    font-style: normal;
+    font-size: 6pt;
+    line-height: normal;
+}
+.org-email {
+    position: absolute;
+    top: 1mm;
+    left: 2mm;
+    font-size: 6pt;
+    font-family: cub;
+}
+.org-phone {
+    position: absolute;
+    top: 1mm;
+    right: 2mm;
+    font-size: 6pt;
+    font-family: cub;
+}
+.org-phone {
+    position: absolute;
+    top: 1mm;
+    right: 2mm;
+    font-size: 6pt;
+    font-family: cub;
+    
+}
+.org-website {
+    position: absolute;
+    top: 40mm;
+    left: 26mm;
+    width: 38mm;
+    height: 5mm;
+    font-size: 6pt;
+    font-family: cub;
+    color: #ffffffdb;
+    z-index: 2;
+}
+
+/*Card 2*/
+
+.card2-background {
+    height: 52mm;
+    background-color: white;
+    border : 1pt ridge #dfdfdf;
+}
+.left-rectangle{
+    position: absolute;
+    left: 0mm;
+    width: 10mm;
+    height: 52mm;
+    background-color: #303743;
+    border-right: 4pt solid #D12E21; 
+}
+.top-circle {
+    position: absolute;
+    top: 7mm;
+    left: 6.8mm;
+    width: 5mm;
+    height: 6.5mm;
+    background-color: #FF3021;
+    border-radius: 30pt;
+    z-index: 2;
+}
+.top-circle-border {
+    position: absolute;
+    top: 6mm;
+    left: 5.5mm;
+    width: 7.5mm;
+    height: 8.5mm;
+    background-color: white;
+    mix-blend-mode: multiply;
+    border: 1pt solid #FF3021;
+    border-radius: 10pt;
+    z-index: 1;
+}
+.bottom-circular-rectangle {
+    position: absolute;
+    left: 6.8mm;
+    bottom: 7mm;
+    width: 5mm;
+    height: 25mm;
+    background-color: #FF3021;
+    border-radius: 30pt;
+    z-index: 2;
+}
+.middle-small-rectangle {
+    position: absolute;
+    left: 6.8mm;
+    bottom: 15.5mm;
+    width: 5mm;
+    height: 8mm;
+    background-color: #eb1d0d;
+    z-index: 2;
+}
+.bottom-circular-rectangle-border {
+    position: absolute;
+    left: 5.5mm;
+    bottom: 6mm;
+    width: 7.5mm;
+    height: 27mm;
+    background-color: white;
+    mix-blend-mode: multiply;
+    border: 1pt solid #FF3021;
+    border-radius: 10pt;
+    z-index: 1;
+}
+.card2-content {
+    position: absolute;
+    top: 4mm;
+    left: 4mm;
+    width: 81mm;
+    height: 43mm
+}
+#person-icon {
+    position: absolute;
+    top: 4mm;
+    left: 4mm;
+    color: white;
+    z-index: 2;
+}
+.party-name {
+    position: absolute;
+    top: 3mm;
+    left: 10mm;
+    font-family: sub;
+    font-size: 9pt;
+    text-transform: uppercase;
+}
+.sirname {
+    color: #9e9e9ef2;
+    font-family: Other;
+    font-weight: bold;
+}
+.party-job-title {
+    position: absolute;
+    top: 6.5mm;
+    left: 10mm;
+    font-family: Other;
+    font-size: 8pt;
+    color: #9e9e9ef2;
+}
+.company {
+    position: absolute;
+    top: 10mm;
+    right: 4mm;
+    color: #0c5fad;
+    font-family: cub;
+    font-size: 10pt;
+}
+.qr-code {
+    position: absolute;
+    right: 2mm;
+    bottom: 11mm;
+}
+.qr-img{
+    width: 18mm;
+    height: 18mm;
+} 
+.party-phone{
+    position: absolute;
+    bottom: 20mm;
+    left: 4mm;
+    font-size: 8pt;
+    color: gray;
+    z-index: 2;
+}
+#phone-icon {
+    color: white;
+} 
+.party-phone-lable {
+    margin-left: 2mm;
+    font-weight: bold;
+}
+.party-email{
+    position: absolute;
+    bottom: 12.3mm;
+    left: 4mm;
+    font-size: 8pt;
+    color: gray;
+    z-index: 2;
+}
+#envelope-icon {
+    color: white;
+} 
+.party-email-lable {
+    margin-left: 2mm;
+    font-weight: bold;
+}
+.party-address{
+    position: absolute;
+    bottom: 0mm;
+    left: 0.5mm;
+    font-size: 8pt;
+    color: gray;
+    z-index: 2;
+}
+#house-icon {
+    color: white;
+} 
+.party-address-lable {
+    margin-left: 2mm;
+    font-weight: bold;
+}
+
+
+
+

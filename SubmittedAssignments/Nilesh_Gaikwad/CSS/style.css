@@ -1,0 +1,282 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+    position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #262F38;
+    height: 100%;
+}
+
+.left-big{
+    width: 285pt;
+    height: 14pt;
+    top: 129pt;
+    left: -34pt;
+    background: #FF930D;
+    transform: skewY(0deg);
+    position: absolute;
+  }
+  .left-small{
+    width: 67pt;
+    height: 11pt;
+    top: 130pt;
+    left: -7pt;
+    background: #e88408 !important;
+    transform: SkewX(139deg);
+    position: absolute;
+  }
+
+.card1-content
+{
+    margin-left: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 7pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+
+  .party-name
+  {
+    position: absolute;
+    left: -3mm;
+    top: 10mm;
+    color: white;
+    font-size: 12pt;
+    font-family: 'Helvetica', sans-serif;
+    width:40mm;
+}
+
+  .party-job-title
+  {
+    position: absolute;
+    left: 4mm;
+    top: 15mm;
+    color: white;
+    font-size: 8pt;
+    z-index: 9;
+    font-family: 'Helvetica', sans-serif;
+
+  }
+
+  .org-logo {
+    position: relative;
+    top: -20pt;
+    left: -1pt;
+}
+  
+  .company
+  {
+    position: absolute;
+    left: -1mm;
+    top: 30mm;
+    color: antiquewhite;
+    font-size: 11pt;
+
+  }
+  
+    .card2-background
+  {
+    background-color: #ffffff;
+    height: 100%;
+  }
+
+  .Right-big
+  {
+    width: 92mm;
+    height: 0;
+    border-top: 210pt solid #FF930D;
+    border-left: 109pt solid transparent;
+    position: absolute;
+    left: -3mm;
+    top: 46mm;
+}
+
+  .Right-mid
+  {
+    width: 67pt;
+    height: 11pt;
+    top: 131pt;
+    left: -7pt;
+    background: #e88408 !important;
+    transform: SkewX(139deg);
+    position: absolute;
+  }
+  .Right-small
+  {
+    width: 1.3mm;
+    height: 5.2mm;
+    top: 12mm;
+    left: 87.3mm;
+    background: #ff9f00;
+    position: absolute;
+    z-index: 5;
+}
+
+  .card2-content
+  {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .party-name1
+  {
+    position: absolute;
+    left: -7pt;
+    top: 25pt;
+    color: black;
+    font-size: 9.2pt;
+    font-family: 'Helvetica', sans-serif;
+    width: 79pt;
+}
+
+  .party-job-title1
+  {
+    position: absolute;
+    left: 8pt;
+    top: 37pt;
+    color: black;
+    font-size: 5.6pt;
+    font-family: 'Helvetica', sans-serif;
+    width: 48pt;
+}
+  .party-name2
+  {
+    position: absolute;
+    left: 114pt;
+    top: -21pt;
+    color: rgb(18, 34, 58);
+    font-size: 12pt;
+    font-family: 'Helvetica', sans-serif;
+}
+.party-name3
+{
+  position: absolute;
+    left: 153.5pt;
+    top: -21pt;
+    font-size: 12pt;
+    color: #FF930D;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.party-job-title2
+{
+  position: absolute;
+    left: 110pt;
+    top: -6.2pt;
+    color: rgb(97, 98, 99);
+    font-size: 7.1pt;
+    font-family: 'Helvetica', sans-serif;
+    width: 85pt;
+}
+
+  .org-logo1
+  {
+    position: relative;
+    top: -16pt;
+    left: -2pt;
+  }
+
+  .org-name
+  {
+    line-height: 94%;
+    text-align-last: inherit;
+    position: relative;
+    top: -141pt;
+    left: -65pt;
+    font-style: oblique;
+    font-size: 6pt;
+  }
+
+  .midline {
+    width: 1.3pt;
+    height: 84pt;
+    top: -16.5pt;
+    left: 94pt;
+    background: rgb(18, 34, 58);
+    position: absolute;
+    z-index:5;
+  }
+  .org-address
+  {
+    position: absolute;
+    top: 94pt;
+    left: 159.5pt;
+    font-style: normal;
+    font-size: 7pt;
+  }
+
+  .org-email
+  {
+    position: absolute;
+    top: 70.5pt;
+    left: 159pt;
+    font-style: normal;
+    font-size: 7.3pt;
+    border-bottom: 1.4px solid black;
+}
+  .org-phone
+  {
+    position: absolute;
+    top: 55pt;
+    left: 158pt;
+    font-style: normal;
+    font-size: 6pt;
+    border-bottom:1.4px solid black;
+    width:25%;
+  }
+
+  .org-website
+  {
+    position: absolute;
+    left: 144pt;
+    top: 74.2pt;
+    width: 19%;
+    height: auto;
+    margin-left: 15pt;
+    margin-right: 15pt;
+    font-size: 7pt;
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica', sans-serif;
+  }
+
+  .icon1
+  {
+    position: absolute;
+    z-index: 9;
+    left: -15pt;
+    top: 1pt;
+
+  }
+  .icon2
+  {
+    position: absolute;
+    z-index: 9;
+    left:-16pt;
+    top: 1.2pt;
+
+  }
+  .icon3
+  {
+    position: absolute;
+    z-index: 9;
+    left: -16pt;
+    top: 5pt;
+
+  }

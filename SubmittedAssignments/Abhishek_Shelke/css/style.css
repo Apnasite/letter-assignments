@@ -1,239 +1,376 @@
-body .letter-wrapper {
-  border: 1mm solid black;
-  margin: auto;
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  background-color: #817e7e !important;
+  font-family: Arial, sans-serif;
+  margin: 10mm;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.card-wrapper {
+  position: relative;
+  width: 88.9mm;
+  height: 50.8mm;
+  background-color: #ada5a5;
+  border: 1px solid #ccc;
   overflow: hidden;
-  background-color: #ffffff;
-  color: rgb(17, 77, 65);
-  left: auto;
-  top: auto;
-  width: 210mm;
-  height: 297mm;
-  position: relative;
 }
 
-body .letter-wrapper .letter-content {
-  position: relative;
-  /*header*/
-  /*letter-body*/
-  /*footer*/
-}
-
-body .letter-wrapper .letter-content header {
+.card1-background {
   position: absolute;
-  left: 0mm;
+  height: 50.8mm;
+  width: 88.9mm;
   top: 0mm;
-  width: 100%;
-  height: 30mm;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1mm;
+  overflow: hidden;
 }
-
-body .letter-wrapper .letter-content header .letter-org-logo {
-  font-weight: bold;
+.box1 {
   position: absolute;
-  left: 150mm;
-  top: -5mm;
-  width: 50mm;
-  height: 50mm;
-  margin: 5mm;
-  display: none;
+  height: 40mm;
+  width: 8mm;
+  background-color: #0095ff;
+  bottom: -9mm;
+  margin: 0mm;
+  transform: rotate(-45deg);
+  box-shadow: 1.4mm 3mm #596366a1;
 }
 
-body .letter-wrapper .letter-content header .letter-org-logo img {
-  width: 100%;
-  height: 100%;
-}
-
-body .letter-wrapper .letter-content header .letter-org-name {
-  font-weight: bold;
+.box2 {
   position: absolute;
-  left: 15mm;
-  top: 15mm;
-  width: 100%;
-  height: auto;
-  font-size: 25pt;
-}
-
-body .letter-wrapper .letter-content header .letter-org-details {
-  position: absolute;
-  left: 15mm;
-  top: 25mm;
-  width: 100%;
-  height: auto;
-  font-size: 14pt;
-}
-
-body .letter-wrapper .letter-content header .letter-ref {
-  font-weight: bold;
-  position: absolute;
-  left: 15mm;
-  top: 50mm;
-  width: 50%;
-  height: auto;
-  font-size: 12pt;
-  display: none;
-}
-
-body .letter-wrapper .letter-content header .letter-date {
-  font-weight: bold;
-  position: absolute;
-  left: 155mm;
-  top: 43mm;
-  width: 30%;
-  height: auto;
-  font-size: 12pt;
-}
-
-body .letter-wrapper .letter-content .letter-body {
-  position: absolute;
-  left: 0mm;
-  top: 39mm;
-  width: 70%;
-  height: 221mm;
-  border-right: 1mm solid black;
-}
-
-body .letter-wrapper .letter-content .letter-body .letter-body-to {
-  position: absolute;
-  right: -56mm;
-  top: 24mm;
-  width: 47mm;
-  height: 35mm;
-  font-size: 10pt;
+  height: 20mm;
+  width: 20mm;
+  background-color: #2cb2f6;
+  bottom: -14mm;
+  left: -10mm;
+  transform: rotate(45deg);
   margin: 0mm;
 }
 
-body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+.box3 {
   position: absolute;
-  left: 0mm;
-  top: 6mm;
-  width: calc(100% - 45mm);
-  height: 20mm;
-  margin-left: 15mm;
-  margin-right: 15mm;
-  font-size: 15pt;
-  font-weight: bold;
-}
-
-body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
-  position: absolute;
-  left: 0mm;
-  top: 20mm;
-  width: auto;
-  height: auto;
-  margin-left: 15mm;
-  font-weight: bold;
-  font-size: 15pt;
-}
-
-body .letter-wrapper .letter-content .letter-body .letter-body-message {
-  position: absolute;
-  left: 0mm;
-  top: 32mm;
-  width: auto;
-  height: 115mm;
-  margin-left: 15mm;
-  margin-right: 15mm;
-}
-
-body .letter-wrapper .letter-content .letter-body .letter-body-message p {
-  font-size: 13pt;
-  text-indent: 0mm;
-  font-family: "Times New Roman", Times, serif;
-  overflow: auto;
-  text-align: justify;
-  margin-top: -1.5mm;
-}
-
-body .letter-wrapper .letter-content .letter-body .letter-body-sign {
-  background-image: url(../img/sign.png);
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15mm;
-  height: 26mm;
-  width: 34mm;
-  bottom: -2mm;
-  background-size: 99%;
-}
-
-body .letter-wrapper .letter-content .letter-body .letter-body-sign b {
-  position: absolute;
-  left: -15mm;
-  top: 11mm;
-  width: 22mm;
   height: 10mm;
-  margin-left: 15mm;
-  margin-right: 15mm;
-  font-size: 14pt;
-  font-weight: bold;
+  width: 85mm;
+  background-color: #000000;
+  bottom: -1mm;
+  left: 19mm;
+  margin: 0mm;
+  transform: skewX(45deg);
 }
 
-body .letter-wrapper .letter-content .letter-footer {
+.box4 {
   position: absolute;
-  left: 0mm;
-  top: 260mm;
-  width: 100%;
-  height: 35mm;
-  border-top: 1mm solid black;
+  height: 12mm;
+  width: 8mm;
+  background-color: #000000;
+  bottom: 0mm;
+  left: 14.5mm;
+  margin: 0mm;
+  transform: skewX(45deg);
 }
 
-body .letter-wrapper .letter-content .letter-footer .fa {
-  width: 7mm;
-  height: 7mm;
-  border-radius: 50%;
-  padding: 1mm;
-  margin-right: 3mm;
-  background-color: #ffffff;
-  text-align: center;
-  font-size: 12pt;
-}
-
-body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+.box5 {
   position: absolute;
-  left: 32mm;
-  top: 4mm;
-  width: auto;
-  height: auto;
-  margin-left: 15mm;
-  margin-right: 15mm;
-  font-size: 20pt;
-  font-weight: bold;
-  text-shadow: 0.2mm 0.2mm white;
+  height: 9mm;
+  width: 85mm;
+  background-color: #2cb2f6;
+  bottom: 3mm;
+  left: 50mm;
+  margin: 0mm;
+  transform: skewX(45deg);
 }
 
-body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+.box6 {
   position: absolute;
-  left: 0mm;
-  top: 17mm;
-  width: 40%;
-  height: auto;
-  margin-left: 15mm;
-  margin-right: 15mm;
+  height: 10mm;
+  width: 10mm;
+  top: 26mm;
+  left: 13mm;
+  margin: 0mm;
+  border: 0.5mm solid #2cb2f6;
+}
+
+.box7 {
+  position: absolute;
+  width: 13mm;
+  top: 15mm;
+  left: 13mm;
+  border-bottom: 0.6mm solid #2cb2f6;
+}
+
+.box8 {
+  position: absolute;
+  width: 5mm;
+  height: 5mm;
+  top: 26mm;
+  right: 5mm;
+  background-color: #2cb2f6;
+}
+
+.box9 {
+  position: absolute;
+  width: 5mm;
+  height: 5mm;
+  top: 32.5mm;
+  right: 5mm;
+  background-color: #2cb2f6;
+}
+
+.box10 {
+  position: absolute;
+  height: 40mm;
+  width: 8mm;
+  background-color: #0095ff;
+  bottom: -9mm;
+  margin: 0mm;
+  transform: rotate(-135deg);
+  box-shadow: 1.4mm 3mm #596366a1;
+  right: 0mm;
+}
+
+.box11 {
+  position: absolute;
+  height: 20mm;
+  width: 20mm;
+  background-color: #2cb2f6;
+  bottom: -14mm;
+  right: -10mm;
+  transform: rotate(45deg);
+  margin: 0mm;
+}
+
+.box12 {
+  position: absolute;
+  height: 10mm;
+  width: 85mm;
+  background-color: #000000;
+  bottom: -1mm;
+  right: 19mm;
+  margin: 0mm;
+  transform: skewX(-45deg);
+}
+
+.box13 {
+  position: absolute;
+  height: 12mm;
+  width: 8mm;
+  background-color: #000000;
+  bottom: 0mm;
+  right: 14.5mm;
+  margin: 0mm;
+  transform: skewX(-45deg);
+}
+
+.box14 {
+  position: absolute;
+  height: 9mm;
+  width: 85mm;
+  background-color: #0095ff;
+  bottom: 3mm;
+  right: 50mm;
+  margin: 0mm;
+  transform: skewX(-45deg);
+}
+
+.box15 {
+  position: absolute;
+  width: 5mm;
+  height: 5mm;
+  top: 30mm;
+  left: 5mm;
+  background-color: #2cb2f6;
+}
+
+.logo1 {
+  position: absolute;
+  background-image: url("../IMG/phone.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 5mm;
+  width: 5mm;
+  top: 26.2mm;
+  right: 4.7mm;
+}
+
+.logo2 {
+  position: absolute;
+  background-image: url("../IMG/mail.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 5mm;
+  width: 5mm;
+  top: 32.7mm;
+  right: 4.7mm;
+}
+
+.logo3 {
+  position: absolute;
+  background-image: url("../IMG/mail.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 5mm;
+  width: 5mm;
+  top: 30.3mm;
+  left: 5.2mm;
+}
+
+
+
+.card1-content {
+  color: #333;
+}
+
+.party-name {
+  position: absolute;
+  font-style: inherit;
+  width: 168pt;
+  font-size: 1.7em;
+  color: grey;
+  top: 6mm;
+  left: 3mm;
+}
+
+.party-name strong b {
+  color: #000000;
+}
+
+.party-job-title {
+  font-family: serif;
+  font-optical-sizing: auto;
+  font-size: 1.4em;
+  margin-top: -1pt;
+  position: absolute;
+  color: gray;
+  top: 11mm;
+  left: 13mm;
+
+}
+
+.qr-img {
+  height: 9mm;
+  width: 9mm;
+  position: absolute;
+}
+
+.qr-code {
+  top: 75pt;
+  left: 38.24pt;
+  position: absolute;
+}
+
+.company {
+  font-weight: 700;
+  font-size: 1.0em;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  margin-top: -1pt;
+  position: absolute;
+  display: none;
+}
+
+.party-phone {
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 46pt;
+  right: 32pt;
+  color: #a8a5a5;
+}
+
+.party-phone p {
+  margin-top: -3mm;
+}
+
+.party-email {
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 28.5pt;
+  right: 32pt;
+  color: #a8a5a5;
+}
+
+.party-email p {
+  margin-top: -3mm;
+}
+
+.card2-background {
+  position: absolute;
+  height: 50.8mm;
+  width: 88.9mm;
+  bottom: 0mm;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1mm;
+  overflow: hidden;
+}
+
+.card2-content {
+  color: #000000;
+}
+
+.org-logo-img {
+  position: relative;
+  top: -133pt;
+  left: 0pt;
+  height: 10mm;
+  width: 20mm;
+}
+
+.org-name {
+  line-height: 94%;
+  position: relative;
+  top: -16pt;
+  left: 3pt;
+  font-style: oblique;
   font-size: 13pt;
 }
 
-body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+.org-address {
   position: absolute;
-  left: 100mm;
-  top: 17mm;
-  width: 87mm;
-  height: auto;
-  margin-left: 15mm;
-  margin-right: 15mm;
-  font-size: 13pt;
+  top: 82pt;
+  left: 46px;
+  font-style: normal;
+  font-size: 6pt;
+  color: #484848;
 }
 
-body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+.org-email {
   position: absolute;
-  left: 0mm;
-  top: 25mm;
-  width: 100%;
-  height: auto;
-  margin-left: 15mm;
-  margin-right: 15mm;
-  font-size: 13pt;
+  top: 48pt;
+  left: 81pt;
+  font-style: normal;
+  font-size: 10pt;
 }
 
-body {
-  background-color: rgb(17, 77, 65) !important;
+.org-email p strong {
+  font-size: 17pt;
+  color: black;
 }
 
-/*body*/
+.org-email p {
+  margin-top: -5mm;
+  color: #a8a5a5;
+}
+
+.org-phone {
+  position: relative;
+  top: 27pt;
+  left: 3px;
+  font-style: normal;
+  font-size: 9pt;
+  display: none;
+}
+
+.org-website {
+  position: absolute;
+  bottom: 16pt;
+  left: 9pt;
+  font-style: normal;
+  font-size: 8pt;
+}

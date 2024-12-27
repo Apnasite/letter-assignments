@@ -1,0 +1,270 @@
+*{
+    margin: 0mm;
+    padding: 0mm;
+    font-family: sans-serif;
+}
+
+
+
+.card-wrapper{
+ 
+ margin: auto;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 297mm;
+   position: relative;
+}
+
+/* .card-background{
+   background-color: rgb(206, 204, 204);
+    height: 105mm;
+    width: 133mm;
+    transform: rotate(-17deg);
+    position: absolute;
+    left: -7mm;
+    top: 97mm;
+} */
+
+
+.card1-background{
+    height:100mm;
+    width: 150mm;
+	top:34mm;
+	left:28mm;
+    border-radius: 14.1pt;
+    overflow: hidden;
+    position: relative;
+    background-color: #FFFFFF;
+    /* text-align: center; */
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.02mm 10.0mm, rgba(0, 0, 0, 0.22) 0mm 3.9mm 3.1mm;
+}
+
+.card1-content{
+      text-align: center;
+      margin-top: 44mm;
+
+}
+.logo{
+    font-size: 59.52pt;
+    transform: rotate(45deg);
+    color: rgb(255, 177, 27);
+    border-radius: -13mm;
+    margin-left: -16mm;
+    margin-left: 14mm;
+    margin-top: -96mm;
+    position: absolute;
+    position: absolute;
+}
+.left-big {
+
+    height: 21mm;
+    width: 49mm;
+    transform: skew(-24deg);
+    border-bottom-right-radius: 5.29mm;
+    background: rgb(1, 32, 63);
+    top: 60mm;
+    left: -6mm;
+    position: absolute;
+    overflow: hidden;
+}
+
+.left-mid {
+    height: 21mm;
+    width: 118mm;
+    transform: skew(-23deg);
+    border-top-left-radius: 14.99pt;
+    background: rgb(255, 177, 27);
+    top: 60mm;
+    left: 52mm;
+    position: absolute;
+    text-align: center;
+}
+ .party-name {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: sans-serif;
+    margin-top: -72mm;
+    margin-left: 97mm;
+    width: 59.26mm;
+    font-size: 22.71pt;
+    font-weight: bold;
+    position: absolute;
+
+  }
+  .party-job-title {
+      font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-size: 11pt;
+    margin-top: -62.44mm;
+    position: absolute;
+    margin-left: 111mm;
+
+  }
+
+.company{
+   top: 102mm;
+    left: 125mm;
+    position: absolute;
+    font-size: 13pt;
+    word-spacing: 2mm;
+}
+#name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+}
+
+
+.card2-background{
+   height: 100mm;
+    width: 150mm;
+    top: -151mm;
+    left: 30mm;
+    border-radius: 14.17mm;
+    overflow: hidden;
+    position: relative;
+    margin-top: 13mm;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0mm 10.05mm, rgba(0, 0, 0, 0.22) 0mm 3.9mm 3.1mm;
+}
+.right-big{
+    height: 24mm;
+    width: 68mm;
+    transform: skew(-24deg);
+    border-bottom-right-radius: 14.9pt;
+    background: rgb(255, 177, 27);
+    top: 9mm;
+    left: -8mm;
+    position: absolute;
+    overflow: hidden;
+}
+
+.card2-content .QR{
+    font-size: 73.70pt;
+    position: absolute;
+    right: 0mm;
+    top: -145mm;
+    padding-right: 13.22mm;
+}
+
+.left-content{
+    top: -137mm;
+    position: absolute;
+    overflow: hidden;
+    left: 61mm;
+}
+
+.right-mid{
+    height: 47mm;
+    width: 112.44mm;
+    transform: skew(-34deg);
+    border-top-left-radius: 29.9pt;
+    background: rgb(1, 32, 63);
+    top: 40mm;
+    left: 54mm;
+    position: absolute;
+}
+.right-small{
+    height: 16mm;
+    width: 160mm;
+    transform: skew(-23deg);
+    border-top-left-radius: 14.9pt;
+    background: rgb(255, 177, 27);
+    top: 85mm;
+    left: 20mm;
+    position: absolute;
+}
+.company2{
+    top: -61mm;
+    left: 111mm;
+    word-spacing: 3.9mm;
+    position: absolute;
+
+    
+}
+.org-name
+  {
+    line-height: 94%;
+    text-align-last: inherit;
+    position: relative;
+    top: -248mm;
+    left: 9.5mm;
+    font-style: oblique;
+    font-size: 14pt;
+    color: black;
+  }
+  
+.org-logo-img {
+   position: relative;
+    top: -180.26mm;
+    left: -23.28mm;
+    height: 9mm;
+
+  }
+  
+.front-content{
+    position: absolute;
+}
+/* p{
+    font-weight: bold;
+} */
+
+.right-content2{
+ position: absolute;
+   position: absolute;
+    top: -108mm;
+    left: 134mm;
+    color: white;
+    line-height: 7mm;
+    display: flex;
+    text-decoration: none;
+    padding: 5mm;
+    text-align: right;
+
+}
+.org-address
+  {
+   position: absolute;
+    top: 5.29mm;
+    left: 17.99mm;
+    font-weight: bold;
+    font-size: 7pt;
+  }
+  .org-email
+  {
+   position: absolute;
+    top: 20.10mm;
+    left: 12.7mm;
+    font-weight: bold;
+    font-size: 9pt;
+  }
+   .org-phone
+  {
+   position: absolute;
+    top: 13.40mm;
+    left: 14.02mm;
+    font-weight: bold;
+    font-size: 9pt;
+  }
+   .org-website
+  {
+   position: absolute;
+    top: 27.86mm;
+    left: 11.99mm;
+    font-weight: bold;
+    font-size: 9pt;
+
+}
+.icon ul{
+    list-style: none;
+    color: black;
+    
+}
+.icon{
+    background: white;
+    padding: 2mm;
+    border-radius: 19.8pt;
+    margin-left: 49mm;
+}

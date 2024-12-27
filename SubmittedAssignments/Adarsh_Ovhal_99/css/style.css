@@ -1,0 +1,376 @@
+body {
+    font-family: 'Arial', sans-serif;
+    center {
+        padding-top: 11mm;
+    }
+}
+
+
+.card-wrapper {
+    position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    background-color: #ffffff;
+    border: 0.75pt solid #ccc;
+    overflow: hidden;
+}
+.tri1{
+    left: -11mm;
+    top: 38mm;
+    width: 0;
+    height: 0;
+    border-top: 33pt solid rgb(21, 65, 94);
+    border-right: 53pt solid transparent;
+    position: absolute;
+    rotate: 131deg;
+    z-index: 1;
+}
+
+.tri2 {
+    left: -2mm;
+    top: 48mm;
+    width: 4mm;
+    height: 0;
+    border-top: 50pt solid rgb(18, 85, 133);
+    border-right: 95pt solid transparent;
+    position: absolute;
+    rotate: 40deg;
+    z-index: 1;
+    }
+.tri3{
+    left: 74mm;
+    top: -55mm;
+    width: 44.18mm;
+    height: 8mm;
+    border-top: 198pt solid rgb(18, 85, 133);
+    border-right: 354pt solid transparent;
+    position: absolute;
+    rotate: -42deg;
+    z-index: 2;
+}
+    .tri4{
+    left: 74mm;
+    top: -8mm;
+    width: 0;
+    height: 0;
+    border-top: 43pt solid rgb(21, 65, 94);
+    border-right: 35pt solid transparent;
+    position: absolute;
+    rotate: -131deg;
+    z-index: 2;
+        }
+        .rect5{
+        width: 140mm;
+        height: 0mm;
+        border-bottom: 12pt solid rgb(236,211,70);
+        border-left: 3pt solid transparent;
+        rotate: 47deg;
+}
+        .rect6{
+            width: 5mm;
+            height: 55mm;
+            top: 5mm;
+            background: rgb(236, 211, 70);
+            transform: skew(50deg, -19deg);
+            position: absolute;
+        }
+.rect7{
+    right: -221mm;
+    width: 171mm;
+    height: 239mm;
+    top: 47mm;
+    background:rgb(21, 65, 94);
+    transform: skew(-136deg);
+    position: absolute;
+}
+.rect8{
+    left: -16mm;
+    width: 85mm;
+    height: 4mm;
+    top: 0mm;
+    background: rgb(21, 65, 94);
+    transform: skew(-320deg);
+    position: absolute;  
+}
+.tri9{
+    left: -4mm;
+    top: 34mm;
+    border-bottom: 27pt solid rgb(75, 178, 178);
+    border-right: 23.25pt solid transparent;
+    border-left: 27pt solid transparent;
+    height: 0;
+    width: 36mm;
+    position: absolute;
+    rotate: -140deg;
+    z-index: 0;
+}
+.tri10{
+    left: 61mm;
+    top: 8mm;
+    border-bottom: 27pt solid rgb(81, 181, 181);
+    border-right: 23.25pt solid transparent;
+    border-left: 21.75pt solid transparent;
+    height: 6mm;
+    width: 31mm;
+    position: absolute;
+    rotate: 49deg;
+    z-index: 0;
+}
+.rect11{
+    left: 43mm;
+    width: 5.4mm;
+    height: 39mm;
+    top: 23mm;
+    background:rgb(21, 65, 94);
+    transform: skewY(-49deg);
+    rotate: -90deg;
+    position: absolute;
+}
+.card1-content
+{
+    margin-left: -30.42pt;
+    position: absolute;
+    top: 60.854mm;
+    left: 206.375mm;
+    margin-top: 7pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+ .party-name{
+    position: absolute;
+    top: -3mm;
+    left: 25mm;
+    margin-top: 26.458mm;
+    text-align: center;
+    font-size: 12pt;
+    
+}
+.party-job-title{
+    position: absolute;
+    top: 30mm;
+    left: 27mm;
+    text-align: center;
+    color:rgb(72, 173, 193) ;
+}
+.qr-img{
+    position: absolute;
+    height: 27mm;
+    width: 25mm;
+    top: 4mm;
+    left: 29mm;
+}
+.party-phone{
+    position: absolute;
+    top: -28mm;
+}
+.party-email
+{
+    position: absolute;
+    top: 40.56mm;
+    left: 28.92mm;
+    font-style: normal;
+    font-size: 8pt;
+    color: white;
+  }
+  
+.card2-background
+  {
+    background-color: white;
+    height: 100%;
+  }
+  .tri12{
+    left: -11mm;
+    top: 37.5mm;
+    width: 0;
+    height: 0;
+    border-top: 33pt solid rgb(21, 65, 94);
+    border-right: 53pt solid transparent;
+    position: absolute;
+    rotate: 131deg;
+    z-index: 1;
+}
+.tri13{
+    left: -2mm;
+    top: 48mm;
+    width: 0;
+    height: 0;
+    border-top: 50pt solid rgb(18, 85, 133);
+    border-right: 95pt solid transparent;
+    position: absolute;
+    rotate: 40deg;
+    z-index: 1;
+    }
+
+    .rect14{
+        width: 5mm;
+        height: 55mm;
+        top: 5mm;
+        background: rgb(236, 211, 70);
+        transform: skew(50deg, -19deg);
+        position: absolute;
+    }
+    .tri15{
+        left: -1mm;
+        top: 35mm;
+        border-bottom: 27pt solid rgb(75, 178, 178);
+        border-right: 23.25pt solid transparent;
+        border-left: 27pt solid transparent;
+        height: 0;
+        width: 28.28mm;
+        position: absolute;
+        rotate: -141deg;
+        z-index: 0;
+    }
+    .rect16{
+        right: -221mm;
+        width: 171mm;
+        height: 239mm;
+        top: 47mm;
+        background:rgb(21, 65, 94);
+        transform: skew(-136deg);
+        position: absolute;
+}
+.tri17{
+    left: -11mm;
+    top: 1mm;
+    width: 0;
+    height: 0;
+    border-top: 48pt solid rgb(21, 65, 94);
+    border-right: 60pt solid transparent;
+    position: absolute;
+    rotate: 131deg;
+    z-index: 1;
+}
+
+.tri18{
+    left: 3mm;
+    top: -7mm;
+    width: 7mm;
+    height: 3mm;
+    border-top: 40pt solid rgb(18, 85, 133);
+    border-right: 40pt solid transparent;
+    position: absolute;
+    rotate: -135deg;
+    z-index: 1;
+}
+.rect19{
+    width: 3mm;
+    height: 12mm;
+    top: 3mm;
+    background: rgb(236, 211, 70);
+    transform: skew(105deg, 49deg);
+    position: absolute;
+    left: 12mm;
+    rotate: 149deg;
+
+}
+.tri20{
+    left: -2.8mm;
+    top: 7.4mm;
+    border-bottom: 27.75pt solid rgb(75, 178, 178);
+    border-right: 20.25pt solid transparent;
+    border-left: 22.5pt solid transparent;
+    height: 2.26mm;
+    width: 30.4mm;
+    position: absolute;
+    rotate: -46deg;
+    z-index: 0;
+}
+.rect21{
+    left: 22mm;
+    width: 69mm;
+    height: 4.8mm;
+    top: 0mm;
+    background: rgb(21, 65, 94);
+    transform: skew(-399deg);
+    position: absolute;
+
+}
+.rect22{
+    left: 45mm;
+    width: 40mm;
+    height: 0.4mm;
+    top: 17mm;
+    background: rgb(50, 50, 129);
+    transform: (22deg);
+    position: absolute;
+}
+
+.org-name{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: inherit;
+    width: 58.91mm;
+    font-size: 3.9mm;
+    font-weight: bold;
+    margin-left: 35mm;
+    margin-top: -44mm;
+    color: rgb(56, 108, 130);
+    }
+   
+   
+    .org-phone{
+     top: 20mm;
+     position: absolute;
+     left: 48mm;
+     font-size: 8pt;
+    }
+    .org-email{
+    top: 25mm;
+    position: absolute;
+    left: 48mm;
+    font-size: 8pt;
+       }
+     
+     .org-website
+    {
+        position: absolute;
+        top: 30mm;
+        left: 50mm;
+        font-style: normal;
+        font-size: 8pt;
+    }
+
+    .org-address
+    {
+        position: absolute;
+        top: 35mm;
+        left: 46mm;
+        font-style: normal;
+        font-size: 8pt;
+    }
+   
+    .company{
+        position: absolute;
+        top: -26mm;
+        left: 3mm;
+        margin-top: 26.458mm;
+        text-align: center;
+        font-size: 7.2pt;
+        color: rgb(81, 181, 181);
+        font-weight: bold;
+
+       
+    }
+    
+    .org-logo-img{
+        position: absolute;
+        height: 29mm;
+        width: 22mm;
+        top: 13mm;
+        left: 17mm;
+    }
+   
+    
+    
+    
+  
+
+    
+
+
+
+
+
+

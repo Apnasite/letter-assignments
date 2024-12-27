@@ -1,0 +1,321 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+  position: relative;
+  width: 50.8mm;
+  height: 88.9mm;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.left-big{
+  position: absolute;
+  width: 52mm;
+  height: 32mm;
+  background-color: black;
+  top: 0mm;
+  
+
+}
+  .left-small{
+    width: 0;
+    height: 0;
+    border-top: 56pt solid #414143;
+    border-left: 40pt solid transparent;
+    border-right: 45pt solid transparent;
+    position: absolute;
+  }
+  .left-mid{
+    position: absolute;
+    width: 35mm;
+    height: 28mm;
+    bottom: 43mm;
+    right: 17mm;
+    background-color: orange;
+    background-image: linear-gradient(to right, #f99205, #f5b94a);
+  }
+
+.card1-content
+{
+    margin-left: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 7pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+
+  .party-name{
+    position: absolute;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    width: 168pt;
+    font-size: 12pt;
+    font-weight: bold;
+    top: 12mm;
+    left: -4mm;
+  }
+
+  .party-job-title
+  {
+    position: absolute;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    width: 168pt;
+    font-size: 9pt;
+    top: 18mm;
+    left: -4mm;
+  }
+
+  .qr-img
+  {
+    max-width: 55%;
+    height: auto;
+  }
+
+  .qr-code
+  {
+    top: 11mm;
+    left: -28mm;
+    position: absolute;
+  }
+  
+  .company
+  {
+    position: absolute;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    width: 168pt;
+    font-size: 9pt;
+    top: 22mm;
+    left: -1mm;
+  }
+
+ .party-phone
+ {
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 7pt;
+    position: relative;
+    top: 34mm;
+    left: -11mm;
+    position: absolute;
+    width: 32mm;
+}
+
+.party-email
+{
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3em;
+    position: relative;
+    top: 0pt;
+    left: -14pt;
+}
+
+.party-phone-lable
+{
+  font-family: "Roboto Slab", serif;
+  font-size: 8pt;
+  top: 0mm;
+  position: absolute;
+  left: -15mm;
+  }
+  
+  .party-phone-number
+  {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    left: -1mm;
+    position: absolute;
+  }
+  
+  .party-email-lable
+  {
+    font-family: "Roboto Slab", serif;
+    font-size: 9pt;
+    position: absolute;
+    margin-top: 5pt;
+    padding-left: 24pt;
+    top: 35mm;
+    width: 26mm;
+    left: -30mm;
+  }
+
+  
+  .party-email-address
+  {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 8pt;
+    position: absolute;
+    top: 37mm;
+    left: -7mm;
+    
+  }
+
+
+  .card2-background
+  {
+    background-color: white;
+    height: 100%;
+  }
+
+  .Right-big
+  {
+    position: absolute;
+    width: 52mm;
+    height: 54mm;
+    top: 0mm;
+    background-color: black;
+  }
+
+  .Right-mid
+  {
+    position: absolute;
+    width: 32mm;
+    height: 11mm;
+    bottom: 29mm;
+    background-color: #a7660cd9;
+    background-image: linear-gradient(45deg, #a7660cd9, #edba5a);
+  }
+
+  .Right-small
+  {
+    width: 0;
+    height: 0;
+    border-top: 56pt solid #414143;
+    border-left: 45pt solid transparent;
+    border-right: 40pt solid transparent;
+    position: absolute;
+    right: 0;
+  }
+
+  .card2-content
+  {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: black;
+  }
+
+  .org-logo-img
+  {
+    position: absolute;
+    top: -19mm;
+    left: 8mm;
+  }
+
+  .org-name
+  {
+    line-height: 94%;
+    position: absolute;
+    left: -1mm;
+    font-style: oblique;
+    font-size: 13pt;
+    width: 51mm;
+    font-size: 7pt;
+    bottom: -19mm;
+    font-weight: bold;
+  }
+
+  .org-address
+  {
+    position: absolute;
+    top: 70pt;
+    left: 35px;
+    font-style: normal;
+    font-size: 7pt;
+  }
+
+
+
+  .org-email
+  {
+    position: absolute;
+    top: 39mm;
+    left: -2mm;
+    font-style: normal;
+    font-size: 8pt;
+    width: 46mm;
+  }
+  
+  .org-phone
+  {
+  position: relative;
+    top: 36mm;
+    left: 6mm;
+    font-style: normal;
+    font-size: 8pt;
+
+  }
+
+  .org-website
+  {
+    position: absolute;
+    top: 42mm;
+    left: -4mm;
+    font-style: normal;
+    font-size: 8pt;
+    width: 50mm;
+  }
+
+
+.bi-envelope:before{
+  color: black;
+    right:8mm;
+    top: 38mm;
+    /* content: "\f155"; */
+    position: absolute;
+    font-size: 10px;
+    background-color: white;  
+}
+
+
+.bi-telephone:before{
+  color: black;
+    right:34mm;
+    bottom:-3mm;
+    /* content: "\f155"; */
+    position: absolute;
+    font-size: 10px;
+    background-color: white;  
+
+}
+
+.bi-phone-fill:before{
+  color: white;
+    right:34mm;
+    bottom:-3mm;
+    /* content: "\f155"; */
+    position: absolute;
+    font-size: 20px;
+    background-color: white;  
+
+}
+
+.bi-telephone-fill:before{
+  color: white;
+    right:39mm;
+    bottom:-3mm;
+    /* content: "\f155"; */
+    position: absolute;
+    font-size: 20px;
+    background-color: white;  
+
+}
