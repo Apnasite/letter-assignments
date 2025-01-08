@@ -1,0 +1,253 @@
+@font-face{
+    font-family:myFont;
+    src:url(./font/cursive.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 300mm;
+    
+    margin-left: 130mm;
+}
+
+body .full-letter{
+    border: none;
+    height: 270mm;
+    width: 200mm;
+    margin-top: 10mm;
+    
+}
+
+.full-letter .letter-border{
+    border: 0.5mm solid black;
+    height: 210mm;
+    width: 160mm;
+    position: relative;
+    left: 20mm;
+    top: 28mm;
+    
+}
+
+     /* top part*/
+.full-letter .top-rectangle{
+    height: 10mm;
+    width: 200mm;
+    background-color: #B7B7B7;
+    position: relative;
+    bottom: 211mm;
+}
+
+.full-letter .topleft-rect{
+    height: 60mm;
+    width: 10mm;
+    background-color: #B7B7B7;
+    position: relative;
+    bottom: 218mm;
+    transform: skewY(30deg);
+}
+
+.full-letter .topright-rect{
+    height: 60mm;
+    width: 10mm;
+    background-color: #B7B7B7;
+    position: relative;
+    bottom: 278mm;
+    left: 190mm;
+    transform: skewY(-30deg);
+}
+
+   /* middle part*/
+.full-letter .topleft-rect2{
+    height: 110mm;
+    width: 10mm;
+    background-color: #FED36A;
+    position: relative;
+    bottom: 270mm;
+    transform: skewY(30deg);
+}
+
+.full-letter .topright-rect2{
+    height: 110mm;
+    width: 10mm;
+    background-color: #FED36A;
+    position: relative;
+    bottom: 380mm;
+    left: 190mm;
+    transform: skewY(-30deg);
+}
+
+    /* bottom part*/
+.full-letter .bottom-rectangle{
+    height: 10mm;
+    width: 200mm;
+    background-color: #263F47;
+    position: relative;
+    bottom: 300mm;
+}
+    
+.full-letter .bottomleft-rect{
+    height: 78mm;
+    width: 10mm;
+    background-color: #263F47;
+    position: relative;
+    bottom: 382mm;
+    transform: skewY(30deg);
+}
+
+.full-letter .bottomright-rect{
+    height: 75mm;
+    width: 10mm;
+    background-color: #263F47;
+    position: relative;
+    bottom: 460mm;
+    left: 190mm;
+    transform: skewY(-30deg);
+}
+
+      /*letter border content*/
+
+.full-letter .graph-rect1{
+    height: 20mm;
+    width: 4mm;
+    background-color: #FED36A;
+    position: relative;
+    left: 72mm;
+    bottom: 13mm;
+    transform: skewY(30deg);
+} 
+
+.full-letter .graph-rect2{
+    height: 16mm;
+    width: 4mm;
+    background-color: #FED36A;
+    position: relative;
+    left: 77mm;
+    bottom: 30mm;
+    transform: skewY(30deg);
+}
+
+.full-letter .graph-rect3{
+    height: 12mm;
+    width: 4mm;
+    background-color: #FED36A;
+    position: relative;
+    left: 82mm;
+    bottom: 43.2mm;
+    transform: skewY(30deg);
+}
+
+.letter-border .title-content{
+    height: 30mm;
+    width: 60mm;
+    border: 0.5mm solid white;
+    background-color: white;
+    position: relative;
+    left: 50mm;
+    bottom: 50mm;
+    text-align: center;
+    
+}
+
+.title-content #title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 6mm;
+    letter-spacing: 0.5mm;
+    position: relative;
+    bottom: 4mm;
+}
+
+.title-content #subtitle{
+    font-family:myFont;
+    font-size: 4mm;
+    position: relative;
+    bottom: 1.5mm;
+}
+
+/* letter middle main content*/
+.letter-content{
+    height: 180mm;
+    width: 144mm;
+    background-color: white;
+    position: relative;
+    bottom: 60mm;
+    left: 8mm;
+    
+    text-align: justify;
+} 
+
+.letter-content .middle-portion{
+    
+    font-family: "Schibsted Grotesk", serif;
+    font-size: 4mm;
+    color: black;
+}
+.middle-portion .name{
+    font-family:"Roboto", serif;
+    font-size: 5mm;
+    color: #e7be56;
+}
+.middle-portion .sign{
+    
+    font-family: Dancing Script !important;
+    font-size: 7mm;
+    color: #6d6c6c;
+    position: relative;
+    bottom: 2mm;
+}
+.middle-portion .bold{
+    font-size: 5mm;
+    color: black;
+    font-weight: bold;
+}
+.letter-border .call-logo{
+    height: 8mm;
+    width: 8mm;
+    border: 0.5mm solid black;
+    position: relative;
+    bottom: 57mm;
+    left: 22mm;
+    background-image: none;
+    
+}
+.letter-border .number{
+    position: relative;
+    left: 12mm;
+    bottom: 60mm;
+}
+
+.letter-border .location-logo{
+    height: 8mm;
+    width: 8mm;
+    border: 0.5mm solid black;
+    position: relative;
+    bottom: 80mm;
+    left: 76mm;
+    background-image: none;
+    
+}
+
+.letter-border .location{
+    position: relative;
+    left: 69mm;
+    bottom: 82.5mm;
+}
+
+.letter-border .email-logo{
+    height: 8mm;
+    width: 8mm;
+    border: 0.5mm solid black;
+    position: relative;
+    bottom: 102mm;
+    left: 130mm;
+    background-image: none;
+    
+}
+
+.letter-border .email{
+    position: relative;
+    left: 117mm;
+    bottom: 105mm;
+}
