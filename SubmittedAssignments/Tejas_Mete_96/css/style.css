@@ -1,0 +1,279 @@
+body .letter-wrapper {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 210mm;
+    height: 325mm;
+    margin: auto;
+    background-color: white;
+    /* border: 1pt solid; */
+    box-shadow: #8080807d 2pt 2pt 4pt 2px;
+    font-family: Calibri;
+    overflow: hidden;
+}
+
+body .letter-wrapper .letter-content header {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 100%;
+    height: 45mm;
+}
+
+body .letter-wrapper .letter-content header .letter-backImg {
+    position: absolute;
+    right: 0mm;
+    top: -40mm;
+    width: auto;
+    height: auto;
+    /* display: flex; */
+}
+
+body .letter-wrapper .letter-content header .letter-org-logo {
+    position: absolute;
+    left: 25mm;
+    top: 16mm;
+    width: 22mm;
+    height: 22mm;
+    margin: 5mm;
+    display: flex;
+}
+
+body .letter-wrapper .letter-content header .letter-org-name {
+    position: absolute;
+    left: 52mm;
+    top: 24mm;
+    width: 100%;
+    height: auto;
+    font-size: 26pt;
+}
+ 
+body .letter-wrapper .letter-content header .letter-org-details {
+    position: absolute;
+    left: 52mm;
+    top: 33mm;
+    width: 100%;
+    height: auto;
+    font-size: 12pt;
+}
+
+body .letter-wrapper .letter-content header .letter-ref {
+    font-weight: bold;
+    position: absolute;
+    left: 29mm;
+    top: 60mm;
+    width: 50%;
+    height: auto;
+    font-size: 16pt;
+    color: red;
+}
+
+body .letter-wrapper .letter-content header .letter-ref-details {
+    position: absolute;
+    left: 29mm;
+    top: 66mm;
+    width: 50%;
+    height: auto;
+    font-size: 12pt;
+}
+
+body .letter-wrapper .letter-content header .letter-date {
+    position: absolute;
+    left: 149mm;
+    top: 94mm;
+    width: 30%;
+    height: auto;
+    font-size: 14pt;
+}
+
+body .letter-wrapper .letter-content .letter-body {
+    position: absolute;
+    left: 0mm;
+    top: 38mm;
+    width: 100%;
+    height: 200mm;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-to {
+    position: absolute;
+    left: 29mm;
+    top: 40mm;
+    line-height: 1.4;
+    font-size: 12pt;
+}
+  
+body .letter-wrapper .letter-content .letter-body .letter-body-message {
+    position: absolute;
+    left: 5mm;
+    top: 70mm;
+    width: auto;
+    height: 115mm;
+    margin-left: 25mm;
+    margin-right: 25mm;  
+}
+ 
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+    font-size: 13pt;
+    overflow: auto;
+    text-align: justify;
+}
+   
+body .letter-wrapper .letter-content .letter-body .letter-body-sign-img {
+    position: absolute;
+    left: 18mm;
+    top: 190mm;
+    width: auto;
+    height: auto;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+    position: absolute;
+    left: 29mm;
+    top: 216mm;
+    width: auto;
+    height: auto;
+    font-size: 18pt;
+    font-weight: bold;  
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign-ceo {
+    position: absolute;
+    left: 35mm;
+    top: 222mm;
+    width: auto;
+    height: auto;
+    font-size: 18pt;
+    font-weight: bold;  
+}
+  
+body .letter-wrapper .letter-content .letter-footer {
+    position: absolute;
+    left: 10mm;
+    top: 260mm;
+    width: 150mm;
+    height: 34mm;
+    line-height: 10pt;
+}
+body .letter-wrapper .letter-content .letter-footer .fa {
+    width: 7mm;
+    height: 7mm;
+    border-radius: 0mm;
+    /* margin-left: 3mm; */
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14pt;
+}
+body .letter-wrapper .letter-content .letter-footer .fa-envelope {
+    background-color: rgb(233, 133, 26);
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+    position: absolute;
+    top: 7m;
+    right: -8mm;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+    position: absolute;
+    top: 13mm;
+    right: -20mm;
+    font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+    position: absolute;
+    top: 23mm;
+    right: -20mm;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+
+}
+ 
+body .letter-wrapper .bottom-horizontal-line {
+    position: absolute;
+    left: -15mm;
+    bottom: 12mm;
+    width: 60mm;
+    height: 26mm;
+    background-color: #FE4100;
+    transform: skewX(50deg);
+    z-index: 1
+}
+
+body .letter-wrapper .bottom-horizontal-line2 {
+    position: absolute;
+    left: 49mm;
+    bottom: 12mm;
+    width: 28mm;
+    height: 18mm;
+    background-color: #FF5600;
+    transform: skewX(50deg);
+    z-index: 1
+}
+
+body .letter-wrapper .bottom-horizontal-line3 {
+    position: absolute;
+    left: 76mm;
+    bottom: 12mm;
+    width: 28mm;
+    height: 18mm;
+    background-color: #FB6D00;
+    transform: skewX(50deg);
+    z-index: 1
+}
+
+body .letter-wrapper .bottom-horizontal-line4 {
+    position: absolute;
+    left: 105mm;
+    bottom: 14mm;
+    width: 12mm;
+    height: 16mm;
+    background-color: #2F2F2F;
+    transform: skewX(50deg);
+    z-index: 1
+}
+
+body .letter-wrapper .bottom-horizontal-line5 {
+    position: absolute;
+    left: 119mm;
+    bottom: 14mm;
+    width: 12mm;
+    height: 16mm;
+    background-color: #F0F0F0;
+    transform: skewX(50deg);
+    z-index: 1
+}
+
+body .letter-wrapper .bottom-horizontal-line6 {
+    position: absolute;
+    left:-10mm;
+    bottom: 5mm;
+    width: 52mm;
+    height: 13mm;
+    background-color: #303030;
+    transform: skewX(50deg);
+    z-index: 1
+}
+
+body .letter-wrapper .letter-background .bottom-tri-2 {
+    position: absolute;
+    bottom: 5mm;
+    left: 32mm;
+    border-style: solid;
+    border-width: 39pt 62pt 0pt 50pt;
+    border-color: #414840 transparent transparent transparent;
+}
+
+body .letter-wrapper .line {
+    position: absolute;
+    left:0mm;
+    bottom: 12mm;
+    width: 100%;
+    height: 10mm;
+    border-bottom: 5px solid #CD7F3F;
+    /* transform: skewX(50deg); */
+}
