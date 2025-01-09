@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'DynaLight'; 
+    src: url('../fonts/DynaLight.ttf') format('truetype'); 
+  }
+  
+  .letter-wrapper {
+    border: 1pt solid;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    width: 250mm;
+    height: 337mm;
+    /* background-image: url("../img/watermark2.png"); */
+    position: relative;
+    /*.main-letter*/
+  }
+  .letter-content{
+    position: relative;
+    left: 27mm;
+  }
+  .org-logo{
+    position: absolute;
+    width: 25mm;
+    height: 25mm;
+    top: 10mm;
+    left: 50mm;
+  }
+  .org-name{
+    position: relative;
+    top: 13mm;
+    left: 75mm;
+    font-size: 10mm;
+  }
+  .org-details{
+    position: absolute;
+    top: 23mm;
+    left: 75mm;
+    font-size: 5.7mm;
+    color: #B2B2B2;
+   /* border-bottom: 1mm solid;
+    border-block-color: black;
+    height: 17.7mm;*/
+  }
+  .letter-content-header{
+    position: absolute;
+    top: 5mm;
+    width: 75%;
+    height: 47mm;
+    border-right: 100mm;
+    border-bottom: 1mm solid;
+    border-block-color: #c7c7c9;
+  }
+  .line{
+    position: relative;
+    top: 34mm;
+    border-color: black;
+    z-index: 1;
+    left: 2mm;
+    width: 60mm;
+    border-width: 0.8mm;
+  }
+  .letter-body-to{
+    position: absolute;
+    top: 70mm;
+    font-size: 5mm;
+  }
+  .date{
+    position: absolute;
+    top: 95mm;
+    right: 62mm;
+    font-size: 5mm;
+    color: #B2B2B2;
+  }
+  .letter-body-message{
+    position: absolute;
+    right: 52mm;
+    top: 115mm;
+    font-size: 5mm;
+  }
+  .letter-body-sign{
+    position: absolute;
+    top: 237mm;
+  }
+  .line2{
+    position: relative;
+    top: 296mm;
+    left: -27mm;
+    width: 170mm;
+  }
+  .letter-body-contact{
+    position: relative;
+    display: flex;
+    top: 300mm;
+    color: #B2B2B2;
+  }
+  .contact1{
+    position: absolute;
+    display: flex;
+  }
+  .contact1 p{
+    position: relative;
+    left: 1mm;
+    top: -4mm;
+  }
+  .contact2{
+    position: absolute;
+    display: flex;
+    left: 50mm;
+  }
+  .contact2 p{
+    position: relative;
+    left: 1mm;
+    top: -4mm;
+  }
+  .contact3{
+    position: absolute;
+    display: flex;
+    left: 105mm;
+  }
+  .contact3 p{
+    position: relative;
+    left: 1mm;
+    top: -4mm;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+    height: 50mm;
+    top: 316mm;
+    left: -27mm;
+    background-color: orangered;
+  }
