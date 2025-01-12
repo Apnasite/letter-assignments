@@ -1,0 +1,361 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+.letter-wrapper{
+    position: relative;
+    background-color: white;
+    left: auto;
+    top: auto;
+    width: 400mm;
+    height: 400mm;
+
+}
+
+
+.letter-background{
+
+    height: 300mm;
+    width: 200mm;
+    /* background-color: pink; */
+    border: 2px solid lightgray;
+    position: relative;
+    left: 70mm;
+    top: 50mm;
+    overflow: hidden;
+
+}
+
+.letter-header{
+
+    height: 15mm;
+    width: 200mm;
+    position: absolute;
+    top: 0mm;
+    /* left: 40mm; */
+    background-color:rgb(51, 49, 52);
+}
+
+
+.topbox1{
+    height: 22mm;
+    width: 30mm;
+    
+    background-color:rgb(237, 27, 36);
+    /* border: 1px solid black; */
+    position: absolute;
+    top: -14mm;
+    left: 177mm;
+    /* transform: skewX(39deg); */
+    rotate: -45deg;
+    z-index: 10;
+}
+
+
+.topbox2{
+
+    height: 30mm;
+    width: 39mm;
+     position: absolute;
+    top: -13mm;
+    left: 167mm;
+    rotate: 46deg;
+    /* border: 1px solid black; */
+    background-color:rgb(51, 49, 52);
+    /* transform: skewx(39deg); */
+    z-index: 6;
+}
+
+
+.topbox3{
+    height: 52mm;
+    width: 64mm;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: -26mm;
+    left: 154mm;
+    /* transform: skewX(39deg); */
+    rotate: 47deg;
+    background-color: white;
+}
+
+
+.topbox4{
+    height: 33mm;
+    width: 62mm;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: -16mm;
+    left: 149mm;
+    rotate: 47deg;
+    z-index: 5;
+    border: 2px solid rgb(237, 27, 36);
+
+
+
+}
+
+
+   .mainbox{
+    height: 205mm;
+    width: 167mm;
+    /* background-color: gray; */
+    /* border: 1px solid gray; */
+    position: relative;
+    top: 24mm;
+    /* width: 167mm; */
+    left: 15mm;
+    /* z-index: 5; */
+   }
+
+
+
+
+
+   .letter-logo{
+  height: 20mm;
+  width: 63mm;
+  /* background-color: pink; */
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 42mm;
+  left: 42mm;
+
+   }
+
+   .letter-logo img{
+    height: 20mm;
+    width: 20mm;
+    position: absolute;
+    border-radius: 51%;
+    top: -11mm;
+     
+
+   }
+
+
+
+
+
+.company-name{
+    position: absolute;
+    top: 36mm;
+    left: 67mm;
+    font-size: 21pt;
+}
+
+
+.tag-line{
+    position: absolute;
+    top: 47mm;
+    left: 70mm;
+}
+
+
+.person-name{
+    height: 20mm;
+    width: 50mm;
+    /* background-color: pink; */
+    position: absolute;
+    left: 33mm;
+    font-size: 20pt;
+    top: 72mm;
+}
+
+
+
+  .letter-to{
+    height: 30mm;
+    width: 76mm;
+    /* background-color: pink; */
+    position: absolute;
+    top: 82mm;
+    left: 33mm;
+    /* font-weight: bold; */
+    display: block;
+    color: black;
+}
+
+
+
+
+
+.body-message1{
+
+    height: 42mm;
+    width: 147mm;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 106mm;
+    left: 33mm;
+   color: black;
+   /* text-align: center;
+   justify-content: center; */
+}
+
+
+   .body-message2{
+    height: 32mm;
+    width: 147mm;
+    /* border: 1px solid black; */
+   position: absolute;
+   top: 150mm;
+   left: 33mm;
+   color: black;
+   /* text-align: center;
+   justify-content: center; */
+
+
+}
+
+.body-message3{
+    height: 14mm;
+    width: 147mm;
+    position: absolute;
+    /* border: 1px solid black; */
+    left:33mm ;
+    top: 181mm;
+    color: black;
+    /* text-align: center;
+   justify-content: center; */
+
+
+}
+
+
+
+
+
+
+.letter-sign img
+{
+    height: 20mm;
+    width: 38mm;
+    position: absolute;
+    top: 210mm;
+    left: 36mm;
+
+}
+
+
+
+
+
+
+
+.letter-footer{
+    height: 15mm;
+    width: 200mm;
+    position: absolute;
+    top: 285mm;
+    background-color:rgb(51, 49, 52);
+}
+
+
+
+.bottombox1{
+    height: 20mm;
+    width: 25mm;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 293mm;
+    left: -3mm;
+    /* transform: skewX(32deg); */
+    rotate: 47deg;
+    z-index: 10;
+    background-color:rgb(237, 27, 36);
+
+
+}
+
+
+.bottombox2{
+    height: 30mm;
+    width: 39mm;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 286mm;
+    left: -9mm;
+    /* transform: skewX(32deg); */
+    rotate: 48deg;
+    z-index: 6;
+    background-color: rgb(51, 49, 52);
+}
+
+
+.bottombox3{
+    height: 52mm;
+    width: 64mm;
+    /* border: 0.5px solid gray; */
+    position: absolute;
+    /* transform: skewX(32deg); */
+    top: 273mm;
+    left: -19mm;
+    z-index: 5;
+    rotate: 47deg;
+    /* background-color: white; */
+
+}
+
+.bottombox4{
+    height: 33mm;
+    width: 42mm;
+    border: 2px solid rgb(237, 27, 36);
+    position: absolute;
+    top: 281mm;
+    left: -9mm;
+    rotate: 45deg;
+    z-index: 5;
+    /* transform: skewX(30deg); */
+    background-color: white;   
+}
+
+.bottombox5{
+    position: absolute;
+    top: 285mm;
+    height: 15mm;
+    width: 12mm;
+    left: 30mm;
+    /* border: 1px solid black; */
+    background-color: white;
+    transform: skewX(44deg);
+    z-index: 10;
+
+}
+
+ .footer-right{
+    height: 37mm;
+    width: 81mm;
+    /* border: 1px solid black; */
+    /* background-color: red;  */
+     position: relative;
+    top: 27mm;
+    left: 93mm;
+} 
+
+
+
+.letter-org-phone{
+    position: absolute;
+    top: 4mm;
+    left: -4mm;
+    color: black;
+
+}
+
+
+.letter-org-email{
+    position: absolute;
+    top: 13mm;
+    left: -4mm;
+    color: black;
+}
+
+.letter-org-address{
+    position: absolute;
+    top: 20mm;
+    left: -5mm;
+    color: black;
+}
