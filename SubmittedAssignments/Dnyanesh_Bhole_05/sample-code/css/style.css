@@ -1,0 +1,142 @@
+@font-face {
+  font-family: sub;
+  src: url(../font/Roboto-Black.ttf);
+}
+
+@media all {
+
+  body.printView,
+  body.printView:before,
+  body.printView:after {
+    border: none !important;
+  }
+
+  body {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: rgb(210, 211, 213);
+    font-family: sub;
+    color: rgb(73%, 74%, 73%);
+  }
+
+  b {
+    color: #939495;
+  }
+
+  .letter1 {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(254, 254, 254);
+    margin: 10mm;
+    height: 180mm;
+    width: 130mm;
+  }
+
+  .horizontalLight {
+    position: absolute;
+    top: 13mm;
+    height: 4mm;
+    width: 130mm;
+    background-color: #A9AAAE;
+  }
+
+  .img2 {
+    position: absolute;
+    left: 34mm;
+    background-color: rgb(254, 254, 254);
+    top: 10mm;
+    padding-left: 6mm;
+    padding-right: 6mm;
+    width: 40mm;
+  }
+
+  .img1 {
+    position: absolute;
+    background-color: rgb(254, 254, 254);
+    top: 10mm;
+    padding-left: 6mm;
+    padding-right: 6mm;
+    width: 40mm;
+  }
+
+  .horizontalDark {
+    position: absolute;
+    top: 12mm;
+    left: 77mm;
+    height: 6mm;
+    width: 80mm;
+    background-color: rgb(6, 20, 66);
+    transform: skewX(45deg);
+  }
+
+  .date {
+    position: absolute;
+    font-size: 4mm;
+    top: 30mm;
+    right: 0;
+    margin-right: 5mm;
+  }
+
+  .address {
+    position: relative;
+    top: 55mm;
+    font-size: 3mm;
+    text-align: left;
+    margin-right: 5mm;
+    margin-left: 5mm;
+  }
+
+  .data {
+    position: relative;
+    top: 63mm;
+    font-size: 3mm;
+    text-align: left;
+    margin-right: 5mm;
+    margin-left: 5mm;
+  }
+
+  .btmhorizontal {
+    display: flex;
+    position: absolute;
+    bottom: 6mm;
+    height: 8mm;
+    font-size: 3mm;
+    width: 130mm;
+    background-color: rgb(6, 20, 66);
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .letter2 {
+    position: relative;
+    background-color: rgb(254, 254, 254);
+    margin: 10mm;
+    height: 180mm;
+    width: 130mm;
+  }
+
+  .btmData {
+    position: relative;
+    text-align: right;
+    top: 75mm;
+    font-size: 3mm;
+    margin-right: 5mm;
+    margin-left: 5mm;
+  }
+
+  .phone {
+    display: inline;
+    justify-content: center;
+  }
+
+  .web {
+    display: inline;
+    justify-content: center;
+  }
+
+  .mail {
+    display: inline;
+    justify-content: center;
+  }
+}
