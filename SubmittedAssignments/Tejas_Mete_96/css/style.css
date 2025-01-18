@@ -121,7 +121,7 @@ body .letter-wrapper .letter-content .letter-body .letter-body-message p {
 body .letter-wrapper .letter-content .letter-body .letter-body-sign-img {
     position: absolute;
     left: 18mm;
-    top: 190mm;
+    top: 194mm;
     width: auto;
     height: auto;
 }
@@ -129,7 +129,7 @@ body .letter-wrapper .letter-content .letter-body .letter-body-sign-img {
 body .letter-wrapper .letter-content .letter-body .letter-body-sign {
     position: absolute;
     left: 29mm;
-    top: 216mm;
+    top: 220mm;
     width: auto;
     height: auto;
     font-size: 18pt;
@@ -138,7 +138,7 @@ body .letter-wrapper .letter-content .letter-body .letter-body-sign {
 body .letter-wrapper .letter-content .letter-body .letter-body-sign-ceo {
     position: absolute;
     left: 35mm;
-    top: 222mm;
+    top: 226mm;
     width: auto;
     height: auto;
     font-size: 18pt;
