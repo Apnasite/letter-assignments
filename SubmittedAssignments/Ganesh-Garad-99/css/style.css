@@ -1,0 +1,216 @@
+.letter-wrapper{
+    border: 1pt solid;
+    margin: auto;
+    overflow: hidden;
+    width: 210mm;
+    height: 280mm;
+    left: auto;
+    top: auto;
+    position: relative;
+    background: white !important;
+    line-height: normal;
+}
+.letter-wrapper .letter-background .top{
+    left: -4mm;
+    top: 5mm;
+    width: 170mm;
+    height: 7mm;
+    background: #68aabd !important;
+    transform: skewX(-50deg);
+    position: absolute;
+}
+.bottom{
+    right: -4mm;
+    bottom: 5mm;
+    width: 170mm;
+    height: 7mm;
+    background: #68aabd !important;
+    transform: skew(-50deg);
+    position: absolute;
+}
+.top2{
+    left: -4mm;
+    top: 15mm;
+    width: 85mm;
+    height: 4mm;
+    background: #68aabd !important;
+    transform: skewX(-50deg);
+    position: absolute;
+}
+.bottom2{
+    right: -4mm;
+    bottom: 15mm;
+    width: 85mm;
+    height: 4mm;
+    background: #68aabd !important;
+    transform: skewX(-50deg);
+    position: absolute;
+}
+.vl1{
+    left: 10mm;
+    top: -4mm;
+    width: 6mm;
+    height: 31mm;
+    background-color: black;
+    transform: skewy(50deg);
+    position: absolute;
+}
+.vl2{
+    left: 20mm;
+    top: -4mm;
+    width: 6mm;
+    height: 31mm;
+    background-color: rgb(4, 4, 85);
+    transform: skewY(50deg);
+    position: absolute;
+}
+.vl3{
+    left: 30mm;
+    top: -4mm;
+    width: 6mm;
+    height: 31mm;
+    background-color: black;
+    transform: skewY(50deg);
+    position: absolute;
+}
+.vl4{
+    right: 10mm;
+    bottom: -4mm;
+    width: 6mm;
+    height: 31mm;
+    background-color: black;
+    transform: skewy(50deg);
+    position: absolute;
+}
+.vl5{
+    right: 20mm;
+    bottom: -4mm;
+    width: 6mm;
+    height: 31mm;
+    background-color: rgb(4, 4, 85);
+    transform: skewY(50deg);
+    position: absolute;
+}
+.vl6{
+    right: 30mm;
+    bottom: -4mm;
+    width: 6mm;
+    height: 31mm;
+    background-color: black;
+    transform: skewY(50deg);
+    position: absolute;
+}
+.letter-logo{
+    right: 10mm;
+    top: 27.5mm;
+    position: absolute;
+}
+.letter-logo img{
+    height: 25mm;
+    width: 25mm;
+}
+.company{
+    right: 30mm;
+    top: 35mm;
+    font-size: 12pt;
+    position: absolute;
+}
+.tagline{
+    right: 30mm;
+    top: 40mm;
+    position: absolute;
+    font-size: 12pt;
+    border-bottom: black 1pt solid;
+}
+.name{
+    left: 15mm;
+    top: 60mm;
+    font-size: 12pt;
+    width: 50mm;
+    height: 20mm;
+    position: absolute;
+    border-left: black 1pt solid;
+    padding-left: 4mm;
+}
+.name b{
+    color: #68aabd;
+}
+.date{
+    right: 15mm;
+    top: 70mm;
+    font-size: 12pt;
+    position: absolute;
+}
+.date b{
+    color: #68aabd;
+}
+.message{
+    left: 15mm;
+    right: 15mm;
+    top: 90mm;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: auto;
+    font-size: 12pt;
+    line-height: 5mm;
+    text-align: justify;
+    position: absolute;
+}
+.sign{
+    left: 15mm;
+    top: 180mm;
+    position: absolute;
+}
+.sign img{
+    height: 30mm;
+    width: 40mm;
+}
+.name2{
+    left: 15mm;
+    top: 205mm;
+    font-size: 12pt;
+    position: absolute;
+    color: #68aabd;
+}
+.letter-org-phone{
+    position: absolute;
+    right: 15mm;
+    top: 210mm;
+    font-size: 20pt;color: #68aabd;
+}
+.letter-org-globe{
+    position: absolute;
+    right: 15mm;
+    top: 223mm;
+    font-size: 20pt;color: #68aabd;
+}
+.letter-org-map{
+    position: absolute;
+    right: 15mm;
+    top: 237mm;
+    font-size: 20pt; color: #68aabd;
+}
+.letter-phone-no{
+    position: absolute;
+    right: 25mm;
+    top: 210mm;
+    width: 40mm;
+    font-size: 12pt;
+    text-align: right;
+}
+.letter-web{
+    position: absolute;
+    right: 25mm;
+    top: 223mm;
+    width: 60mm;
+    font-size: 12pt;
+    text-align: right;
+}
+.letter-adress{
+    position: absolute;
+    right: 25mm;
+    top: 237mm;
+    width: 35mm;
+    font-size: 12pt;
+    text-align: right;
+}
+}
