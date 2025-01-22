@@ -1,0 +1,275 @@
+@font-face{
+       font-family: ok;
+       src: url(./fonts/AlexBrush-Regular.ttf);
+}
+
+*{
+                 margin: 0;
+                 padding: 0;
+}
+
+html,body{
+                 box-sizing: border-box;
+                 margin: 0;
+                 padding: 0;
+}
+
+.letter-wrapper{
+               width: 250mm;
+               height: 280mm;
+               margin: auto;
+               padding: auto;
+}
+
+.letter-background{
+                 width: 250mm;
+                 height: 280mm;
+                 margin: auto;
+                 display: flex;
+                flex-direction: column;
+                 padding: auto;
+                 overflow: hidden;
+                 box-shadow: 10px 8px 30px 0px black;
+}
+
+.top-background-design{
+                 width: 250mm;
+                 height: 30mm;
+                 display: flex;
+                 flex-wrap: wrap;
+                 flex-direction: row;
+                 margin: 0;
+                 border-bottom: #00A2F6 solid;
+                 ;
+}
+
+.top-background-design :nth-child(1){
+                 background-color: #00A2F6;
+                 width: 30mm;
+                 display: block;
+                 margin-top: 11mm;
+                 height: 15mm;
+}
+
+#company {
+       width: 90mm;
+       height: 21.3mm;
+       object-fit: fill;
+       z-index: 2;
+       margin-top: 10mm;
+       display: flex;
+       flex-direction: row;
+       background-color: #fff;
+}
+              
+                            #company p {
+                                   font-size: 9mm;
+                                   margin-top: 5mm;
+                                   line-height: 0mm;
+                            }
+
+                            #company p small{
+                                   width: 60mm;
+                                   display: block;
+                                   font-size:6mm;
+                                   margin-top: 10mm;
+                                   background-color: #fff;
+                            }
+
+#company img{
+                 width: 25mm;
+                 height: 20mm;
+                 margin-top: 0mm;
+                 background-color: white;
+}
+
+.top-background-design :nth-child(3){
+       background-color: #00A2F6;
+                 width: 130mm;
+                 display: block;
+                 margin-top: 11mm;
+                 height: 15mm;
+}
+
+.bottom-background-design{
+                 width: 250mm;
+                 height: 8mm;
+                 background-color: #00A2F6;
+                 margin-top: 242mm;
+                 overflow: hidden;
+}
+
+.letter-content {
+       width: 220mm;
+       height: 225mm;
+       position: absolute;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       margin-left: 15mm;
+       overflow: hidden;
+       margin-top: -233mm;
+}
+
+.address-date{
+       width: 220mm;
+       height: 45mm;
+       font-weight: bold;
+       display: flex;
+       flex-direction: row;
+       justify-content: baseline;
+}
+
+
+.letter-body-to{
+       width: 45mm;
+       display: inline-block;
+       height: 45mm;
+}
+
+.letter-body-to strong{
+       color: #00A2F6;
+}
+
+.letter-ref{
+       padding-bottom: 7mm;
+       font-weight: bold;
+}
+
+.letter-date{
+       margin-top: 0mm;
+       margin-left: 120mm;
+       position: absolute;
+       font-weight: 500;
+}
+
+.letter-body-subject{
+       margin-top: 56mm;
+       margin-left: -45mm;
+       font-weight: 500;
+       position: absolute;
+}
+
+
+.letter-body-salutation{
+       width: 20mm;
+       margin-top: 18mm;
+       font-weight: bold;
+}
+
+.letter-body-message{
+       display: inline-block;
+       margin-top: 3mm;
+       line-height: 6mm;
+       font-size: 0.5mm;
+       text-align: justify;
+}
+
+.thanks-regard{
+       width: 100mm;
+       display: inline-block;
+       height: 25mm;
+       margin-top: 14mm;
+       font-size: 1mm;
+     align-content: last baseline;
+}
+
+.letter-body-sign img{
+       width: 21mm;
+       margin-top: 10mm;
+}
+
+
+.letter-footer{
+       height: 25mm;
+       margin-top: 10mm;
+       display: flex;
+       flex-direction: row;
+       width: 230mm;
+}
+
+
+.letter-footer img{
+       width: 8mm;
+       height: 8mm;
+}
+
+.letter-org-location{
+       width: 55mm;
+       height: 25mm;
+       display: flex;
+     justify-content: center;
+     flex-direction: column;
+}
+
+
+.letter-org-location img {
+       margin: auto;
+       height: 15mm;
+       margin-top: 10mm;
+}
+
+.letter-org-location p {
+      text-align: center;
+       margin-top: 6mm;
+       font-size: 1mm;
+}
+
+.letter-org-number{
+       width: 55mm;
+       height: 25mm;
+
+       display: flex;
+       align-content: center;
+       justify-content: center;
+       flex-direction: column;
+}
+
+.letter-org-number img {
+       align-content: center;
+       margin: auto;
+}
+
+.letter-org-number p {
+       margin: auto;
+       text-align: center;
+       line-height: 3mm;
+}
+
+.letter-org-gmail{
+       width: 55mm;
+       height: 25mm;
+       display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+  
+}
+
+.letter-org-gmail img {
+       align-content: left;
+       margin: auto;
+}
+
+.letter-org-gmail p {
+       align-content: right;
+       margin: auto;
+       font-size: 1mm;
+}
+
+.letter-org-website{
+       width: 55mm;
+       height: 25mm;
+       display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+  
+}
+
+.letter-org-website img {
+       align-content: left;
+       margin: auto;
+}
+
+.letter-org-website p {
+       align-content: right;
+       margin: auto;
+       font-size: 1mm;
+}
