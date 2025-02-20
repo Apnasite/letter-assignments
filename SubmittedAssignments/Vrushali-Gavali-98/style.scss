@@ -1,3 +1,15 @@
+@media print{
+	.letter-wrapper{
+		background:none;
+		border:none;
+	}
+}
+@media screen and (max-width:768px){
+	.letter-wrapper{
+		width:100%;
+		height:auto;
+	}
+}
 @mixin absolute-div($left,$top,$width,$height)
 {
 left:$left;
@@ -12,7 +24,6 @@ body{
 	  overflow: hidden;
 	  background-color:#aedee230;
 		@include absolute-div(auto,auto,210mm,297mm);
-	 /* background-image: url("../img/watermark2.png"); */
 	  position:relative;
 	  		.topbox1 {
 			  position: absolute;
