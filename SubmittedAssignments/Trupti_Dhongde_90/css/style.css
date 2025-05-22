@@ -1,0 +1,229 @@
+body > .letter-wrapper {
+  box-shadow: 0 0 10px;
+}
+
+.letter-wrapper {
+  border: 0;
+  margin: auto;
+  overflow: hidden;
+  background-color: white;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 280mm;
+  position: relative;
+}
+
+.letter-wrapper .letter-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.letter-wrapper .topbox1 {
+   position: absolute;
+  left: -20mm;
+  top: 0mm;
+  width: 130mm;
+  height:30mm;
+  border-style: solid #998e5f;
+  z-index: 2;
+  background-color:#998e5f;
+  transform:skewx(-40deg);
+  z-index:1;
+
+   
+}
+.letter-wrapper .topbox2 {
+  position: absolute;
+  left: 90mm;
+  top: 0mm;
+  width: 130mm;
+  height:20mm;
+  background-color:black;
+  transform:skewx(-40deg);
+  z-index:2;
+}
+
+
+
+
+
+.letter-wrapper .bottombox1 {
+   position: absolute;
+  left: 100mm;
+  top: 250mm;
+  width: 130mm;
+  height:40mm;
+   transform: skewX(-45deg);
+  z-index: 1;
+  background-color:#998e5f;
+}
+
+.letter-wrapper .bottombox2 {
+  position: absolute;
+  left: -10mm;
+  top: 265mm;
+  width: 130mm;
+  height:15mm;
+  border-style:solid ;
+  background-color:black;
+  transform:skewx(-40deg);
+  z-index:4;
+}
+.letter-wrapper .letter-content .letter-org-logo {
+  /* font-size: 62px; */
+  position: absolute;
+  left: 19mm;
+  top: 35mm;
+  width: 38mm;
+  color:black;
+}
+
+.letter-wrapper .letter-content .letter-org-logo img {
+  width: 60%;
+  height: 60%;
+}
+
+.letter-wrapper .letter-content .letter-org-name {
+  font-weight: bold;
+  position: absolute;
+  left: 58mm;
+  top:35mm;
+  font-size: 20pt;
+  color:#998e5f;
+  letter-spacing:7pt;
+}
+
+.letter-wrapper .letter-content .letter-org-details {
+  position: absolute;
+  left: 58mm;
+  top: 45mm;
+  font-size:12pt;
+  color:#998e5f;
+  letter-spacing:7pt;
+}
+
+.letter-wrapper .letter-content .letter-ref {
+  position: absolute;
+  left: 15mm;
+  top: 60mm;
+  width: 50%;
+  height: auto;
+  font-size: 7pt;
+}
+
+.letter-wrapper .letter-content .letter-date {
+  position: absolute;
+  right: 15mm;
+  top: 30mm;
+  height: auto;
+  font-size: 9pt;
+}
+
+.letter-wrapper .letter-content .letter-body {
+  position: absolute;
+  left: 17mm;
+  right: 15mm;
+  top: 65mm;
+  width: auto;
+  height: auto;
+  font-size: 10pt !important;
+}
+
+
+.letter-wrapper .letter-content .letter-body-to {
+  width: 70mm;
+  height: auto;
+  margin: 0mm;
+}
+
+.letter-wrapper .letter-content .letter-body-salutation {
+  margin-bottom: 0;
+}
+
+.letter-wrapper .letter-content .letter-body-message {
+  margin-bottom: 20mm;
+}
+
+.letter-wrapper .letter-content .letter-body-message p {
+  font-size: 10pt;
+  text-align: justify;
+}
+
+.letter-wrapper .letter-content .letter-body-sign .letter-body-sign-name {
+  margin: 0mm;
+  font-size: 10pt;
+}
+
+.letter-wrapper .letter-content .letter-body-sign .letter-body-sign-designation,
+.letter-wrapper .letter-content .letter-body-sign p {
+  margin: 0mm;
+}
+
+.letter-wrapper .letter-content .bi {
+  border-radius: 100%;
+  padding: 1mm;
+  margin-right: 2mm;
+  background-color:black;
+  color:white;
+  text-align: center;
+  vertical-align: last;
+  font-size: 14pt;
+  width: 8mm;
+  height: 8mm;
+}
+
+.letter-wrapper .letter-content .letter-org-website {
+  position: absolute;
+  top:60mm;
+  right: 8mm;
+  bottom: 40mm;
+  font-size: 10pt;
+  vertical-align: middle;
+  z-index:301;
+  left:154mm;
+}
+
+.letter-wrapper .letter-content .letter-org-phone {
+  position: absolute;
+  left: 153mm;
+  top:40mm;
+  text-align:center;
+  bottom: 20mm;
+  height: auto;
+  font-size: 10pt;
+  z-index: 300;
+  color:black;
+  display: flex;
+  vertical-align:middle;
+}
+
+.letter-wrapper .letter-content .letter-org-email {
+  position: absolute;
+  left: 153mm;
+  bottom: 20mm;
+  z-index: 367;
+  color:black;
+  top:50mm;
+  font-size: 9pt;
+  display: flex;
+}
+
+.letter-wrapper .letter-content .letter-org-address address {
+  margin: 0;
+}
+
+.letter-wrapper .letter-content .letter-org-address {
+  position: absolute;
+  left: 153mm;
+  bottom: 14mm;
+  top:70mm;
+  z-index: 515;
+  color:black;
+  font-size: 9pt;
+  vertical-align: bottom;
+  width: 55mm;
+  display: flex;
+}
