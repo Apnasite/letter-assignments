@@ -1,5 +1,20 @@
 # 📄 HTML & CSS Letter Design Assignment
 
+## 📌 Project Overview
+
+This project is developed and maintained by **Maha Mission Education and Career Council (NGO)** through learning projects on **ApnaGuru.in**. It is proudly supported by **Apnasite IT Services Pvt. Ltd.**, which provides: ✅ **Technical support**\
+✅ **Mentorship**\
+✅ **Deployment**\
+✅ **Ongoing maintenance** of these projects
+
+**🌐 Live URL:** [https://letter.apnasite.in](https://letter.apnasite.in)\
+**📢 Join us:** [https://apnaguru.in](https://aapn.in/M7PM3JB5)\
+**📌 Organization:** [https://mmeac.org](https://mmeac.org)\
+**🏢 Company:** [https://apnasite.in](https://apnasite.in)\
+**📞 Call/WhatsApp:** +91-8999417889
+
+---
+
 ## 🧭 Goal
 
 Design a **visually appealing and professional letter template** using **HTML & CSS**.
