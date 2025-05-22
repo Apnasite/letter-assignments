@@ -35,17 +35,31 @@ letter-assignments/
 
 ---
 
-## 🧱 HTML Structure Instructions
+## 🧱 HTML Structure Guidelines
 
-You are **only allowed to edit** the following part of `preview.html`:
+### ✅ You Can Modify: `preview.html`
 
 ```html
 <div class="letter-background">
-  <!-- ✅ Add your custom content or inner styling elements here -->
+  <!-- ✅ Add or edit content/styling elements here -->
 </div>
 ```
 
-Do **not modify** anything outside this div.
+### ❌ Do NOT Modify:
+
+```html
+<div class="letter-content">
+  <!-- ❌ Keep everything inside this div unchanged -->
+</div>
+```
+
+### Add/Copy new background html block `index.html`:
+
+```html
+<div class="letter-background">
+  <!-- ✅ Add or edit content/styling elements here -->
+</div>
+```
 
 ---
 
