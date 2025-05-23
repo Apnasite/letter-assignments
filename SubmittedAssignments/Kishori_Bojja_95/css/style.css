@@ -8,14 +8,14 @@
   overflow: hidden;
 }
 
-.letter-background {
+.letter-wrapper .letter-background {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 0;
 }
 
-.left-pannel {
+.letter-wrapper .letter-background .left-pannel {
   position: absolute;
   left: 10mm;
   width: 50mm;
@@ -25,7 +25,7 @@
   z-index: 0;
 }
 
-.left-pannel-top {
+.letter-wrapper .letter-background .left-pannel-top {
   position: absolute;
   left: 10mm;
   width: 50mm;
@@ -35,14 +35,14 @@
   z-index: 0;
 }
 
-.letter-content {
+.letter-wrapper .letter-content {
   height: 100%;
   width: 100%;
   z-index: 9;
   position: absolute;
 }
 
-.letter-org-name {
+.letter-wrapper .letter-content .letter-org-name {
   position: absolute;
   left: 16mm;
   top: 24mm;
@@ -51,7 +51,7 @@
   color: #2D5687;
 }
 
-.letter-org-details {
+.letter-wrapper .letter-content .letter-org-details {
   position: absolute;
   left: 20mm;
   top: 39mm;
@@ -60,7 +60,7 @@
   color: #2D5687;
 }
 
-.letter-ref {
+.letter-wrapper .letter-content .letter-ref {
   position: absolute;
   left: 162mm;
   top: 35mm;
@@ -68,7 +68,7 @@
   color: #3e6277;
 }
 
-.letter-date {
+.letter-wrapper .letter-content .letter-date {
   position: absolute;
   right: 15mm;
   top: 45mm;
@@ -76,7 +76,7 @@
   color: #3e6277;
 }
 
-.letter-body-to {
+.letter-wrapper .letter-content .letter-body-to {
   position: absolute;
   left: 70mm;
   top: 53mm;
@@ -84,7 +84,7 @@
   color: #3e6277;
 }
 
-.letter-body {
+.letter-wrapper .letter-content .letter-body {
   position: absolute;
   left: 70mm;
   right: 15mm;
@@ -93,7 +93,7 @@
   color: #3e6277;
 }
 
-.letter-contact-info{
+.letter-wrapper .letter-content .letter-contact-info {
   position: absolute;
   left: 1mm;
   right: 15mm;
@@ -102,35 +102,35 @@
   color: #3e6277;
 }
 
-.letter-body-subject {
+.letter-wrapper .letter-content .letter-body-subject {
   font-weight: bold;
 }
 
-.letter-body-salutation {
+.letter-wrapper .letter-content .letter-body-salutation {
   margin-bottom: 0;
 }
 
-.letter-body-message {
+.letter-wrapper .letter-content .letter-body-message {
   margin-bottom: 20mm;
 }
 
-.letter-body-message p {
+.letter-wrapper .letter-content .letter-body-message p {
   font-size: 10pt;
   text-align: justify;
 }
 
-.letter-body-sign-name {
+.letter-wrapper .letter-content .letter-body-sign-name {
   margin: 0mm;
   font-size: 14pt;
   font-weight: bold;
 }
 
-.letter-body-sign-designation,
-.letter-body-sign p {
+.letter-wrapper .letter-content .letter-body-sign-designation,
+.letter-wrapper .letter-content .letter-body-sign p {
   margin: 0mm;
 }
 
-.bi {
+.letter-wrapper .letter-content .bi {
   width: 60px;
   height: 60px;
   border: 3px solid white;
@@ -144,10 +144,10 @@
   margin: 0 auto 10px auto;
 }
 
-.letter-org-website,
-.letter-org-phone,
-.letter-org-email,
-.letter-org-address {
+.letter-wrapper .letter-content .letter-org-website,
+.letter-wrapper .letter-content .letter-org-phone,
+.letter-wrapper .letter-content .letter-org-email,
+.letter-wrapper .letter-content .letter-org-address {
   position: absolute;
   left: 23mm;
   font-size: 9pt;
@@ -156,23 +156,23 @@
   align-items: center;
 }
 
-.letter-org-phone {
+.letter-wrapper .letter-content .letter-org-phone {
   top: 15mm;
 }
 
-.letter-org-website {
+.letter-wrapper .letter-content .letter-org-website {
   top: 55mm;
 }
 
-.letter-org-email {
+.letter-wrapper .letter-content .letter-org-email {
   top: 96mm;
 }
 
-.letter-org-address {
+.letter-wrapper .letter-content .letter-org-address {
   top: 135mm;
 }
 
-.letter-org-address address {
+.letter-wrapper .letter-content .letter-org-address address {
   margin: 0;
   width: 27mm;
 }
