@@ -85,8 +85,11 @@ body > .letter-wrapper {
   width: 60%;
   height: 60%;
 }
-
-.letter-wrapper .letter-content .letter-org-name {
+ .letter-wrapper .letter-content .signature-img img { 
+	width: 90pt;
+	height: 50pt; 
+ }
+ .letter-wrapper .letter-content .letter-org-name {
   font-weight: bold;
   position: absolute;
   left: 58mm;
@@ -129,7 +132,7 @@ body > .letter-wrapper {
   top: 65mm;
   width: auto;
   height: auto;
-  font-size: 10pt !important;
+  font-size: 10pt ;
 }
 
 
@@ -161,7 +164,7 @@ body > .letter-wrapper {
 .letter-wrapper .letter-content .letter-body-sign p {
   margin: 0mm;
 }
-
+ 
 .letter-wrapper .letter-content .bi {
   border-radius: 100%;
   padding: 1mm;
@@ -178,11 +181,10 @@ body > .letter-wrapper {
 .letter-wrapper .letter-content .letter-org-website {
   position: absolute;
   top:60mm;
-  right: 8mm;
   bottom: 40mm;
   font-size: 10pt;
   vertical-align: middle;
-  z-index:301;
+  z-index:7;
   left:154mm;
 }
 
@@ -194,7 +196,7 @@ body > .letter-wrapper {
   bottom: 20mm;
   height: auto;
   font-size: 10pt;
-  z-index: 300;
+  z-index: 8;
   color:black;
   display: flex;
   vertical-align:middle;
@@ -204,7 +206,7 @@ body > .letter-wrapper {
   position: absolute;
   left: 153mm;
   bottom: 20mm;
-  z-index: 367;
+  z-index:9;
   color:black;
   top:50mm;
   font-size: 9pt;
@@ -220,7 +222,7 @@ body > .letter-wrapper {
   left: 153mm;
   bottom: 14mm;
   top:70mm;
-  z-index: 515;
+  z-index:10;
   color:black;
   font-size: 9pt;
   vertical-align: bottom;
