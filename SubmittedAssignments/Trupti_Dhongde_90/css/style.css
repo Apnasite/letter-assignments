@@ -27,8 +27,7 @@ body > .letter-wrapper {
   top: 0mm;
   width: 130mm;
   height:30mm;
-  border-style: solid #998e5f;
-  z-index: 2;
+  border:1px solid #998e5f;
   background-color:#998e5f;
   transform:skewx(-40deg);
   z-index:1;
@@ -67,7 +66,7 @@ body > .letter-wrapper {
   top: 265mm;
   width: 130mm;
   height:15mm;
-  border-style:solid ;
+  border: 1px solid #000; 
   background-color:black;
   transform:skewx(-40deg);
   z-index:4;
@@ -128,7 +127,6 @@ body > .letter-wrapper {
 .letter-wrapper .letter-content .letter-body {
   position: absolute;
   left: 17mm;
-  right: 15mm;
   top: 65mm;
   width: auto;
   height: auto;
@@ -172,7 +170,7 @@ body > .letter-wrapper {
   background-color:black;
   color:white;
   text-align: center;
-  vertical-align: last;
+  vertical-align:middle;
   font-size: 14pt;
   width: 8mm;
   height: 8mm;
