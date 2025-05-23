@@ -44,11 +44,6 @@ body > .letter-wrapper {
   transform:skewx(-40deg);
   z-index:2;
 }
-
-
-
-
-
 .letter-wrapper .bottombox1 {
    position: absolute;
   left: 100mm;
@@ -59,7 +54,6 @@ body > .letter-wrapper {
   z-index: 1;
   background-color:#998e5f;
 }
-
 .letter-wrapper .bottombox2 {
   position: absolute;
   left: -10mm;
@@ -79,7 +73,6 @@ body > .letter-wrapper {
   width: 38mm;
   color:black;
 }
-
 .letter-wrapper .letter-content .letter-org-logo img {
   width: 60%;
   height: 60%;
@@ -175,7 +168,6 @@ body > .letter-wrapper {
   width: 8mm;
   height: 8mm;
 }
-
 .letter-wrapper .letter-content .letter-org-website {
   position: absolute;
   top:60mm;
@@ -185,7 +177,6 @@ body > .letter-wrapper {
   z-index:7;
   left:154mm;
 }
-
 .letter-wrapper .letter-content .letter-org-phone {
   position: absolute;
   left: 153mm;
@@ -199,7 +190,6 @@ body > .letter-wrapper {
   display: flex;
   vertical-align:middle;
 }
-
 .letter-wrapper .letter-content .letter-org-email {
   position: absolute;
   left: 153mm;
@@ -210,11 +200,9 @@ body > .letter-wrapper {
   font-size: 9pt;
   display: flex;
 }
-
 .letter-wrapper .letter-content .letter-org-address address {
   margin: 0;
 }
-
 .letter-wrapper .letter-content .letter-org-address {
   position: absolute;
   left: 153mm;
