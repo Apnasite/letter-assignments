@@ -32,7 +32,6 @@ body .letter-wrapper .recttop1 {
   height: 190mm;
   background-color: #EDC001;
   transform: skewy(-40deg);
-  position: relative;
   z-index: 0;
 }
 body .letter-wrapper .recttop2{
