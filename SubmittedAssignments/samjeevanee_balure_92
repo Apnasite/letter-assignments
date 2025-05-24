@@ -63,35 +63,17 @@
 
 				<div class="letter-body-message">
 					<p>
-						1. header - .letter-header
-						- logo - .letter-org-logo
-						- Company Name - .letter-org-name
-						- Header body - .letter-org-details
-						- Letter Ref - .letter-ref
-						- Letter Date - .letter-date
-						2. body(section) - .letter-body
-						- Sender Details (To.) (address) - .letter-body-to
-						- Letter subject (para) - .letter-body-subject
-						- Letter Salutation (para) - .letter-body-salutation
-						- Letter Body/Message (section) - .letter-body-message
-						- Letter Signature - .letter-body-sign
-						3. footer - .letter-footer
-						- Org Phone - .letter-org-phone
-						- Org Email - .letter-org-email
-						- Org Website - .letter-org-website
-						- Org Address - .letter-org-address
-						1. header - .letter-header
-						- logo - .letter-org-logo
-						- Company Name - .letter-org-name
-						- Header body - .letter-org-details
-						- Letter Ref - .letter-ref
-						- Letter Date - .letter-date
-						2. body(section) - .letter-body
-						- Sender Details (To.) (address) - .letter-body-to
-						- Letter subject (para) - .letter-body-subject
-						- Letter Salutation (para) - .letter-body-salutation
-						- Letter Body/Message (section) - .letter-body-message
-						- Letter Signature - .letter-body-sign
+						 I am writing to request leave for some medical issue,I have required do some medical test.
+                                                 I am writing to request leave for some medical issue,I have required do some medical test.
+                                                 I would like to take leave from 10th june to 15june, which will be 6days.
+                                                 I have made sure that all my tasks are up to date.
+                                                 I have also arranged for Mr.kishor to oversee my responsibilities while I am away.<br><br>
+                        
+                                                 I will be available on email for any urgent issues.
+                                                 I am looking forward to resuming my work on 16june.
+                                                 After come back I will do my all remaining work.
+                                                 I hope you will understand my situavation.<br><br>
+                                                 I will request you please asscept my letter and give me a permission.
 
 
 					</p>
