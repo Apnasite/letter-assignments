@@ -10,7 +10,7 @@ body .letter-wrapper {
   top: auto;
   width: 210mm;
   height: 300mm;
-  /* background-image: url("C:\Users\Sanjeevanee\Downloads\watermark2 (1).png"); */
+   /* background-image: url("assets/watermark.png"); */
   position: relative;
   /*.main-letter*/
 }
@@ -80,7 +80,7 @@ body .letter-wrapper .recttop6{
   width: 580pt;
   height: 10mm;
   background-color: gray;
-  transform: rotate(180deg%);
+  transform: rotate(180deg);
 }
 body .letter-wrapper .recttop7{
   position: absolute;
@@ -89,7 +89,7 @@ body .letter-wrapper .recttop7{
   width: 594pt;
   height: 10mm;
   background-color: gray;
-  transform: rotate(180deg%);
+  transform: rotate(180deg);
 }
 body .letter-wrapper .recttop8{
   position: absolute;
