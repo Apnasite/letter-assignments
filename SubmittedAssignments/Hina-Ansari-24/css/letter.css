@@ -1,0 +1,255 @@
+body .letter-wrapper {
+border: 1pt solid;
+    margin: auto;
+    overflow: hidden;
+    background-color: #aedee230;
+    left: auto;
+    top: 20pt;
+    width: 210mm;
+    height: 297mm;
+    /* background-image: url(/img/watermarkimg.jpg); */
+    position: relative;
+}
+body .letter-wrapper .topbox1 {
+position: absolute;
+    left: 138mm;
+    top: -54mm;
+    width: 65mm;
+    height: 100mm;
+    background-color: #f9042d;
+    transform: rotate(115deg) skew(9deg, 41deg);
+}
+body .letter-wrapper .topbox2 {
+    left: 132mm;
+    top: -8mm;
+    width: 0mm;
+    height: 0mm;
+    border-style: solid;
+    border-width: 132pt 0 47pt 55pt;
+    border-color: transparent transparent transparent #000 !important;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(342deg) skew(55deg, 767deg);
+}
+body .letter-wrapper .topbox3 {
+    
+    position: absolute;
+    left: 194mm;
+    top: 10mm;
+    width: 5mm;
+    height: 36mm;
+    background-color: #000;
+    transform: rotate(254deg) skew(8deg, 746deg);
+}
+body .letter-wrapper .topbox4 {
+    position: absolute;
+    left: -29mm;
+    top: 255mm;
+    width: 66mm;
+    height: 100mm;
+    background-color: #f9042d;
+    transform: rotate(115deg) skew(14deg, 41deg);
+    }
+    body .letter-wrapper .topbox5 {
+        left: 25mm;
+        top: 250mm;
+        width: 0mm;
+        height: 0mm;
+        border-style: solid;
+        border-width: 132pt 0 46pt 39pt;
+        border-color: transparent transparent transparent #000 !important;
+        position: absolute;
+        z-index: 1;
+        transform: rotate(156deg) skew(55deg, 767deg);
+    }
+body .letter-wrapper .org-logo{
+    position: absolute;
+    height: 44pt;
+    width: 178pt;
+    top: 64pt;
+    left: 50pt;
+}
+body .letter-wrapper .org-logo img{
+    height: 44pt;
+    width: 178pt;
+}
+
+
+body .letter-wrapper .letter-content header .letter-date {
+    font-weight: 500;
+    position: absolute;
+    left: 146mm;
+    top: 41mm;
+    width: 30%;
+    height: auto;
+    font-size: 11pt;
+  }
+  body .letter-wrapper .letter-content .letter-body {
+    position: absolute;
+    left: 0mm;
+    top: 61mm;
+    width: 100%;
+    height: 200mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-to {
+    position: absolute;
+    left: 15mm;
+    top: 7mm;
+    width: 70mm;
+    height: 35mm;
+    font-weight: bold;
+    font-size: 13pt;
+    margin: 0mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+    position: absolute;
+    left: 0mm;
+    top: 50mm;
+    width: calc(100% - 45mm);
+    height: 20mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+    position: absolute;
+    left: 0mm;
+    top: 65mm;
+    width: auto;
+    height: auto;
+    margin-left: 15mm;
+    font-weight: bold;
+    font-size: 15pt;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-message {
+    position: absolute;
+    left: 0mm;
+    top: 75mm;
+    width: auto;
+    height: 115mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+    font-size: 13pt;
+    text-indent: 15mm;
+    font-family: "Times New Roman", Times, serif;
+    overflow: auto;
+    text-align: justify;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+    position: absolute;
+    left: 0mm;
+    top: 195mm;
+    width: auto;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 12pt;
+    font-weight: bold;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+    margin: 0mm;
+    font-size: 10pt;
+    font-weight: normal;
+  }
+  body .letter-wrapper .letter-content .letter-footer {
+    position: absolute;
+    left: 0mm;
+    top: 256mm;
+    width: 100%;
+    height: 43mm;
+  }
+  body .letter-wrapper .letter-content .letter-footer .fa {
+    position:absolute;
+    left:70pt;
+    width: 7mm;
+    height: 7mm;
+    border-radius: 50%;
+    padding: 1mm;
+    margin-right: 3mm;
+    background-color: #f9042d;
+    text-align:center;
+    font-size: 12pt;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+    position: absolute;
+    left: 32mm;
+    top: 10mm;
+    width: auto;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 20pt;
+    font-weight: bold;
+    text-shadow: 0.2mm 0.2mm white;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+    position: absolute;
+    left: 153mm;
+    top: 12mm;
+    width: 13%;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 13pt;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-phone .Phone{
+    position: absolute;
+    top: 1mm;
+    left: 2mm;
+    font-size: 7pt;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-email .Email{
+    position: absolute;
+    top: 1mm;
+    left: -15mm;
+    font-size: 7pt;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-address .add{
+    position: absolute;
+    top: 1mm;
+    left: -69mm;
+    font-size: 7pt;
+
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-website .website{
+    position: absolute;
+    top: 1mm;
+    left: -9mm;
+    font-size: 7pt;
+
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-website{
+    position: absolute;
+    left: 153mm;
+    top: 3mm;
+    width: 87mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 13pt;
+
+  }
+
+  body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+    position: absolute;
+    left: 153mm;
+    top: 21mm;
+    width: 87mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 13pt;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+    position: absolute;
+    left: 154mm;
+    top: 30mm;
+    width: 21%;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 6pt;
+  }
