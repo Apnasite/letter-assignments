@@ -1,0 +1,216 @@
+@font-face {
+    font-family: sub;
+    src: url(../font/NotoSansKR-ExtraBold.ttf);
+}
+
+@font-face {
+	font-family: cname;
+	src: url("../fonts/CrystalSymphonyPersonalUseOnlyRegular-15wL.ttf");
+}
+
+body {
+    font-family: sub;
+    color: #080e149c;
+}
+body .letter-wrapper {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(128 128 128 / 36%);
+    left: auto;
+    top: auto;
+    width: 308mm;
+    height: 385mm;
+}
+body .letter-wrapper .letter-background {
+    position: absolute;
+    overflow: hidden;
+    top: 29mm;
+    left: 49mm;
+    right: 49mm;
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: #8080807d 15pt 14pt 20pt 12px;
+}
+ 
+body .letter-wrapper .letter-content {
+    position: absolute;
+    top: 58mm;
+    right: 79mm;
+    bottom: 79mm;
+    left: 79mm;
+    width:auto;
+    height: auto;
+}
+body .letter-wrapper .letter-content header {
+    position: absolute;
+    top: 0mm;
+    left: 0mm;
+    width: 150mm;
+    height: 45mm;
+}
+body .letter-wrapper .letter-content header .letter-org-logo {
+  position: absolute;
+  left: -2mm;
+  top: -5mm;
+}
+body .letter-wrapper .letter-content header .letter-org-logo img {
+    width: 9mm;
+    height: 9mm;
+}
+body .letter-wrapper .letter-content header .letter-org-name {
+    position: absolute;
+    left: 10mm;
+    top: -7mm;
+    font-family: sub;
+    font-weight: 900;
+    color: #080000;
+    font-size: 17pt;
+    letter-spacing: -1pt;
+}
+
+body .letter-wrapper .letter-content header .letter-org-details {
+    position: absolute;
+    left: 10mm;
+    top: 1mm;
+    font-family:  sans-serif;
+    color: #00020a91;
+    font-size: 8pt;
+}
+
+body .letter-wrapper .letter-content header .letter-date {
+    position: absolute;
+    top: -5mm;
+    right: -5mm;
+    color:#050000;
+    font-weight: bold;
+    font-size: 8pt;
+}
+body .letter-wrapper .letter-content .letter-body {
+    position: absolute;
+    left: 0mm;
+    top: 45mm;
+    width: 149mm;
+    height: 167mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-to {
+    position: absolute;
+    left: 0mm;
+    top: -12mm;
+    width: 70mm;
+    height: 35mm;
+    font-weight: bold;
+    font-size: 9pt;
+    margin: 0mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-to .reciver {
+    position: absolute;
+    left: 0mm;
+    top: 4mm;
+    font-weight: 900;
+    color: #ef0101;
+    font-size: 11pt;
+    letter-spacing: -1pt;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-message {
+    position: absolute;
+    left: 0mm;
+    top: 30mm;
+    width: auto;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+    font-size: 8pt;
+    text-transform: uppercase;
+    text-align: justify;
+    font-family: sub;
+    letter-spacing: -1pt;
+    line-height: 14pt;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+    position: absolute;
+    left: 0mm;
+    top: 148mm;
+    font-weight: 900;
+    color: #f01010;
+    font-size: 11pt;
+    letter-spacing: -1pt;
+    font-family: cname;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+    font-size: 12pt;
+    line-height: 1pt;
+    color: #080e149c;
+    font-weight: normal;
+}
+
+body .letter-wrapper .letter-content .letter-footer {
+    position: absolute;
+    left: 0mm;
+    top: 218mm;
+    width: 150mm;
+    height: 34mm;
+    line-height: 4pt;
+}
+body .letter-wrapper .letter-content .letter-footer .fa {
+    width: 4mm;
+    height: 4mm;
+    border-radius: 3mm;
+    margin-left: 3mm;
+    background-color:#f01010;
+    text-align: center;
+    font-size: 11pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+    position: absolute;
+    top: 8mm;
+    right: 0mm;
+    color: #f01010;
+    font-size: 10pt;
+    font-weight: bold;
+    letter-spacing: -1pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+    position: absolute;
+    top: 15mm;
+    right: 0mm;
+    font-size: 7pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+    position: absolute;
+    top: 22mm;
+    right: 0mm;
+    font-size: 7pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+    position: absolute;
+    top: 29mm;
+    right: 0mm;
+    font-size: 7pt;
+}
+  
+body .letter-wrapper .letter-background .bottom-left-triangle {
+    position: absolute;
+    left: -9mm;
+    bottom: -42mm;
+    width: 75mm;
+    height: 90mm;
+    background-color: #bb060f;
+    transform: skew(75deg);
+    background-image: linear-gradient(to bottom, #bb060f, #bb060f);
+    outline:  30px solid black;
+} 
+  
+body .letter-wrapper .letter-background .top-right-triangle {
+    position: absolute;
+    right: -9mm;
+    top: -42mm;
+    width: 75mm;
+    height: 90mm;
+    background-color: #bb060f;
+    transform: skew(75deg);
+    background-image: linear-gradient(to bottom, #bb060f, #bb060f);
+    outline:  30px solid black;
+} 
+
+ 
